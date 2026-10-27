@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-10-19T08:27:38.437Z",
+  "mode": "staging_only",
+  "policy": "Relational refs (his/my father, grandfather, …) are not narrator rows; they point at the preceding narrator token.",
+  "counts": {
+    "staged_total": 2002,
+    "from_raw_import_records": 1218,
+    "from_chains_raw_text": 784,
+    "chains_with_relational_refs": 102,
+    "total_relational_ref_tokens": 200,
+    "relational_by_relation": {
+      "father": 168,
+      "forefathers": 14,
+      "grandfather": 13,
+      "brother": 2,
+      "uncle": 2,
+      "mother": 1
+    }
+  }
+}

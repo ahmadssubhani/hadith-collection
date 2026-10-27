@@ -1,0 +1,26 @@
+{
+  "apply": false,
+  "limit": 2,
+  "phase1": {
+    "scraped": 2,
+    "scrapeFail": 0,
+    "multiNodeChains": 1,
+    "nodesWritten": 6,
+    "uniqueSunnahIds": 6
+  },
+  "phase2": {
+    "appraisalsInserted": 48,
+    "appraisalsSkipped": 3
+  },
+  "phase3": {
+    "chainsVerified": 161
+  },
+  "phase4": {
+    "published": 0
+  },
+  "after": {
+    "softEligible": 11,
+    "fullIsnadEligible": 10,
+    "fullIsnadPublished": 10
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "label": "before-006-010",
+  "generated_at": "2026-10-16T11:26:08.222Z",
+  "project_ref": "ggmqufghubpgsquldjdx",
+  "counts": {
+    "books": 101,
+    "hadiths": 5,
+    "source_variations": 1067,
+    "narrators": 1128,
+    "chains": 822,
+    "chain_narrators": 1826,
+    "scholars": 112,
+    "hadith_assessments": 39,
+    "chain_assessments": 0,
+    "narrator_assessments": 414,
+    "import_batches": 6,
+    "raw_import_records": 1274,
+    "daily_topics": 1,
+    "daily_hadith_logs": 5,
+    "daily_hadith_batch": 1,
+    "categories": 0,
+    "hadith_categories": 0,
+    "name_aliases": 0,
+    "narrator_relations": 0,
+    "grade_lookup": 0
+  }
+}

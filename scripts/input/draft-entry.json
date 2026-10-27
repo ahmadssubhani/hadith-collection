@@ -1,0 +1,76 @@
+{
+  "$schema": "Draft entry for paste-to-CSV helper. PASTE_TEXT_HERE fields must be filled in manually by copying the exact Arabic and English text from the source page yourself. Do not leave these as PASTE_TEXT_HERE when running the script.",
+
+  "_notes": "This template covers ONE variation at a time. The paste-entry.ts script processes one 'variation' + its 'chain' + optional 'assessments' per run. Since you have 4 relevant entries (Muslim 2333b, 2334, 2335, 161b), you will run the script 4 separate times, once per entry, updating the fields below each time and re-running 'npm run paste-entry' after each one. The 'hadith' block only needs to be included on your FIRST run since it already exists in hadiths.csv — omit it on runs 2-4 to avoid a duplicate row (or let it error/skip; check ingest:dry-run output).",
+
+  "hadith": {
+    "slug": "first-revelation-at-hira",
+    "title": "The Beginning of Revelation (First Wahi at Cave Hira)",
+    "note": "Already exists in hadiths.csv from your earlier entry — omit this block on runs 2, 3, 4"
+  },
+
+  "source": {
+    "provider": "Sunnah.com",
+    "material": "Sunni hadith text and translations",
+    "access_method": "Manual paste",
+    "source_url": "https://sunnah.com/muslim:2333b",
+    "license": "Public / CC BY-SA",
+    "permission_status": "request_required",
+    "retrieved_at": "2026-09-23T00:00:00Z",
+    "notes": "Pasted manually from Sunnah.com search results"
+  },
+
+  "variation": {
+    "hadith_slug": "first-revelation-at-hira",
+    "book_title": "Sahih Muslim",
+    "hadith_number": "2333b",
+    "chapter": "The Book of Virtues (كتاب الفضائل)",
+    "arabic_text": "PASTE_ARABIC_TEXT_HERE",
+    "english_text": "PASTE_ENGLISH_TRANSLATION_HERE",
+    "translator": "PASTE_TRANSLATOR_NAME_IF_SHOWN",
+    "source_url": "https://sunnah.com/muslim:2333b",
+    "hadith_status": "sahih",
+    "chain_status": "muttasil",
+    "narration_status": ["marfu", "ahad", "nature_of_revelation"],
+    "status_notes": "Aisha asks the Prophet how wahi comes to him; describes two modes of revelation.",
+    "verified": true
+  },
+
+  "chain": {
+    "book_title": "Sahih Muslim",
+    "hadith_number": "2333b",
+    "raw_chain_text": "PASTE_RAW_ARABIC_ISNAD_HERE",
+    "continuity_status": "muttasil",
+    "quality_status": "sahih",
+    "notes": "Primary chain in Sahih Muslim, Book of Virtues",
+    "verified": true,
+    "nodes": [
+      {
+        "position": 1,
+        "raw_name": "Aisha bint Abi Bakr",
+        "narrator_slug": "aisha-bint-abi-bakr",
+        "transmission_word": "an",
+        "match_confidence": 1.0,
+        "match_notes": "Mother of the Believers — already in narrators.csv"
+      },
+      {
+        "position": 2,
+        "raw_name": "al-Harith ibn Hisham",
+        "narrator_slug": "",
+        "transmission_word": "PASTE_FROM_CHAIN",
+        "match_confidence": null,
+        "match_notes": "Not yet in narrators.csv — leave narrator_slug blank until identity is reviewed and confirmed, per pipeline rule"
+      },
+      {
+        "position": 3,
+        "raw_name": "Hisham ibn Urwah",
+        "narrator_slug": "",
+        "transmission_word": "PASTE_FROM_CHAIN",
+        "match_confidence": null,
+        "match_notes": "Verify against al-Zuhri chain narrators already logged; leave blank if uncertain"
+      }
+    ]
+  },
+
+  "assessments": []
+}

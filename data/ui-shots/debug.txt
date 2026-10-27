@@ -1,0 +1,9 @@
+CONSOLE Failed to load resource: the server responded with a status of 404 (Not Found)
+details 1 openAttr=
+btn "TEACHER\nعُقَيْل"
+url http://localhost:3000/hadiths/first-revelation-at-hira
+inline 1
+selected 1
+region 1
+block html len 2393
+<div class="chain-wrap"><div class="chain compact chain-collector-first"><span class="chain-node-slot"><span class="node-with-caret"><button type="button" class="node node-button" aria-expanded="false" aria-controls="_r_0_"><small class="node-role">Collector</small><b>عَائِشَةَ أُمِّ الْمُؤْمِنِينَ</b></button></span></span><span class="chain-node-slot"><span class="arrow arrow-left" aria-hidden="true"></span><span class="node-with-caret"><button type="button" class="node node-button" aria-expanded="false" aria-controls="_r_0_"><small class="node-role">Student</small><b>عُرْوَةَ بْنِ الزُّبَيْر</b></button></span></span><span class="chain-node-slot"><span class="arrow arrow-left" aria-hidden="true"></span><span class="node-with-caret"><button type="button" class="node node-button" aria-expanded="false" aria-controls="_r_0_"><small class="node-role">Student</small><b>ابْنُ شِهَابٍ</b></button></span></span><span class="chain-node-slot"><span class="arrow arrow-left" aria-hidden="true"></span><span class="node-with-caret is-selected"><button type="button" class="node node-button is-selected" aria-expanded="true" aria-controls="_r_0_"><small class="node-role">Teacher</small><b>عُقَيْل

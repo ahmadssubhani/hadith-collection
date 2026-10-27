@@ -1,0 +1,175 @@
+{
+  "provenance": {
+    "source_name": "curated-book-metadata",
+    "license": "public-domain-facts",
+    "notes": "Canonical collection metadata only. Match by title/arabic_title; never invent editions."
+  },
+  "books": [
+    {
+      "match_titles": [
+        "Sahih al-Bukhari",
+        "صحيح البخاري"
+      ],
+      "tradition": "Sunni",
+      "category": "Sahih collection",
+      "author": "Muhammad al-Bukhari",
+      "arabic_title": "صحيح البخاري",
+      "source_name": "sunnah.com",
+      "source_url": "https://sunnah.com/bukhari"
+    },
+    {
+      "match_titles": [
+        "Sahih Muslim",
+        "Sahīh Muslim",
+        "صحيح مسلم"
+      ],
+      "tradition": "Sunni",
+      "category": "Sahih collection",
+      "author": "Muslim ibn al-Hajjaj",
+      "arabic_title": "صحيح مسلم",
+      "source_name": "sunnah.com",
+      "source_url": "https://sunnah.com/muslim"
+    },
+    {
+      "match_titles": [
+        "Sunan Abu Dawud",
+        "سنن أبي داود"
+      ],
+      "tradition": "Sunni",
+      "category": "Sunan",
+      "author": "Abu Dawud al-Sijistani",
+      "arabic_title": "سنن أبي داود",
+      "source_name": "sunnah.com",
+      "source_url": "https://sunnah.com/abudawud"
+    },
+    {
+      "match_titles": [
+        "Sunan Ibn Majah",
+        "سنن ابن ماجه"
+      ],
+      "tradition": "Sunni",
+      "category": "Sunan",
+      "author": "Ibn Majah",
+      "arabic_title": "سنن ابن ماجه",
+      "source_name": "sunnah.com",
+      "source_url": "https://sunnah.com/ibnmajah"
+    },
+    {
+      "match_titles": [
+        "Sunan al-Nasa'i",
+        "سنن النسائي"
+      ],
+      "tradition": "Sunni",
+      "category": "Sunan",
+      "author": "al-Nasa'i",
+      "arabic_title": "سنن النسائي",
+      "source_name": "sunnah.com",
+      "source_url": "https://sunnah.com/nasai"
+    },
+    {
+      "match_titles": [
+        "Musnad Ahmad",
+        "مسند أحمد"
+      ],
+      "tradition": "Sunni",
+      "category": "Musnad",
+      "author": "Ahmad ibn Hanbal",
+      "arabic_title": "مسند أحمد",
+      "source_name": "sunnah.com",
+      "source_url": "https://sunnah.com/ahmad"
+    },
+    {
+      "match_titles": [
+        "Sunan al-Darimi",
+        "سنن الدارمي"
+      ],
+      "tradition": "Sunni",
+      "category": "Sunan",
+      "author": "al-Darimi",
+      "arabic_title": "سنن الدارمي",
+      "source_name": "sunnah.com",
+      "source_url": "https://sunnah.com/darimi"
+    },
+    {
+      "match_titles": [
+        "صحيح الترمذي"
+      ],
+      "tradition": "Sunni",
+      "category": "Sunan",
+      "author": "Abu Isa al-Tirmidhi",
+      "arabic_title": "جامع الترمذي",
+      "source_name": "sunnah.com",
+      "source_url": "https://sunnah.com/tirmidhi"
+    },
+    {
+      "match_titles": [
+        "Al-Kāfi",
+        "الكافي"
+      ],
+      "tradition": "Twelver Shia",
+      "category": "Four Books",
+      "author": "al-Kulayni",
+      "arabic_title": "الكافي",
+      "source_name": "Thaqalayn",
+      "source_url": "https://thaqalayn.net/"
+    },
+    {
+      "match_titles": [
+        "Man Lā Yaḥḍuruh al-Faqīh"
+      ],
+      "tradition": "Twelver Shia",
+      "category": "Four Books",
+      "author": "al-Saduq",
+      "arabic_title": "من لا يحضره الفقيه",
+      "source_name": "Thaqalayn",
+      "source_url": "https://thaqalayn.net/"
+    },
+    {
+      "match_titles": [
+        "Nahj al-Balāgha"
+      ],
+      "tradition": "Twelver Shia",
+      "category": "Hadith / sermons compilation",
+      "author": "al-Sharif al-Radi",
+      "arabic_title": "نهج البلاغة",
+      "source_name": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Nahj_al-Balagha"
+    },
+    {
+      "match_titles": [
+        "Sunan al-Kubra (al-Nasa'i)",
+        "السنن الكبرى للنسائي"
+      ],
+      "tradition": "Sunni",
+      "category": "Sunan",
+      "author": "al-Nasa'i",
+      "arabic_title": "السنن الكبرى للنسائي",
+      "source_name": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Al-Sunan_al-Kubra_(al-Nasa%27i)"
+    },
+    {
+      "match_titles": [
+        "Sahih Ibn Khuzaymah",
+        "صحيح ابن خزيمة"
+      ],
+      "tradition": "Sunni",
+      "category": "Sahih collection",
+      "author": "Ibn Khuzaymah",
+      "arabic_title": "صحيح ابن خزيمة",
+      "source_name": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Sahih_Ibn_Khuzaymah"
+    },
+    {
+      "match_titles": [
+        "Sunan al-Daraqutni",
+        "سنن الدارقطني"
+      ],
+      "tradition": "Sunni",
+      "category": "Sunan",
+      "author": "al-Daraqutni",
+      "arabic_title": "سنن الدارقطني",
+      "source_name": "Wikipedia",
+      "source_url": "https://en.wikipedia.org/wiki/Al-Daraqutni"
+    }
+  ]
+}

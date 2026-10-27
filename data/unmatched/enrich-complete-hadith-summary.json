@@ -1,0 +1,20 @@
+{
+  "apply": true,
+  "skipped_dorar": 15,
+  "skipped_sunnah_html": 623,
+  "fawaz_chapter": 0,
+  "fawaz_grade": 0,
+  "fawaz_miss": 0,
+  "thaq_grade": 1,
+  "thaq_chain": 35,
+  "thaq_fail": 0,
+  "category_links": 291,
+  "titles_updated": 0,
+  "after": {
+    "hadiths": 1067,
+    "hadiths_with_category": 613,
+    "variations_with_real_grade": 869,
+    "chains": 855
+  },
+  "note": "Dorar + Sunnah HTML not scraped (needs_permission). Sunnah filled via fawaz API. Thaqalayn via Playwright on existing URLs."
+}

@@ -1,0 +1,36 @@
+2026/10/15-16:45:04.592 4c84 Reusing MANIFEST C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\dorar\Default\IndexedDB\https_dorar.net_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/15-16:45:04.593 4c84 Recovering log #14
+2026/10/15-16:45:04.593 4c84 Reusing old log C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\dorar\Default\IndexedDB\https_dorar.net_0.indexeddb.leveldb/000014.log 
+2026/10/15-16:45:04.595 4c84 Delete type=2 #12
+2026/10/15-16:45:05.092 3998 Level-0 table #19: started
+2026/10/15-16:45:05.095 3998 Level-0 table #19: 926 bytes OK
+2026/10/15-16:45:05.099 3998 Delete type=0 #14
+2026/10/15-16:45:05.100 4c84 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 231 : 1
+2026/10/15-16:45:05.100 4c84 Compacting 1@0 + 1@1 files
+2026/10/15-16:45:05.106 4c84 Generated table #20@0: 46 keys, 1354 bytes
+2026/10/15-16:45:05.106 4c84 Compacted 1@0 + 1@1 files => 1354 bytes
+2026/10/15-16:45:05.108 4c84 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/15-16:45:05.109 4c84 Delete type=2 #19
+2026/10/15-16:45:05.110 4c84 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 231 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/10/15-16:45:11.041 3998 Level-0 table #22: started
+2026/10/15-16:45:11.050 3998 Level-0 table #22: 905 bytes OK
+2026/10/15-16:45:11.053 3998 Delete type=2 #16
+2026/10/15-16:45:11.053 3998 Delete type=0 #18
+2026/10/15-16:45:11.054 4c84 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 264 : 1
+2026/10/15-16:45:11.054 4c84 Compacting 1@0 + 1@1 files
+2026/10/15-16:45:11.060 4c84 Generated table #23@0: 53 keys, 1433 bytes
+2026/10/15-16:45:11.060 4c84 Compacted 1@0 + 1@1 files => 1433 bytes
+2026/10/15-16:45:11.066 4c84 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/15-16:45:11.066 4c84 Delete type=2 #22
+2026/10/15-16:45:11.067 4c84 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 264 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/10/15-16:45:16.867 4c84 Level-0 table #25: started
+2026/10/15-16:45:16.876 4c84 Level-0 table #25: 978 bytes OK
+2026/10/15-16:45:16.879 4c84 Delete type=2 #20
+2026/10/15-16:45:16.879 4c84 Delete type=0 #21
+2026/10/15-16:45:16.879 4c84 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 297 : 1
+2026/10/15-16:45:16.879 4c84 Compacting 1@0 + 1@1 files
+2026/10/15-16:45:16.883 4c84 Generated table #26@0: 62 keys, 1439 bytes
+2026/10/15-16:45:16.883 4c84 Compacted 1@0 + 1@1 files => 1439 bytes
+2026/10/15-16:45:16.886 4c84 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/15-16:45:16.887 4c84 Delete type=2 #25
+2026/10/15-16:45:16.887 4c84 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 297 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,4 +1,7 @@
-import { runDailyHadithIngest, setActiveTopic, getDailyStatus } from "../lib/cron/daily-ingest";
+import { loadLocalEnv } from "./load-env";
+loadLocalEnv();
+
+import { publishDailyHadithBatch, setActiveTopic, getDailyStatus } from "../lib/cron/daily-ingest";
 
 async function main() {
   const args = process.argv.slice(2);
@@ -14,7 +17,7 @@ async function main() {
   const batchSize = batchSizeIndex !== -1 ? Number(args[batchSizeIndex + 1]) || 5 : 5;
 
   console.log("\n=================================================================");
-  console.log("  DAILY HADITH SHORTLIST & INGESTION CRON RUNNER                 ");
+  console.log("  ON-DEMAND DAILY HADITH BATCH PUBLISHER & PREVIEWER             ");
   console.log("=================================================================\n");
 
   if (setTopicSlug) {
@@ -25,26 +28,46 @@ async function main() {
   }
 
   if (showStatus) {
-    console.log("Fetching daily status...\n");
+    console.log("Fetching currently-live batch status...\n");
     const status = await getDailyStatus(topicSlug);
     console.log(`Active Topic: ${status.activeTopic.title} (${status.activeTopic.slug})`);
-    console.log(`Next Run Day: Day ${status.activeTopic.dayNumber}`);
-    console.log(`Remaining in Topic Pool: ${status.remainingCandidatesInPool}`);
-    console.log(`\nUpcoming Next 5 Hadiths:`);
-    status.upcomingShortlist.forEach((h, idx) => {
-      console.log(`  ${idx + 1}. [${h.bookTitle} #${h.hadithNumber}] ${h.chapter}`);
-      console.log(`     Identifier: ${h.identifier} | Status: ${h.hadithStatus}`);
-      console.log(`     EN: ${h.englishPreview.slice(0, 100)}...`);
-    });
+    console.log(`Current Live Day: Day ${status.activeTopic.dayNumber}`);
+    console.log(`Published At: ${status.activeTopic.publishedAt || "None (no batch currently live)"}`);
+    console.log(`Live Items Count: ${status.liveBatchCount}`);
     return;
   }
 
-  console.log(`Running mode: ${apply ? "APPLY (Persisting to database)" : "DRY RUN (Simulation)"}`);
-  console.log(`Batch size: ${batchSize} hadiths daily\n`);
+  if (!apply) {
+    console.log("Mode: DRY-RUN PREVIEW (No changes made to database)");
+    console.log("Showing currently-live status + preview of next batch:\n");
 
-  const result = await runDailyHadithIngest({
+    const status = await getDailyStatus(topicSlug);
+    console.log(`Currently Live Batch: Day ${status.activeTopic.dayNumber} (${status.activeTopic.publishedAt || "No batch live yet"}) - ${status.liveBatchCount} items live`);
+    console.log(`Upcoming Next Batch (Day ${status.activeTopic.dayNumber + 1}):`);
+    status.upcomingShortlist.forEach((h, idx) => {
+      console.log(`  [#${idx + 1}] ${h.bookTitle} — Hadith ${h.hadithNumber}`);
+      console.log(`      Chapter: ${h.chapter}`);
+      console.log(`      Identifier: ${h.identifier} | Grade: ${h.hadithStatus}`);
+      console.log(`      EN: ${h.englishPreview.slice(0, 100)}...`);
+    });
+    console.log("\nTo unpublish the current batch and publish the next batch live, run:");
+    console.log("  ALLOW_DAILY_PUBLISH=1 npm run cron:publish-daily\n");
+    return;
+  }
+
+  if (process.env.ALLOW_DAILY_PUBLISH !== "1") {
+    console.error(
+      "Blocked: daily publish requires ALLOW_DAILY_PUBLISH=1. Dry-run keeps working without it.",
+    );
+    process.exit(1);
+  }
+
+  console.log("Mode: APPLY (Unpublishing current batch and publishing new batch to database)");
+  console.log(`Batch size: ${batchSize} hadiths\n`);
+
+  const result = await publishDailyHadithBatch({
     topicSlug,
-    apply,
+    apply: true,
     batchSize,
   });
 
@@ -55,22 +78,13 @@ async function main() {
   }
 
   console.log(`\n-----------------------------------------------------------------`);
-  console.log(`  RUN MODE: General Multi-Source Daily Hadith Ingestion`);
+  console.log(`  ON-DEMAND PUBLISH COMPLETE`);
   console.log(`  DAY: Day ${result.dayNumber} | DATE: ${result.runDate}`);
-  console.log(`  SHORTLISTED TODAY: ${result.count} hadiths`);
+  console.log(`  PUBLISHED TODAY: ${result.count} hadiths`);
   console.log(`  REMAINING IN POOL: ${result.remainingInTopicPool} hadiths`);
   console.log(`-----------------------------------------------------------------\n`);
 
-  if (result.sourceHealth && result.sourceHealth.length > 0) {
-    console.log(`Source Health & Connectivity (DATA_INGESTION.md Specs):`);
-    result.sourceHealth.forEach((sh) => {
-      const flagStr = sh.status === "ok" ? "[OK]" : "[FLAGGED / UNREACHABLE]";
-      console.log(`  - ${sh.name} (${sh.sourceType}): ${flagStr} - ${sh.fetchedCount} fetched${sh.errorMessage ? ` (${sh.errorMessage})` : ""}`);
-    });
-    console.log("");
-  }
-
-  console.log(`Selected 5 Hadiths for Today (Day ${result.dayNumber}):\n`);
+  console.log(`Newly Published Live Hadiths (Day ${result.dayNumber}):\n`);
   result.shortlistedHadiths.forEach((h, idx) => {
     console.log(`[#${idx + 1}] ${h.bookTitle} — Hadith ${h.hadithNumber}`);
     console.log(`    Chapter: ${h.chapter}`);

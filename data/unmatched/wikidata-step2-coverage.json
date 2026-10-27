@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-10-19T07:57:13.175Z",
+  "mode": "dry-run",
+  "scholars_imams": {
+    "reference_total": 24,
+    "with_wikidata_qid": 23,
+    "live_qid_resolved": 21,
+    "source_named_wikidata": 23,
+    "note": "Step 2 primary path: enrich scholars/imams from these Wikidata QIDs first."
+  },
+  "narrators": {
+    "total": 1128,
+    "with_arabic_name": 61,
+    "exact_ar_label_match": 0,
+    "exact_en_label_match_additional": 15,
+    "covered_exact_label": 15,
+    "coverage_pct": 1.33,
+    "overlap_name_with_wikidata_scholar_ref": 2,
+    "method": "Exact rdfs:label|skos:altLabel match via Wikidata Query Service (Arabic-script names as @ar; Latin as @en). No fuzzy match; no writes."
+  },
+  "sample_matches": [
+    {
+      "narrator_id": 86,
+      "name": "Muhammad bin Muslim",
+      "arabic_name": "Muhammad bin Muslim",
+      "qid": "Q26253589",
+      "matched_label": "Muhammad bin Muslim"
+    },
+    {
+      "narrator_id": 109,
+      "name": "Ahmad ibn Muhammad",
+      "arabic_name": "Ahmad ibn Muhammad",
+      "qid": "Q4561714",
+      "matched_label": "Ahmad ibn Muhammad"
+    },
+    {
+      "narrator_id": 81,
+      "name": "Ali bin Ahmad",
+      "arabic_name": "Ali bin Ahmad",
+      "qid": "Q97206775",
+      "matched_label": "Ali bin Ahmad"
+    },
+    {
+      "narrator_id": 155,
+      "name": "Al-Fadl ibn Yahya",
+      "arabic_name": "Al-Fadl ibn Yahya",
+      "qid": "Q1965143",
+      "matched_label": "Al-Fadl ibn Yahya"
+    },
+    {
+      "narrator_id": 1028,
+      "name": "Abu Bakra",
+      "arabic_name": null,
+      "qid": "Q16117932",
+      "matched_label": "Abu Bakra"
+    },
+    {
+      "narrator_id": 1034,
+      "name": "Abu Qatada",
+      "arabic_name": null,
+      "qid": "Q335246",
+      "matched_label": "Abu Qatada"
+    },
+    {
+      "narrator_id": 1074,
+      "name": "Ubaidullah",
+      "arabic_name": null,
+      "qid": "Q6689180",
+      "matched_label": "Ubaidullah"
+    },
+    {
+      "narrator_id": 1124,
+      "name": "Abu Hurairah",
+      "arabic_name": null,
+      "qid": "Q69326",
+      "matched_label": "Abu Hurairah"
+    },
+    {
+      "narrator_id": 280,
+      "name": "Abdullah ibn Muhammad",
+      "arabic_name": "Abdullah ibn Muhammad",
+      "qid": "Q307680",
+      "matched_label": "Abdullah ibn Muhammad"
+    },
+    {
+      "narrator_id": 208,
+      "name": "Safwan ibn Yahya",
+      "arabic_name": "Safwan ibn Yahya",
+      "qid": "Q26253569",
+      "matched_label": "Safwan ibn Yahya"
+    },
+    {
+      "narrator_id": 405,
+      "name": "Al-Husayn ibn Ali",
+      "arabic_name": "Al-Husayn ibn Ali",
+      "qid": "Q65040730",
+      "matched_label": "Al-Husayn ibn Ali"
+    },
+    {
+      "narrator_id": 566,
+      "name": "Ali ibn Asbat",
+      "arabic_name": "Ali ibn Asbat",
+      "qid": "Q125768445",
+      "matched_label": "Ali ibn Asbat"
+    },
+    {
+      "narrator_id": 725,
+      "name": "Ibn `Abbas",
+      "arabic_name": "Ibn `Abbas",
+      "qid": "Q423600",
+      "matched_label": "Ibn Abbas"
+    },
+    {
+      "narrator_id": 809,
+      "name": "Abu Muhammad",
+      "arabic_name": "Abu Muhammad",
+      "qid": "Q4115538",
+      "matched_label": "Abu Muhammad"
+    },
+    {
+      "narrator_id": 37,
+      "name": "Abdurrazak",
+      "arabic_name": "Abdurrazak",
+      "qid": "Q123884984",
+      "matched_label": "Abdurrazak"
+    }
+  ]
+}

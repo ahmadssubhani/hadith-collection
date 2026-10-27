@@ -41,3 +41,5 @@ desktop.ini
 # ide
 .idea
 .vscode
+
+tools/pgsql-binaries.zip

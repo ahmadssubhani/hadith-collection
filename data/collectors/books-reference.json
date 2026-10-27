@@ -1,0 +1,219 @@
+{
+  "provenance": {
+    "source_name": "Wikidata",
+    "license": "CC0 1.0",
+    "verified_via": "wikidata_search_work_and_author_human_death_year",
+    "generated_at": "2026-10-19T08:40:35.010Z",
+    "notes": "Book title searched on Wikidata; author accepted only as human with matching death year. tradition/category left null (not on entity). Quarantined prior file under _untrusted/."
+  },
+  "books": [
+    {
+      "match_titles": [
+        "Sahih al-Bukhari",
+        "صحيح البخاري"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Muḥammad ibn Ismaeel al-Bukhārī",
+      "arabic_title": "صحيح البخاري",
+      "wikidata_qid": "Q1023470",
+      "author_wikidata_qid": "Q241026",
+      "author_death_year_ah": 256,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q1023470"
+    },
+    {
+      "match_titles": [
+        "Sahih Muslim",
+        "Sahīh Muslim",
+        "صحيح مسلم"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Muslim ibn al-Ḥajjāj",
+      "arabic_title": "صحيح مسلم",
+      "wikidata_qid": "Q886659",
+      "author_wikidata_qid": "Q140124",
+      "author_death_year_ah": 261,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q886659"
+    },
+    {
+      "match_titles": [
+        "Sunan Abu Dawud",
+        "سنن أبي داود"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Abu Dawud al-Sijistani",
+      "arabic_title": null,
+      "wikidata_qid": null,
+      "author_wikidata_qid": "Q336558",
+      "author_death_year_ah": 274,
+      "source_name": null,
+      "source_url": null
+    },
+    {
+      "match_titles": [
+        "Sunan Ibn Majah",
+        "سنن ابن ماجه"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Ibn Majah",
+      "arabic_title": "سنن ابن ماجه",
+      "wikidata_qid": "Q1187931",
+      "author_wikidata_qid": "Q381469",
+      "author_death_year_ah": 272,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q1187931"
+    },
+    {
+      "match_titles": [
+        "Sunan al-Nasa'i",
+        "سنن النسائي"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Al-Nasa'i",
+      "arabic_title": "سنن النسائي",
+      "wikidata_qid": "Q2175237",
+      "author_wikidata_qid": "Q293535",
+      "author_death_year_ah": 302,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q2175237"
+    },
+    {
+      "match_titles": [
+        "Musnad Ahmad",
+        "مسند أحمد"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Ahmad ibn Hanbal",
+      "arabic_title": "مسند أحمد",
+      "wikidata_qid": "Q1087557",
+      "author_wikidata_qid": "Q194442",
+      "author_death_year_ah": 240,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q1087557"
+    },
+    {
+      "match_titles": [
+        "Sunan al-Darimi",
+        "سنن الدارمي"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Al-Darimi",
+      "arabic_title": "سنن الدارمي",
+      "wikidata_qid": "Q7638821",
+      "author_wikidata_qid": "Q3012690",
+      "author_death_year_ah": 255,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q7638821"
+    },
+    {
+      "match_titles": [
+        "صحيح الترمذي"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Abu Isa at-Tirmidhi",
+      "arabic_title": null,
+      "wikidata_qid": null,
+      "author_wikidata_qid": "Q293578",
+      "author_death_year_ah": 278,
+      "source_name": null,
+      "source_url": null
+    },
+    {
+      "match_titles": [
+        "Al-Kāfi",
+        "الكافي"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Muhammad ibn Ya'qub al-Kulayni",
+      "arabic_title": "الكافي",
+      "wikidata_qid": "Q2632318",
+      "author_wikidata_qid": "Q2973730",
+      "author_death_year_ah": 329,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q2632318"
+    },
+    {
+      "match_titles": [
+        "Man Lā Yaḥḍuruh al-Faqīh"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Shaykh Saduq",
+      "arabic_title": "من لا يحضره الفقيه",
+      "wikidata_qid": "Q4116066",
+      "author_wikidata_qid": "Q2743660",
+      "author_death_year_ah": 381,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q4116066"
+    },
+    {
+      "match_titles": [
+        "Nahj al-Balāgha"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": null,
+      "arabic_title": "نهج البلاغة",
+      "wikidata_qid": "Q2119296",
+      "author_wikidata_qid": null,
+      "author_death_year_ah": null,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q2119296"
+    },
+    {
+      "match_titles": [
+        "Sunan al-Kubra (al-Nasa'i)",
+        "السنن الكبرى للنسائي"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Al-Nasa'i",
+      "arabic_title": null,
+      "wikidata_qid": null,
+      "author_wikidata_qid": "Q293535",
+      "author_death_year_ah": 302,
+      "source_name": null,
+      "source_url": null
+    },
+    {
+      "match_titles": [
+        "Sahih Ibn Khuzaymah",
+        "صحيح ابن خزيمة"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Ibn Khuzaymah",
+      "arabic_title": "صحيح ابن خزيمة",
+      "wikidata_qid": "Q4120116",
+      "author_wikidata_qid": "Q3814358",
+      "author_death_year_ah": 311,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q4120116"
+    },
+    {
+      "match_titles": [
+        "Sunan al-Daraqutni",
+        "سنن الدارقطني"
+      ],
+      "tradition": null,
+      "category": null,
+      "author": "Al-Daraqutni",
+      "arabic_title": "سنن الدارقطني",
+      "wikidata_qid": "Q12217063",
+      "author_wikidata_qid": "Q3607438",
+      "author_death_year_ah": 385,
+      "source_name": "Wikidata",
+      "source_url": "https://www.wikidata.org/wiki/Q12217063"
+    }
+  ]
+}

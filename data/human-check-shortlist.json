@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-10-15T13:44:03.648Z",
+  "mode": "apply",
+  "first_wahi_only": true,
+  "checked": 428,
+  "ignored_duplicates": 0,
+  "soft_content_complete": 427,
+  "shortlist_count": 7,
+  "fail_counts": {
+    "a": 247,
+    "b": 0,
+    "c": 174,
+    "d": 1
+  },
+  "shortlist": [
+    {
+      "variation_id": 271,
+      "book": "Sahih al-Bukhari",
+      "hadith_number": "1",
+      "source_url": "https://sunnah.com/bukhari:1",
+      "complete_chains": 1,
+      "soft": {
+        "arabic": true,
+        "english": true,
+        "reference": true,
+        "sourceUrl": true,
+        "chainText": true,
+        "grade": true
+      }
+    },
+    {
+      "variation_id": 273,
+      "book": "Sahih al-Bukhari",
+      "hadith_number": "2",
+      "source_url": "https://sunnah.com/bukhari:2",
+      "complete_chains": 1,
+      "soft": {
+        "arabic": true,
+        "english": true,
+        "reference": true,
+        "sourceUrl": true,
+        "chainText": true,
+        "grade": true
+      }
+    },
+    {
+      "variation_id": 275,
+      "book": "Sahih al-Bukhari",
+      "hadith_number": "3",
+      "source_url": "https://sunnah.com/bukhari:3",
+      "complete_chains": 1,
+      "soft": {
+        "arabic": true,
+        "english": true,
+        "reference": true,
+        "sourceUrl": true,
+        "chainText": true,
+        "grade": true
+      }
+    },
+    {
+      "variation_id": 276,
+      "book": "Sahih al-Bukhari",
+      "hadith_number": "4",
+      "source_url": "https://sunnah.com/bukhari:4",
+      "complete_chains": 1,
+      "soft": {
+        "arabic": true,
+        "english": true,
+        "reference": true,
+        "sourceUrl": true,
+        "chainText": true,
+        "grade": true
+      }
+    },
+    {
+      "variation_id": 279,
+      "book": "Sahih al-Bukhari",
+      "hadith_number": "5",
+      "source_url": "https://sunnah.com/bukhari:5",
+      "complete_chains": 1,
+      "soft": {
+        "arabic": true,
+        "english": true,
+        "reference": true,
+        "sourceUrl": true,
+        "chainText": true,
+        "grade": true
+      }
+    },
+    {
+      "variation_id": 280,
+      "book": "Sahih al-Bukhari",
+      "hadith_number": "6",
+      "source_url": "https://sunnah.com/bukhari:6",
+      "complete_chains": 3,
+      "soft": {
+        "arabic": true,
+        "english": true,
+        "reference": true,
+        "sourceUrl": true,
+        "chainText": true,
+        "grade": true
+      }
+    },
+    {
+      "variation_id": 282,
+      "book": "Sahih al-Bukhari",
+      "hadith_number": "7",
+      "source_url": "https://sunnah.com/bukhari:7",
+      "complete_chains": 1,
+      "soft": {
+        "arabic": true,
+        "english": true,
+        "reference": true,
+        "sourceUrl": true,
+        "chainText": true,
+        "grade": true
+      }
+    }
+  ]
+}

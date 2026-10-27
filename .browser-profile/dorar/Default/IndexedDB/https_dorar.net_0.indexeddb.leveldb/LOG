@@ -1,0 +1,14 @@
+2026/10/15-17:26:17.106 4188 Reusing MANIFEST C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\dorar\Default\IndexedDB\https_dorar.net_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/15-17:26:17.106 4188 Recovering log #24
+2026/10/15-17:26:17.107 4188 Reusing old log C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\dorar\Default\IndexedDB\https_dorar.net_0.indexeddb.leveldb/000024.log 
+2026/10/15-17:26:17.107 4188 Delete type=2 #23
+2026/10/15-17:26:17.493 4188 Level-0 table #29: started
+2026/10/15-17:26:17.502 4188 Level-0 table #29: 854 bytes OK
+2026/10/15-17:26:17.505 4188 Delete type=0 #24
+2026/10/15-17:26:17.506 11c0 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 330 : 1
+2026/10/15-17:26:17.506 11c0 Compacting 1@0 + 1@1 files
+2026/10/15-17:26:17.510 11c0 Generated table #30@0: 62 keys, 1517 bytes
+2026/10/15-17:26:17.510 11c0 Compacted 1@0 + 1@1 files => 1517 bytes
+2026/10/15-17:26:17.512 11c0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/10/15-17:26:17.513 11c0 Delete type=2 #29
+2026/10/15-17:26:17.514 11c0 Manual compaction at level-0 from '\x00\x0a\x00\x00\x05' @ 330 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)

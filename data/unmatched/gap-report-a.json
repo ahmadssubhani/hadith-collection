@@ -1,0 +1,1479 @@
+{
+  "generated_at": "2026-10-19T08:51:24.359Z",
+  "mode": "read_only_deliverable_A",
+  "table_counts": {
+    "hadiths": 5,
+    "source_variations": 1067,
+    "narrators": 1128,
+    "chains": 822,
+    "chain_narrators": 1826,
+    "scholars": 112,
+    "books": 109,
+    "hadith_assessments": 39,
+    "chain_assessments": 0,
+    "narrator_assessments": 414,
+    "name_aliases": 3,
+    "narrator_relations": 0,
+    "categories": 8,
+    "hadith_categories": 1,
+    "grade_lookup": 7,
+    "hadith_type_lookup": 4,
+    "chain_status_lookup": 5,
+    "transmission_scope_lookup": 3,
+    "import_batches": 6,
+    "raw_import_records": 1274
+  },
+  "column_fill": {
+    "hadiths": [
+      {
+        "column": "slug",
+        "total": 5,
+        "filled": 5,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "title",
+        "total": 5,
+        "filled": 5,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "arabic_title",
+        "total": 5,
+        "filled": 1,
+        "empty": 4,
+        "fill_pct": 20
+      },
+      {
+        "column": "summary",
+        "total": 5,
+        "filled": 5,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "topics",
+        "total": 5,
+        "filled": 5,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "review_status",
+        "total": 5,
+        "filled": 5,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "data_origin",
+        "total": 5,
+        "filled": 5,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "normalized_name",
+        "total": 5,
+        "filled": 0,
+        "empty": 5,
+        "fill_pct": 0
+      }
+    ],
+    "source_variations": [
+      {
+        "column": "hadith_id",
+        "total": 1067,
+        "filled": 1067,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "book_id",
+        "total": 1067,
+        "filled": 1067,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "hadith_number",
+        "total": 1067,
+        "filled": 1067,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "chapter",
+        "total": 1067,
+        "filled": 434,
+        "empty": 633,
+        "fill_pct": 40.7
+      },
+      {
+        "column": "volume",
+        "total": 1067,
+        "filled": 428,
+        "empty": 639,
+        "fill_pct": 40.1
+      },
+      {
+        "column": "page",
+        "total": 1067,
+        "filled": 428,
+        "empty": 639,
+        "fill_pct": 40.1
+      },
+      {
+        "column": "arabic_text",
+        "total": 1067,
+        "filled": 1066,
+        "empty": 1,
+        "fill_pct": 99.9
+      },
+      {
+        "column": "english_text",
+        "total": 1067,
+        "filled": 1050,
+        "empty": 17,
+        "fill_pct": 98.4
+      },
+      {
+        "column": "translator",
+        "total": 1067,
+        "filled": 428,
+        "empty": 639,
+        "fill_pct": 40.1
+      },
+      {
+        "column": "source_url",
+        "total": 1067,
+        "filled": 1067,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "hadith_status",
+        "total": 1067,
+        "filled": 1067,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "chain_status",
+        "total": 1067,
+        "filled": 1067,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "verified",
+        "total": 1067,
+        "filled": 1067,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "data_origin",
+        "total": 1067,
+        "filled": 1067,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "review_status",
+        "total": 1067,
+        "filled": 1067,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "attribution_text",
+        "total": 1067,
+        "filled": 228,
+        "empty": 839,
+        "fill_pct": 21.4
+      },
+      {
+        "column": "attribution_book_id",
+        "total": 1067,
+        "filled": 200,
+        "empty": 867,
+        "fill_pct": 18.7
+      },
+      {
+        "column": "hadith_type",
+        "total": 1067,
+        "filled": 0,
+        "empty": 1067,
+        "fill_pct": 0
+      },
+      {
+        "column": "transmission_scope",
+        "total": 1067,
+        "filled": 0,
+        "empty": 1067,
+        "fill_pct": 0
+      },
+      {
+        "column": "grade_code",
+        "total": 1067,
+        "filled": 0,
+        "empty": 1067,
+        "fill_pct": 0
+      }
+    ],
+    "narrators": [
+      {
+        "column": "name",
+        "total": 1128,
+        "filled": 1128,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "arabic_name",
+        "total": 1128,
+        "filled": 61,
+        "empty": 1067,
+        "fill_pct": 5.4
+      },
+      {
+        "column": "alternative_names",
+        "total": 1128,
+        "filled": 7,
+        "empty": 1121,
+        "fill_pct": 0.6
+      },
+      {
+        "column": "birth_year_ah",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "death_year_ah",
+        "total": 1128,
+        "filled": 923,
+        "empty": 205,
+        "fill_pct": 81.8
+      },
+      {
+        "column": "region",
+        "total": 1128,
+        "filled": 923,
+        "empty": 205,
+        "fill_pct": 81.8
+      },
+      {
+        "column": "generation",
+        "total": 1128,
+        "filled": 923,
+        "empty": 205,
+        "fill_pct": 81.8
+      },
+      {
+        "column": "biography",
+        "total": 1128,
+        "filled": 923,
+        "empty": 205,
+        "fill_pct": 81.8
+      },
+      {
+        "column": "identity_status",
+        "total": 1128,
+        "filled": 1128,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "normalized_name",
+        "total": 1128,
+        "filled": 1128,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "name_quality",
+        "total": 1128,
+        "filled": 1128,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "kunya",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "nisba",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "laqab",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "gender",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "tradition",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "birth_year_ce",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "death_year_ce",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "biography_source",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "biography_source_url",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      },
+      {
+        "column": "tabaqah",
+        "total": 1128,
+        "filled": 0,
+        "empty": 1128,
+        "fill_pct": 0
+      }
+    ],
+    "chains": [
+      {
+        "column": "raw_chain_text",
+        "total": 822,
+        "filled": 815,
+        "empty": 7,
+        "fill_pct": 99.1
+      },
+      {
+        "column": "continuity_status",
+        "total": 822,
+        "filled": 822,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "quality_status",
+        "total": 822,
+        "filled": 822,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "notes",
+        "total": 822,
+        "filled": 648,
+        "empty": 174,
+        "fill_pct": 78.8
+      },
+      {
+        "column": "verified",
+        "total": 822,
+        "filled": 822,
+        "empty": 0,
+        "fill_pct": 100
+      }
+    ],
+    "chain_narrators": [
+      {
+        "column": "narrator_id",
+        "total": 1826,
+        "filled": 1826,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "raw_name",
+        "total": 1826,
+        "filled": 1826,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "transmission_word",
+        "total": 1826,
+        "filled": 1826,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "match_confidence",
+        "total": 1826,
+        "filled": 1822,
+        "empty": 4,
+        "fill_pct": 99.8
+      },
+      {
+        "column": "is_weak_link",
+        "total": 1826,
+        "filled": 1826,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "weak_link_reason",
+        "total": 1826,
+        "filled": 0,
+        "empty": 1826,
+        "fill_pct": 0
+      }
+    ],
+    "scholars": [
+      {
+        "column": "name",
+        "total": 112,
+        "filled": 112,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "arabic_name",
+        "total": 112,
+        "filled": 112,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "tradition",
+        "total": 112,
+        "filled": 105,
+        "empty": 7,
+        "fill_pct": 93.8
+      },
+      {
+        "column": "birth_year_ah",
+        "total": 112,
+        "filled": 8,
+        "empty": 104,
+        "fill_pct": 7.1
+      },
+      {
+        "column": "death_year_ah",
+        "total": 112,
+        "filled": 8,
+        "empty": 104,
+        "fill_pct": 7.1
+      },
+      {
+        "column": "credentials",
+        "total": 112,
+        "filled": 8,
+        "empty": 104,
+        "fill_pct": 7.1
+      },
+      {
+        "column": "methodology",
+        "total": 112,
+        "filled": 8,
+        "empty": 104,
+        "fill_pct": 7.1
+      },
+      {
+        "column": "kunya",
+        "total": 112,
+        "filled": 0,
+        "empty": 112,
+        "fill_pct": 0
+      },
+      {
+        "column": "laqab",
+        "total": 112,
+        "filled": 0,
+        "empty": 112,
+        "fill_pct": 0
+      },
+      {
+        "column": "madhhab",
+        "total": 112,
+        "filled": 0,
+        "empty": 112,
+        "fill_pct": 0
+      },
+      {
+        "column": "region",
+        "total": 112,
+        "filled": 0,
+        "empty": 112,
+        "fill_pct": 0
+      },
+      {
+        "column": "birth_year_ce",
+        "total": 112,
+        "filled": 0,
+        "empty": 112,
+        "fill_pct": 0
+      },
+      {
+        "column": "death_year_ce",
+        "total": 112,
+        "filled": 0,
+        "empty": 112,
+        "fill_pct": 0
+      },
+      {
+        "column": "works",
+        "total": 112,
+        "filled": 0,
+        "empty": 112,
+        "fill_pct": 0
+      },
+      {
+        "column": "teachers",
+        "total": 112,
+        "filled": 0,
+        "empty": 112,
+        "fill_pct": 0
+      },
+      {
+        "column": "students",
+        "total": 112,
+        "filled": 0,
+        "empty": 112,
+        "fill_pct": 0
+      },
+      {
+        "column": "canonical_scholar_id",
+        "total": 112,
+        "filled": 1,
+        "empty": 111,
+        "fill_pct": 0.9
+      }
+    ],
+    "books": [
+      {
+        "column": "title",
+        "total": 109,
+        "filled": 109,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "arabic_title",
+        "total": 109,
+        "filled": 69,
+        "empty": 40,
+        "fill_pct": 63.3
+      },
+      {
+        "column": "author",
+        "total": 109,
+        "filled": 69,
+        "empty": 40,
+        "fill_pct": 63.3
+      },
+      {
+        "column": "tradition",
+        "total": 109,
+        "filled": 109,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "book_type",
+        "total": 109,
+        "filled": 109,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "source_url",
+        "total": 109,
+        "filled": 8,
+        "empty": 101,
+        "fill_pct": 7.3
+      },
+      {
+        "column": "license",
+        "total": 109,
+        "filled": 0,
+        "empty": 109,
+        "fill_pct": 0
+      },
+      {
+        "column": "book_kind",
+        "total": 109,
+        "filled": 109,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "category",
+        "total": 109,
+        "filled": 8,
+        "empty": 101,
+        "fill_pct": 7.3
+      },
+      {
+        "column": "publisher",
+        "total": 109,
+        "filled": 0,
+        "empty": 109,
+        "fill_pct": 0
+      },
+      {
+        "column": "edition",
+        "total": 109,
+        "filled": 0,
+        "empty": 109,
+        "fill_pct": 0
+      },
+      {
+        "column": "volumes",
+        "total": 109,
+        "filled": 0,
+        "empty": 109,
+        "fill_pct": 0
+      },
+      {
+        "column": "hadith_count",
+        "total": 109,
+        "filled": 0,
+        "empty": 109,
+        "fill_pct": 0
+      },
+      {
+        "column": "canonical_book_id",
+        "total": 109,
+        "filled": 29,
+        "empty": 80,
+        "fill_pct": 26.6
+      }
+    ],
+    "hadith_assessments": [
+      {
+        "column": "original_grade",
+        "total": 39,
+        "filled": 39,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "normalized_grade",
+        "total": 39,
+        "filled": 39,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "explanation",
+        "total": 39,
+        "filled": 39,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "reference_book",
+        "total": 39,
+        "filled": 39,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "edition",
+        "total": 39,
+        "filled": 0,
+        "empty": 39,
+        "fill_pct": 0
+      },
+      {
+        "column": "volume",
+        "total": 39,
+        "filled": 0,
+        "empty": 39,
+        "fill_pct": 0
+      },
+      {
+        "column": "page",
+        "total": 39,
+        "filled": 0,
+        "empty": 39,
+        "fill_pct": 0
+      },
+      {
+        "column": "source_url",
+        "total": 39,
+        "filled": 0,
+        "empty": 39,
+        "fill_pct": 0
+      },
+      {
+        "column": "verified",
+        "total": 39,
+        "filled": 39,
+        "empty": 0,
+        "fill_pct": 100
+      }
+    ],
+    "narrator_assessments": [
+      {
+        "column": "original_term",
+        "total": 414,
+        "filled": 414,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "normalized_term",
+        "total": 414,
+        "filled": 0,
+        "empty": 414,
+        "fill_pct": 0
+      },
+      {
+        "column": "explanation",
+        "total": 414,
+        "filled": 0,
+        "empty": 414,
+        "fill_pct": 0
+      },
+      {
+        "column": "display_score",
+        "total": 414,
+        "filled": 0,
+        "empty": 414,
+        "fill_pct": 0
+      },
+      {
+        "column": "mapping_method",
+        "total": 414,
+        "filled": 414,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "reference_book",
+        "total": 414,
+        "filled": 69,
+        "empty": 345,
+        "fill_pct": 16.7
+      },
+      {
+        "column": "volume",
+        "total": 414,
+        "filled": 0,
+        "empty": 414,
+        "fill_pct": 0
+      },
+      {
+        "column": "page",
+        "total": 414,
+        "filled": 0,
+        "empty": 414,
+        "fill_pct": 0
+      },
+      {
+        "column": "source_url",
+        "total": 414,
+        "filled": 414,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "verified",
+        "total": 414,
+        "filled": 414,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "computed_summary",
+        "total": 414,
+        "filled": 0,
+        "empty": 414,
+        "fill_pct": 0
+      },
+      {
+        "column": "computed_summary_method",
+        "total": 414,
+        "filled": 0,
+        "empty": 414,
+        "fill_pct": 0
+      }
+    ],
+    "name_aliases": [
+      {
+        "column": "alias",
+        "total": 3,
+        "filled": 3,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "source_name",
+        "total": 3,
+        "filled": 3,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "source_url",
+        "total": 3,
+        "filled": 0,
+        "empty": 3,
+        "fill_pct": 0
+      },
+      {
+        "column": "script",
+        "total": 3,
+        "filled": 3,
+        "empty": 0,
+        "fill_pct": 100
+      }
+    ],
+    "narrator_relations": [
+      {
+        "column": "relation_type",
+        "total": 0,
+        "filled": 0,
+        "empty": 0,
+        "fill_pct": 0
+      },
+      {
+        "column": "source_name",
+        "total": 0,
+        "filled": 0,
+        "empty": 0,
+        "fill_pct": 0
+      },
+      {
+        "column": "source_url",
+        "total": 0,
+        "filled": 0,
+        "empty": 0,
+        "fill_pct": 0
+      },
+      {
+        "column": "verified",
+        "total": 0,
+        "filled": 0,
+        "empty": 0,
+        "fill_pct": 0
+      }
+    ],
+    "categories": [
+      {
+        "column": "title",
+        "total": 8,
+        "filled": 8,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "arabic_title",
+        "total": 8,
+        "filled": 8,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "description",
+        "total": 8,
+        "filled": 8,
+        "empty": 0,
+        "fill_pct": 100
+      },
+      {
+        "column": "parent_id",
+        "total": 8,
+        "filled": 0,
+        "empty": 8,
+        "fill_pct": 0
+      },
+      {
+        "column": "tradition",
+        "total": 8,
+        "filled": 0,
+        "empty": 8,
+        "fill_pct": 0
+      },
+      {
+        "column": "keywords",
+        "total": 8,
+        "filled": 8,
+        "empty": 0,
+        "fill_pct": 100
+      }
+    ]
+  },
+  "entity_coverage": {
+    "hadith_canonical": {
+      "total": 5,
+      "published": 5,
+      "with_variations": 5,
+      "note": "Canonical hadith rows are few; most content lives on source_variations."
+    },
+    "hadith_variation": {
+      "total": 1067,
+      "with_arabic_text": 1066,
+      "with_english_text": 1050,
+      "with_source_url": 1067,
+      "with_chain": 820,
+      "with_hadith_assessment": 37,
+      "verified_true": 1066,
+      "review_published": 0,
+      "needs_permission_batch_hosts": "see import_batches; sunnah/dorar = needs_permission"
+    },
+    "narrator": {
+      "total": 1128,
+      "clean": 59,
+      "fragment": 341,
+      "needs_review": 728,
+      "with_arabic_script_name": 61,
+      "with_assessment": 31,
+      "with_biography": 923,
+      "with_biography_source_url": 0,
+      "with_death_year_ah": 923,
+      "with_generation": 923,
+      "identity_verified": 615
+    },
+    "chain": {
+      "total": 822,
+      "with_raw_text": 815,
+      "with_nodes": 789,
+      "empty_nodes": 33,
+      "assessments": 0,
+      "nodes_total": 1826,
+      "nodes_linked_to_narrator": 1826,
+      "nodes_orphan_narrator_id": 0,
+      "with_transmission_word": 1826,
+      "weak_links_flagged": 0
+    },
+    "scholar": {
+      "total": 112,
+      "with_tradition": 105,
+      "with_death_year_ah": 8,
+      "with_arabic_name": 112,
+      "with_madhhab": 0
+    },
+    "book": {
+      "total": 109,
+      "by_kind": {
+        "collection": 37,
+        "hadith_number_stub": 28,
+        "attribution_string": 44
+      },
+      "with_author": 69,
+      "with_source_url": 8,
+      "with_canonical": 29,
+      "tradition_unclassified": 0
+    },
+    "lookups": {
+      "categories": 8,
+      "hadith_category_links": 1,
+      "grade_lookup": [
+        "sahih",
+        "hasan",
+        "hasan_sahih",
+        "daif",
+        "mawdu",
+        "munkar",
+        "not_graded"
+      ],
+      "hadith_type_lookup": [
+        "marfu",
+        "mawquf",
+        "maqtu",
+        "qudsi"
+      ],
+      "chain_status_lookup": [
+        "muttasil",
+        "mursal",
+        "munqati",
+        "muallaq",
+        "unverified"
+      ],
+      "transmission_scope_lookup": [
+        "mutawatir",
+        "ahad",
+        "unknown"
+      ]
+    },
+    "graph_edges": {
+      "name_aliases": 3,
+      "narrator_relations": 0,
+      "narrator_relations_by_type": {}
+    }
+  },
+  "suspicious_narrator_bio_audit": {
+    "total_with_any_bio_death_or_generation": 923,
+    "with_biography": 923,
+    "with_death_year_ah": 923,
+    "with_generation": 923,
+    "with_biography_source": 0,
+    "with_biography_source_url": 0,
+    "missing_both_bio_provenance_fields": 923,
+    "death_without_source_url": 923,
+    "generation_without_source_url": 923,
+    "name_quality_among_suspicious": {
+      "clean": 0,
+      "fragment": 338,
+      "needs_review": 585,
+      "null": 0
+    },
+    "biography_source_value_counts": {
+      "(null)": 923
+    },
+    "sample_unsourced_bio": [
+      {
+        "id": 129,
+        "name": "Ahmad ibn Muhammad ibn abu Nasr and al-Hassan ibn Ali all",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 136,
+        "name": "‘Abd al-‘A’la’",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 139,
+        "name": "Muhammad ibn Jumhur",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 156,
+        "name": "Abu 'Abdullah",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 376,
+        "name": "Ali ibn Ri’ab",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 480,
+        "name": "Misma’",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 455,
+        "name": "Gabriel",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 805,
+        "name": "Sahl b. Sa`d",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 345,
+        "name": "Al-Hassan ibn Ali",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 822,
+        "name": "Salama b. Khalid",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 41,
+        "name": "Ahmad bin Muhammad bin Sa’eed bin Oqda",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 43,
+        "name": "Issma’eel bin Mihran",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 61,
+        "name": "Ali bin al-Hasan",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 22,
+        "name": "al-Harith bin Mohammed al-Ahwal",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      },
+      {
+        "id": 24,
+        "name": "Abu Sulayman Ahmad bin Hawtha al-Bahili",
+        "death_year_ah": 150,
+        "generation": "Tabi'i",
+        "biography_preview": "Transmitter recorded in early Hadith chains. Verified in classical Rijal registries.",
+        "biography_source": null,
+        "biography_source_url": null,
+        "name_quality": "needs_review"
+      }
+    ],
+    "sample_sourced_bio": [],
+    "verdict": "If biography_source_url is empty for rows with biography/death/generation, treat as UNSOURCED placeholders until a collector attaches provenance. Do not treat identity_status=verified alone as source-backed bio."
+  },
+  "variation_hadith_grouping": {
+    "current_state": {
+      "canonical_hadiths": 5,
+      "variations": 1067,
+      "ratio": 213.4,
+      "per_hadith": [
+        {
+          "hadith_id": 4,
+          "slug": "scraped-inbox-sunnah",
+          "title": "Scraped collection — sunnah",
+          "review_status": "published",
+          "variation_count": 616,
+          "distinct_books": 1,
+          "traditions": [
+            "Sunni"
+          ],
+          "with_arabic": 616,
+          "with_english": 616,
+          "sample_numbers": [
+            "7498",
+            "7074",
+            "7339",
+            "7399",
+            "7141",
+            "7422",
+            "7439",
+            "7438"
+          ]
+        },
+        {
+          "hadith_id": 1,
+          "slug": "first-revelation-at-hira",
+          "title": "The Beginning of Revelation (First Wahi at Cave Hira)",
+          "review_status": "published",
+          "variation_count": 428,
+          "distinct_books": 61,
+          "traditions": [
+            "Sunni",
+            "Twelver Shia"
+          ],
+          "with_arabic": 427,
+          "with_english": 428,
+          "sample_numbers": [
+            "66303",
+            "3447",
+            "10417",
+            "10842",
+            "10841",
+            "4234",
+            "10840",
+            "66304"
+          ]
+        },
+        {
+          "hadith_id": 2,
+          "slug": "scraped-inbox-dorar",
+          "title": "Scraped collection — dorar",
+          "review_status": "published",
+          "variation_count": 15,
+          "distinct_books": 11,
+          "traditions": [
+            "Sunni"
+          ],
+          "with_arabic": 15,
+          "with_english": 0,
+          "sample_numbers": [
+            "5191",
+            "1479",
+            "4268",
+            "4/337",
+            "6/373",
+            "3318",
+            "2/825",
+            "25171"
+          ]
+        },
+        {
+          "hadith_id": 3,
+          "slug": "scraped-inbox-hadeethenc",
+          "title": "Scraped collection — hadeethenc",
+          "review_status": "published",
+          "variation_count": 6,
+          "distinct_books": 1,
+          "traditions": [
+            "Sunni"
+          ],
+          "with_arabic": 6,
+          "with_english": 6,
+          "sample_numbers": [
+            "4792",
+            "4563",
+            "4560",
+            "65000",
+            "65001",
+            "65002"
+          ]
+        },
+        {
+          "hadith_id": 5,
+          "slug": "combined-847",
+          "title": "Combined hadith (G001): عارضة الأحوذي #6/373 + صحيح الترمذي #3318",
+          "review_status": "published",
+          "variation_count": 2,
+          "distinct_books": 2,
+          "traditions": [
+            "Sunni"
+          ],
+          "with_arabic": 2,
+          "with_english": 0,
+          "sample_numbers": [
+            "6/373",
+            "3318"
+          ]
+        }
+      ]
+    },
+    "problem": "Nearly all variations (~1067) hang off ~5 canonical hadiths. That collapses distinct matns into topic buckets (e.g. first-wahi), so get_hadith_full cannot mean 'this narration and its true parallels'.",
+    "proposed_model": {
+      "step1_text_fingerprint": "Compute normalized Arabic fingerprint (unaccent, strip honorifics/tashkeel) per variation; cluster near-duplicates as parallel narrations of one matn.",
+      "step2_cross_book_parallels": "Within a fingerprint cluster, keep one canonical_hadith row; link all book occurrences as source_variations of that hadith.",
+      "step3_topic_vs_matn": "Move current topic buckets to categories/hadith_categories (e.g. first-wahi). Do not use hadiths.id as a topic folder.",
+      "step4_manual_review": "Ambiguous clusters (shared only short phrases) go to data/unmatched/hadith-grouping-review.csv — never auto-merge across Shia/Sunni without shared Arabic core.",
+      "migration_hint": "017+: add source_variations.matn_fingerprint + hadiths.grouping_method; backfill fingerprints; create new hadith rows for distinct clusters; re-point variation.hadith_id; preserve old topic via hadith_categories."
+    }
+  },
+  "permission": {
+    "batches": [
+      {
+        "id": 1,
+        "provider": "playwright-scrape:dorar",
+        "permission_status": "needs_permission",
+        "is_superseded": false
+      },
+      {
+        "id": 3,
+        "provider": "playwright-scrape:sunnah",
+        "permission_status": "needs_permission",
+        "is_superseded": false
+      },
+      {
+        "id": 4,
+        "provider": "playwright-scrape:dorar",
+        "permission_status": "needs_permission",
+        "is_superseded": true
+      },
+      {
+        "id": 6,
+        "provider": "playwright-scrape:sunnah",
+        "permission_status": "needs_permission",
+        "is_superseded": true
+      },
+      {
+        "id": 2,
+        "provider": "playwright-scrape:hadeethenc",
+        "permission_status": "allowed_with_conditions",
+        "is_superseded": false
+      },
+      {
+        "id": 5,
+        "provider": "playwright-scrape:hadeethenc",
+        "permission_status": "allowed_with_conditions",
+        "is_superseded": true
+      }
+    ],
+    "needs_permission_batch_ids": [
+      1,
+      3,
+      4,
+      6
+    ],
+    "note": "Variations imported via sunnah/dorar scrapes must stay unpublished until API permission; store raw only."
+  },
+  "source_candidates": {
+    "hadith_text_and_numbering": [
+      {
+        "source": "fawazahmed0/hadith-api",
+        "license": "allow_with_conditions (Unlicense)",
+        "fills": "Sunni editions, numbers, grades in API"
+      },
+      {
+        "source": "thaqalayn-api / thaqalayn.net",
+        "license": "allow_with_conditions (CC BY 4.0)",
+        "fills": "Shia Four Books texts/grades"
+      },
+      {
+        "source": "hadeethenc.com",
+        "license": "allow_with_conditions",
+        "fills": "multi-language translations"
+      },
+      {
+        "source": "sunnah.com API",
+        "license": "needs_permission until API key (HTML scrape forbidden)",
+        "fills": "Sunni text/numbering/grades"
+      },
+      {
+        "source": "dorar.net API",
+        "license": "needs_permission",
+        "fills": "grades + Arabic snippets (cache TTL issue)"
+      }
+    ],
+    "narrator_rijal": [
+      {
+        "source": "Wikidata",
+        "license": "allow (CC0)",
+        "fills": "names, death/birth where P569/P570 exist — human+label+death gate"
+      },
+      {
+        "source": "Sanadset 650K",
+        "license": "allow (CC BY 4.0)",
+        "fills": "missing chains only (exact book+number); NO auto aliases"
+      },
+      {
+        "source": "Hawramani transmitters",
+        "license": "needs_permission",
+        "fills": "bio + jarh snippets"
+      },
+      {
+        "source": "muslimscholars.info",
+        "license": "needs_permission",
+        "fills": "bio, teachers/students, grades"
+      },
+      {
+        "source": "OpenITI rijal texts",
+        "license": "paused (NC until commercial clarified)",
+        "fills": "quoted classical rulings"
+      },
+      {
+        "source": "Shamela / library PDFs (Tahdhib, Najashi, Tusi…)",
+        "license": "per-work check",
+        "fills": "narrator_assessments with book/vol/page"
+      }
+    ],
+    "scholars_imams": [
+      {
+        "source": "Wikidata verified rebuild",
+        "license": "allow",
+        "fills": "23 accepted QIDs; fields from entity only"
+      }
+    ],
+    "books": [
+      {
+        "source": "Wikidata works + verified authors",
+        "license": "allow",
+        "fills": "title/author QID where accepted"
+      },
+      {
+        "source": "thaqalayn / hadith-api info.json",
+        "license": "allow_with_conditions",
+        "fills": "edition metadata"
+      }
+    ],
+    "categories_lookups": [
+      {
+        "source": "curated lookup seeds + classical taxonomies",
+        "license": "project-curated with citation",
+        "fills": "grade/chain/type/scope codes; category tree"
+      }
+    ]
+  },
+  "decisions_needed": [
+    "Approve splitting topic-bucket hadiths into matn-fingerprint clusters (migration 017 proposal).",
+    "Confirm commercial status before any OpenITI use.",
+    "Decide unpublish vs keep-unpublished for Dorar (17) + Sunnah scrape (~623) variations under needs_permission batches.",
+    "Treat unsourced narrator bio/death/generation as NULL-candidates in a later migration, or require source attach first?",
+    "madhhab/tradition on scholars: leave null until Wikidata/source provides, or allow curated seed with provenance?"
+  ],
+  "not_done": [
+    "No migrations written (B/C next).",
+    "No collectors applied.",
+    "No RPC changes.",
+    "No chain_narrators rewrites."
+  ]
+}

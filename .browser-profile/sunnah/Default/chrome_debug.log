@@ -1,0 +1,33 @@
+[1019/195336.806:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1019/195336.827:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Access is denied. (0x5)
+[1019/195336.827:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Access is denied. (0x5)
+[1019/195336.828:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Access is denied. (0x5)
+[1019/195336.828:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1019/195336.828:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[1019/195336.829:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1019/195336.829:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[1019/195336.829:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1019/195336.829:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[1019/195338.799:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata: IO error: C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[1019/195340.822:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata: IO error: C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[1019/195342.848:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata: IO error: C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[1019/195344.878:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata: IO error: C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[1019/195522.852:WARNING:content\browser\btm\btm_database.cc:129] Failed to initialize the BTM SQLite database.
+[1019/195522.858:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Access is denied. (0x5)
+[1019/195522.859:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1019/195522.859:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[1019/195522.859:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Access is denied. (0x5)
+[1019/195522.859:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1019/195522.859:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[1019/195522.859:ERROR:net\disk_cache\cache_util_win.cc:25] Unable to move the cache: Access is denied. (0x5)
+[1019/195522.860:ERROR:net\disk_cache\disk_cache.cc:293] Unable to create cache
+[1019/195522.860:ERROR:gpu\ipc\host\gpu_disk_cache.cc:737] Gpu Cache Creation failed: -2
+[1019/195524.877:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata: IO error: C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[1019/195526.901:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata: IO error: C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[1019/195528.906:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata: IO error: C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[1019/195530.923:WARNING:components\leveldb_proto\internal\leveldb_database.cc:102] Unable to open C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata: IO error: C:\Users\Mirza Ahmad\Desktop\hadith-collection\.browser-profile\sunnah\Default\shared_proto_db\metadata/LOCK: Access denied. (ChromeMethodBFE: 15::LockFile::5)
+[1019/225618.201:WARNING:net\dns\dns_config_service_win.cc:607] Failed to read DnsConfig.
+[1019/225618.381:WARNING:net\dns\dns_config_service_win.cc:607] Failed to read DnsConfig.
+[1019/225618.402:WARNING:net\dns\dns_config_service_win.cc:607] Failed to read DnsConfig.
+[1020/123527.578:ERROR:content\browser\gpu\gpu_process_host.cc:1044] GPU process exited unexpectedly: exit_code=1
+[1020/123527.579:WARNING:content\browser\gpu\gpu_process_host.cc:1503] The GPU process has crashed 1 time(s)

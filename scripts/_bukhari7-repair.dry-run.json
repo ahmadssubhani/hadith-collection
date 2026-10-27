@@ -1,0 +1,911 @@
+{
+  "summary": {
+    "mode": "apply",
+    "variations": 7,
+    "totalChains": 9,
+    "totalNodes": 43,
+    "distinctIdentities": 30,
+    "toCreateNew": 39,
+    "unresolved": 4,
+    "legacyLinks": 0
+  },
+  "distinctIdentities": {
+    "person:alhmydy-abd-allh-bn-alzbyr": {
+      "slug": "alhmydy-abd-allh-bn-alzbyr",
+      "display_name": "الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ",
+      "raw_names": [
+        "الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ"
+      ],
+      "node_count": 1
+    },
+    "person:sfyan": {
+      "slug": "sfyan",
+      "display_name": "سُفْيَانُ",
+      "raw_names": [
+        "سُفْيَانُ"
+      ],
+      "node_count": 1
+    },
+    "person:yhyy-bn-sayd-alansary": {
+      "slug": "yhyy-bn-sayd-alansary",
+      "display_name": "يَحْيَى بْنُ سَعِيدٍ الْأَنْصَارِيُّ",
+      "raw_names": [
+        "يَحْيَى بْنُ سَعِيدٍ الْأَنْصَارِيُّ"
+      ],
+      "node_count": 1
+    },
+    "person:mhmd-bn-abrahym-altymy": {
+      "slug": "mhmd-bn-abrahym-altymy",
+      "display_name": "مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِي",
+      "raw_names": [
+        "مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِي"
+      ],
+      "node_count": 1
+    },
+    "person:alqmh-bn-wqas-allythy": {
+      "slug": "alqmh-bn-wqas-allythy",
+      "display_name": "عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ",
+      "raw_names": [
+        "عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ"
+      ],
+      "node_count": 1
+    },
+    "person:amr-bn-alkhtab": {
+      "slug": "amr-bn-alkhtab",
+      "display_name": "عُمَرَ بْنَ الْخَطَّابِ",
+      "raw_names": [
+        "عُمَرَ بْنَ الْخَطَّابِ"
+      ],
+      "node_count": 1
+    },
+    "person:abd-allh-bn-ywsf": {
+      "slug": "abd-allh-bn-ywsf",
+      "display_name": "عَبْدُ اللَّهِ بْنُ يُوسُفَ",
+      "raw_names": [
+        "عَبْدُ اللَّهِ بْنُ يُوسُفَ"
+      ],
+      "node_count": 1
+    },
+    "person:malk": {
+      "slug": "malk",
+      "display_name": "مَالِك",
+      "raw_names": [
+        "مَالِك"
+      ],
+      "node_count": 1
+    },
+    "person:hsham-bn-arwh": {
+      "slug": "hsham-bn-arwh",
+      "display_name": "هِشَامِ بْنِ عُرْوَة",
+      "raw_names": [
+        "هِشَامِ بْنِ عُرْوَة"
+      ],
+      "node_count": 1
+    },
+    "aisha-umm-al-muminin": {
+      "slug": "aisha-umm-al-muminin",
+      "display_name": "عَائِشَةَ أُمِّ الْمُؤْمِنِينَ",
+      "raw_names": [
+        "عَائِشَةَ أُمِّ الْمُؤْمِنِينَ"
+      ],
+      "node_count": 2
+    },
+    "person:yhyy-bn-bkyr": {
+      "slug": "yhyy-bn-bkyr",
+      "display_name": "يَحْيَى بْنُ بُكَيْرٍ",
+      "raw_names": [
+        "يَحْيَى بْنُ بُكَيْرٍ"
+      ],
+      "node_count": 1
+    },
+    "al-layth-ibn-sad": {
+      "slug": "al-layth-ibn-sad",
+      "display_name": "اللَّيْث",
+      "raw_names": [
+        "اللَّيْث"
+      ],
+      "node_count": 1
+    },
+    "uqayl-ibn-khalid": {
+      "slug": "uqayl-ibn-khalid",
+      "display_name": "عُقَيْل",
+      "raw_names": [
+        "عُقَيْل"
+      ],
+      "node_count": 1
+    },
+    "ibn-shihab-al-zuhri": {
+      "slug": "ibn-shihab-al-zuhri",
+      "display_name": "ابْنُ شِهَابٍ",
+      "raw_names": [
+        "ابْنِ شِهَاب",
+        "ابْنُ شِهَابٍ",
+        "الزُّهْرِيِّ"
+      ],
+      "node_count": 6
+    },
+    "urwah-ibn-al-zubayr": {
+      "slug": "urwah-ibn-al-zubayr",
+      "display_name": "عُرْوَةَ بْنِ الزُّبَيْر",
+      "raw_names": [
+        "عُرْوَةَ بْنِ الزُّبَيْر"
+      ],
+      "node_count": 1
+    },
+    "abu-salama-ibn-abd-al-rahman": {
+      "slug": "abu-salama-ibn-abd-al-rahman",
+      "display_name": "أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَن",
+      "raw_names": [
+        "أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَن"
+      ],
+      "node_count": 1
+    },
+    "jabir-ibn-abdullah": {
+      "slug": "jabir-ibn-abdullah",
+      "display_name": "جَابِرَ بْنَ عَبْدِ اللَّهِ الأَنْصَارِيَّ",
+      "raw_names": [
+        "جَابِرَ بْنَ عَبْدِ اللَّهِ الأَنْصَارِيَّ"
+      ],
+      "node_count": 1
+    },
+    "person:mwsy-bn-asmaayl": {
+      "slug": "mwsy-bn-asmaayl",
+      "display_name": "مُوسَى بْنُ إِسْمَاعِيلَ",
+      "raw_names": [
+        "مُوسَى بْنُ إِسْمَاعِيلَ"
+      ],
+      "node_count": 1
+    },
+    "person:abw-awanh": {
+      "slug": "abw-awanh",
+      "display_name": "أَبُو عَوَانَةَ",
+      "raw_names": [
+        "أَبُو عَوَانَةَ"
+      ],
+      "node_count": 1
+    },
+    "person:mwsy-bn-aby-aayshh": {
+      "slug": "mwsy-bn-aby-aayshh",
+      "display_name": "مُوسَى بْنُ أَبِي عَائِشَةَ",
+      "raw_names": [
+        "مُوسَى بْنُ أَبِي عَائِشَةَ"
+      ],
+      "node_count": 1
+    },
+    "person:sayd-bn-jbyr": {
+      "slug": "sayd-bn-jbyr",
+      "display_name": "سَعِيدُ بْنُ جُبَيْر",
+      "raw_names": [
+        "سَعِيدُ بْنُ جُبَيْر"
+      ],
+      "node_count": 1
+    },
+    "abdullah-ibn-abbas": {
+      "slug": "abdullah-ibn-abbas",
+      "display_name": "عَبْدَ اللَّهِ بْنَ عَبَّاسٍ",
+      "raw_names": [
+        "ابْنِ عَبَّاسٍ",
+        "عَبْدَ اللَّهِ بْنَ عَبَّاسٍ"
+      ],
+      "node_count": 2
+    },
+    "person:abdan": {
+      "slug": "abdan",
+      "display_name": "عَبْدَانُ",
+      "raw_names": [
+        "عَبْدَانُ"
+      ],
+      "node_count": 1
+    },
+    "yunus-ibn-yazid": {
+      "slug": "yunus-ibn-yazid",
+      "display_name": "يُونُسُ",
+      "raw_names": [
+        "يُونُس",
+        "يُونُسُ"
+      ],
+      "node_count": 2
+    },
+    "person:bshr-bn-mhmd": {
+      "slug": "bshr-bn-mhmd",
+      "display_name": "بِشْرُ بْنُ مُحَمَّدٍ",
+      "raw_names": [
+        "بِشْرُ بْنُ مُحَمَّدٍ"
+      ],
+      "node_count": 2
+    },
+    "mammar-ibn-rashid": {
+      "slug": "mammar-ibn-rashid",
+      "display_name": "مَعْمَر",
+      "raw_names": [
+        "مَعْمَر"
+      ],
+      "node_count": 1
+    },
+    "person:abw-alyman-alhkm-bn-nafa": {
+      "slug": "abw-alyman-alhkm-bn-nafa",
+      "display_name": "أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ",
+      "raw_names": [
+        "أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ"
+      ],
+      "node_count": 1
+    },
+    "person:shayb": {
+      "slug": "shayb",
+      "display_name": "شُعَيْب",
+      "raw_names": [
+        "شُعَيْب"
+      ],
+      "node_count": 1
+    },
+    "person:abyd-allh-bn-abd-allh-bn-atbh-bn-msawd": {
+      "slug": "abyd-allh-bn-abd-allh-bn-atbh-bn-msawd",
+      "display_name": "عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُود",
+      "raw_names": [
+        "عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُود"
+      ],
+      "node_count": 1
+    },
+    "person:aba-sfyan-bn-hrb": {
+      "slug": "aba-sfyan-bn-hrb",
+      "display_name": "أَبَا سُفْيَانَ بْنَ حَرْبٍ",
+      "raw_names": [
+        "أَبَا سُفْيَانَ بْنَ حَرْبٍ"
+      ],
+      "node_count": 1
+    }
+  },
+  "plans": [
+    {
+      "variation_id": 271,
+      "hadith_number": "1",
+      "source_url": "https://sunnah.com/bukhari:1",
+      "arabic_source": "local_bukhari.json",
+      "arabic_len": 639,
+      "chains": [
+        {
+          "chain_number": 1,
+          "raw_chain_text": "حَدَّثَنَا الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ ، قَالَ : حَدَّثَنَا سُفْيَانُ ، قَالَ : حَدَّثَنَا يَحْيَى بْنُ سَعِيدٍ الْأَنْصَارِيُّ ، قَالَ : أَخْبَرَنِي مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِيُّ ، أَنَّهُ سَمِعَ عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ ، يَقُولُ : سَمِعْتُ عُمَرَ بْنَ الْخَطَّابِ",
+          "nodes": [
+            {
+              "position": 1,
+              "raw_name": "الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ",
+              "transmission_word": "haddathana",
+              "normalized": "الحميدي عبد الله بن الزبير",
+              "identity_key": "person:alhmydy-abd-allh-bn-alzbyr",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "alhmydy-abd-allh-bn-alzbyr",
+              "note": "Would create new unverified narrator alhmydy-abd-allh-bn-alzbyr (no legacy link)"
+            },
+            {
+              "position": 2,
+              "raw_name": "سُفْيَانُ",
+              "transmission_word": "haddathana",
+              "normalized": "سفيان",
+              "identity_key": "person:sfyan",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "sfyan",
+              "note": "Would create new unverified narrator sfyan (no legacy link)"
+            },
+            {
+              "position": 3,
+              "raw_name": "يَحْيَى بْنُ سَعِيدٍ الْأَنْصَارِيُّ",
+              "transmission_word": "haddathana",
+              "normalized": "يحيي بن سعيد الانصاري",
+              "identity_key": "person:yhyy-bn-sayd-alansary",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "yhyy-bn-sayd-alansary",
+              "note": "Would create new unverified narrator yhyy-bn-sayd-alansary (no legacy link)"
+            },
+            {
+              "position": 4,
+              "raw_name": "مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِي",
+              "transmission_word": "akhbarana",
+              "normalized": "محمد بن ابراهيم التيمي",
+              "identity_key": "person:mhmd-bn-abrahym-altymy",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "mhmd-bn-abrahym-altymy",
+              "note": "Would create new unverified narrator mhmd-bn-abrahym-altymy (no legacy link)"
+            },
+            {
+              "position": 5,
+              "raw_name": "عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ",
+              "transmission_word": "sami'tu",
+              "normalized": "علقمه بن وقاص الليثي",
+              "identity_key": "person:alqmh-bn-wqas-allythy",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "alqmh-bn-wqas-allythy",
+              "note": "Would create new unverified narrator alqmh-bn-wqas-allythy (no legacy link)"
+            },
+            {
+              "position": 6,
+              "raw_name": "عُمَرَ بْنَ الْخَطَّابِ",
+              "transmission_word": "sami'tu",
+              "normalized": "عمر بن الخطاب",
+              "identity_key": "person:amr-bn-alkhtab",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "amr-bn-alkhtab",
+              "note": "Would create new unverified narrator amr-bn-alkhtab (no legacy link)"
+            }
+          ],
+          "notes": null,
+          "parallel_group": null
+        }
+      ],
+      "existing_chain_ids": [
+        182
+      ],
+      "continuation_of_variation_id": null,
+      "continuation_of_hadith_number": null
+    },
+    {
+      "variation_id": 273,
+      "hadith_number": "2",
+      "source_url": "https://sunnah.com/bukhari:2",
+      "arabic_source": "local_bukhari.json",
+      "arabic_len": 752,
+      "chains": [
+        {
+          "chain_number": 1,
+          "raw_chain_text": "حَدَّثَنَا عَبْدُ اللَّهِ بْنُ يُوسُفَ، قَالَ أَخْبَرَنَا مَالِكٌ، عَنْ هِشَامِ بْنِ عُرْوَةَ، عَنْ أَبِيهِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ",
+          "nodes": [
+            {
+              "position": 1,
+              "raw_name": "عَبْدُ اللَّهِ بْنُ يُوسُفَ",
+              "transmission_word": "haddathana",
+              "normalized": "عبد الله بن يوسف",
+              "identity_key": "person:abd-allh-bn-ywsf",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "abd-allh-bn-ywsf",
+              "note": "Would create new unverified narrator abd-allh-bn-ywsf (no legacy link)"
+            },
+            {
+              "position": 2,
+              "raw_name": "مَالِك",
+              "transmission_word": "akhbarana",
+              "normalized": "مالك",
+              "identity_key": "person:malk",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "malk",
+              "note": "Would create new unverified narrator malk (no legacy link)"
+            },
+            {
+              "position": 3,
+              "raw_name": "هِشَامِ بْنِ عُرْوَة",
+              "transmission_word": "an",
+              "normalized": "هشام بن عروه",
+              "identity_key": "person:hsham-bn-arwh",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "hsham-bn-arwh",
+              "note": "Would create new unverified narrator hsham-bn-arwh (no legacy link)"
+            },
+            {
+              "position": 4,
+              "raw_name": "أَبِيه",
+              "transmission_word": "an",
+              "normalized": "ابيه",
+              "identity_key": null,
+              "match": "unresolved",
+              "narrator_id": null,
+              "narrator_slug": null,
+              "note": "Unresolved bare/relational name — left without narrator_id (no guessing)"
+            },
+            {
+              "position": 5,
+              "raw_name": "عَائِشَةَ أُمِّ الْمُؤْمِنِينَ",
+              "transmission_word": "an",
+              "normalized": "عائشه ام المؤمنين",
+              "identity_key": "aisha-umm-al-muminin",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "aisha-umm-al-muminin",
+              "note": "Canonical identity aisha-umm-al-muminin (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            }
+          ],
+          "notes": null,
+          "parallel_group": null
+        }
+      ],
+      "existing_chain_ids": [
+        183
+      ],
+      "continuation_of_variation_id": null,
+      "continuation_of_hadith_number": null
+    },
+    {
+      "variation_id": 275,
+      "hadith_number": "3",
+      "source_url": "https://sunnah.com/bukhari:3",
+      "arabic_source": "local_bukhari.json",
+      "arabic_len": 2689,
+      "chains": [
+        {
+          "chain_number": 1,
+          "raw_chain_text": "حَدَّثَنَا يَحْيَى بْنُ بُكَيْرٍ، قَالَ حَدَّثَنَا اللَّيْثُ، عَنْ عُقَيْلٍ، عَنِ ابْنِ شِهَابٍ، عَنْ عُرْوَةَ بْنِ الزُّبَيْرِ، عَنْ عَائِشَةَ أُمِّ الْمُؤْمِنِينَ،",
+          "nodes": [
+            {
+              "position": 1,
+              "raw_name": "يَحْيَى بْنُ بُكَيْرٍ",
+              "transmission_word": "haddathana",
+              "normalized": "يحيي بن بكير",
+              "identity_key": "person:yhyy-bn-bkyr",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "yhyy-bn-bkyr",
+              "note": "Would create new unverified narrator yhyy-bn-bkyr (no legacy link)"
+            },
+            {
+              "position": 2,
+              "raw_name": "اللَّيْث",
+              "transmission_word": "haddathana",
+              "normalized": "الليث",
+              "identity_key": "al-layth-ibn-sad",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "al-layth-ibn-sad",
+              "note": "Canonical identity al-layth-ibn-sad (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            },
+            {
+              "position": 3,
+              "raw_name": "عُقَيْل",
+              "transmission_word": "an",
+              "normalized": "عقيل",
+              "identity_key": "uqayl-ibn-khalid",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "uqayl-ibn-khalid",
+              "note": "Canonical identity uqayl-ibn-khalid (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            },
+            {
+              "position": 4,
+              "raw_name": "ابْنِ شِهَاب",
+              "transmission_word": "an",
+              "normalized": "ابن شهاب",
+              "identity_key": "ibn-shihab-al-zuhri",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "ibn-shihab-al-zuhri",
+              "note": "Canonical identity ibn-shihab-al-zuhri (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            },
+            {
+              "position": 5,
+              "raw_name": "عُرْوَةَ بْنِ الزُّبَيْر",
+              "transmission_word": "an",
+              "normalized": "عروه بن الزبير",
+              "identity_key": "urwah-ibn-al-zubayr",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "urwah-ibn-al-zubayr",
+              "note": "Canonical identity urwah-ibn-al-zubayr (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            },
+            {
+              "position": 6,
+              "raw_name": "عَائِشَةَ أُمِّ الْمُؤْمِنِينَ",
+              "transmission_word": "an",
+              "normalized": "عائشه ام المؤمنين",
+              "identity_key": "aisha-umm-al-muminin",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "aisha-umm-al-muminin",
+              "note": "Canonical identity aisha-umm-al-muminin (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            }
+          ],
+          "notes": null,
+          "parallel_group": null
+        }
+      ],
+      "existing_chain_ids": [
+        184
+      ],
+      "continuation_of_variation_id": null,
+      "continuation_of_hadith_number": null
+    },
+    {
+      "variation_id": 276,
+      "hadith_number": "4",
+      "source_url": "https://sunnah.com/bukhari:4",
+      "arabic_source": "local_bukhari.json",
+      "arabic_len": 758,
+      "chains": [
+        {
+          "chain_number": 1,
+          "raw_chain_text": "قَالَ ابْنُ شِهَابٍ وَأَخْبَرَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، أَنَّ جَابِرَ بْنَ عَبْدِ اللَّهِ الأَنْصَارِيَّ، قَالَ",
+          "nodes": [
+            {
+              "position": 1,
+              "raw_name": "ابْنُ شِهَابٍ",
+              "transmission_word": "qala",
+              "normalized": "ابن شهاب",
+              "identity_key": "ibn-shihab-al-zuhri",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "ibn-shihab-al-zuhri",
+              "note": "Canonical identity ibn-shihab-al-zuhri (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            },
+            {
+              "position": 2,
+              "raw_name": "أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَن",
+              "transmission_word": "akhbarana",
+              "normalized": "ابو سلمه بن عبد الرحمن",
+              "identity_key": "abu-salama-ibn-abd-al-rahman",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "abu-salama-ibn-abd-al-rahman",
+              "note": "Canonical identity abu-salama-ibn-abd-al-rahman (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            },
+            {
+              "position": 3,
+              "raw_name": "جَابِرَ بْنَ عَبْدِ اللَّهِ الأَنْصَارِيَّ",
+              "transmission_word": "anna",
+              "normalized": "جابر بن عبد الله الانصاري",
+              "identity_key": "jabir-ibn-abdullah",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "jabir-ibn-abdullah",
+              "note": "Canonical identity jabir-ibn-abdullah (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            }
+          ],
+          "notes": "Continuation of Bukhari 3 (variation 275): resumes from ابن شهاب / الزهري path",
+          "parallel_group": null
+        }
+      ],
+      "existing_chain_ids": [
+        185
+      ],
+      "continuation_of_variation_id": 275,
+      "continuation_of_hadith_number": "3"
+    },
+    {
+      "variation_id": 279,
+      "hadith_number": "5",
+      "source_url": "https://sunnah.com/bukhari:5",
+      "arabic_source": "local_bukhari.json",
+      "arabic_len": 1099,
+      "chains": [
+        {
+          "chain_number": 1,
+          "raw_chain_text": "حَدَّثَنَا مُوسَى بْنُ إِسْمَاعِيلَ، قَالَ حَدَّثَنَا أَبُو عَوَانَةَ، قَالَ حَدَّثَنَا مُوسَى بْنُ أَبِي عَائِشَةَ، قَالَ حَدَّثَنَا سَعِيدُ بْنُ جُبَيْرٍ، عَنِ ابْنِ عَبَّاسٍ،",
+          "nodes": [
+            {
+              "position": 1,
+              "raw_name": "مُوسَى بْنُ إِسْمَاعِيلَ",
+              "transmission_word": "haddathana",
+              "normalized": "موسي بن اسماعيل",
+              "identity_key": "person:mwsy-bn-asmaayl",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "mwsy-bn-asmaayl",
+              "note": "Would create new unverified narrator mwsy-bn-asmaayl (no legacy link)"
+            },
+            {
+              "position": 2,
+              "raw_name": "أَبُو عَوَانَةَ",
+              "transmission_word": "haddathana",
+              "normalized": "ابو عوانه",
+              "identity_key": "person:abw-awanh",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "abw-awanh",
+              "note": "Would create new unverified narrator abw-awanh (no legacy link)"
+            },
+            {
+              "position": 3,
+              "raw_name": "مُوسَى بْنُ أَبِي عَائِشَةَ",
+              "transmission_word": "haddathana",
+              "normalized": "موسي بن ابي عائشه",
+              "identity_key": "person:mwsy-bn-aby-aayshh",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "mwsy-bn-aby-aayshh",
+              "note": "Would create new unverified narrator mwsy-bn-aby-aayshh (no legacy link)"
+            },
+            {
+              "position": 4,
+              "raw_name": "سَعِيدُ بْنُ جُبَيْر",
+              "transmission_word": "haddathana",
+              "normalized": "سعيد بن جبير",
+              "identity_key": "person:sayd-bn-jbyr",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "sayd-bn-jbyr",
+              "note": "Would create new unverified narrator sayd-bn-jbyr (no legacy link)"
+            },
+            {
+              "position": 5,
+              "raw_name": "ابْنِ عَبَّاسٍ",
+              "transmission_word": "an",
+              "normalized": "ابن عباس",
+              "identity_key": "abdullah-ibn-abbas",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "abdullah-ibn-abbas",
+              "note": "Canonical identity abdullah-ibn-abbas (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            }
+          ],
+          "notes": null,
+          "parallel_group": null
+        }
+      ],
+      "existing_chain_ids": [
+        186
+      ],
+      "continuation_of_variation_id": null,
+      "continuation_of_hadith_number": null
+    },
+    {
+      "variation_id": 280,
+      "hadith_number": "6",
+      "source_url": "https://sunnah.com/bukhari:6",
+      "arabic_source": "local_bukhari.json",
+      "arabic_len": 622,
+      "chains": [
+        {
+          "chain_number": 1,
+          "raw_chain_text": "حَدَّثَنَا عَبْدَانُ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ، قَالَ أَخْبَرَنَا يُونُسُ، عَنِ الزُّهْرِيِّ،",
+          "nodes": [
+            {
+              "position": 1,
+              "raw_name": "عَبْدَانُ",
+              "transmission_word": "haddathana",
+              "normalized": "عبدان",
+              "identity_key": "person:abdan",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "abdan",
+              "note": "Would create new unverified narrator abdan (no legacy link)"
+            },
+            {
+              "position": 2,
+              "raw_name": "عَبْدُ اللَّهِ",
+              "transmission_word": "akhbarana",
+              "normalized": "عبد الله",
+              "identity_key": null,
+              "match": "unresolved",
+              "narrator_id": null,
+              "narrator_slug": null,
+              "note": "Unresolved bare/relational name — left without narrator_id (no guessing)"
+            },
+            {
+              "position": 3,
+              "raw_name": "يُونُس",
+              "transmission_word": "akhbarana",
+              "normalized": "يونس",
+              "identity_key": "yunus-ibn-yazid",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "yunus-ibn-yazid",
+              "note": "Canonical identity yunus-ibn-yazid (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            },
+            {
+              "position": 4,
+              "raw_name": "الزُّهْرِيِّ",
+              "transmission_word": "an",
+              "normalized": "الزهري",
+              "identity_key": "ibn-shihab-al-zuhri",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "ibn-shihab-al-zuhri",
+              "note": "Canonical identity ibn-shihab-al-zuhri (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            }
+          ],
+          "notes": null,
+          "parallel_group": null
+        },
+        {
+          "chain_number": 2,
+          "raw_chain_text": "وَحَدَّثَنَا بِشْرُ بْنُ مُحَمَّدٍ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ، قَالَ أَخْبَرَنَا يُونُسُ، وَمَعْمَرٌ، عَنِ الزُّهْرِيِّ،",
+          "nodes": [
+            {
+              "position": 1,
+              "raw_name": "بِشْرُ بْنُ مُحَمَّدٍ",
+              "transmission_word": "haddathana",
+              "normalized": "بشر بن محمد",
+              "identity_key": "person:bshr-bn-mhmd",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "bshr-bn-mhmd",
+              "note": "Would create new unverified narrator bshr-bn-mhmd (no legacy link)"
+            },
+            {
+              "position": 2,
+              "raw_name": "عَبْدُ اللَّهِ",
+              "transmission_word": "akhbarana",
+              "normalized": "عبد الله",
+              "identity_key": null,
+              "match": "unresolved",
+              "narrator_id": null,
+              "narrator_slug": null,
+              "note": "Unresolved bare/relational name — left without narrator_id (no guessing)"
+            },
+            {
+              "position": 3,
+              "raw_name": "يُونُسُ",
+              "transmission_word": "akhbarana",
+              "normalized": "يونس",
+              "identity_key": "yunus-ibn-yazid",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "yunus-ibn-yazid",
+              "note": "Canonical identity yunus-ibn-yazid (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)",
+              "parallel_with": [
+                "مَعْمَر"
+              ]
+            },
+            {
+              "position": 4,
+              "raw_name": "الزُّهْرِيِّ",
+              "transmission_word": "an",
+              "normalized": "الزهري",
+              "identity_key": "ibn-shihab-al-zuhri",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "ibn-shihab-al-zuhri",
+              "note": "Canonical identity ibn-shihab-al-zuhri (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            }
+          ],
+          "notes": "Parallel branch 1/2 via يُونُسُ; peers share transmission from the following source (e.g. الزهري)",
+          "parallel_group": "parallel-2"
+        },
+        {
+          "chain_number": 3,
+          "raw_chain_text": "وَحَدَّثَنَا بِشْرُ بْنُ مُحَمَّدٍ، قَالَ أَخْبَرَنَا عَبْدُ اللَّهِ، قَالَ أَخْبَرَنَا يُونُسُ، وَمَعْمَرٌ، عَنِ الزُّهْرِيِّ،",
+          "nodes": [
+            {
+              "position": 1,
+              "raw_name": "بِشْرُ بْنُ مُحَمَّدٍ",
+              "transmission_word": "haddathana",
+              "normalized": "بشر بن محمد",
+              "identity_key": "person:bshr-bn-mhmd",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "bshr-bn-mhmd",
+              "note": "Would create new unverified narrator bshr-bn-mhmd (no legacy link)"
+            },
+            {
+              "position": 2,
+              "raw_name": "عَبْدُ اللَّهِ",
+              "transmission_word": "akhbarana",
+              "normalized": "عبد الله",
+              "identity_key": null,
+              "match": "unresolved",
+              "narrator_id": null,
+              "narrator_slug": null,
+              "note": "Unresolved bare/relational name — left without narrator_id (no guessing)"
+            },
+            {
+              "position": 3,
+              "raw_name": "مَعْمَر",
+              "transmission_word": "akhbarana",
+              "normalized": "معمر",
+              "identity_key": "mammar-ibn-rashid",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "mammar-ibn-rashid",
+              "note": "Canonical identity mammar-ibn-rashid (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)",
+              "parallel_with": [
+                "يُونُسُ"
+              ]
+            },
+            {
+              "position": 4,
+              "raw_name": "الزُّهْرِيِّ",
+              "transmission_word": "an",
+              "normalized": "الزهري",
+              "identity_key": "ibn-shihab-al-zuhri",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "ibn-shihab-al-zuhri",
+              "note": "Canonical identity ibn-shihab-al-zuhri (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            }
+          ],
+          "notes": "Parallel branch 2/2 via مَعْمَر; peers share transmission from the following source (e.g. الزهري)",
+          "parallel_group": "parallel-2"
+        }
+      ],
+      "existing_chain_ids": [
+        187,
+        188,
+        189
+      ],
+      "continuation_of_variation_id": null,
+      "continuation_of_hadith_number": null
+    },
+    {
+      "variation_id": 282,
+      "hadith_number": "7",
+      "source_url": "https://sunnah.com/bukhari:7",
+      "arabic_source": "local_bukhari.json",
+      "arabic_len": 7003,
+      "chains": [
+        {
+          "chain_number": 1,
+          "raw_chain_text": "حَدَّثَنَا أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ، قَالَ أَخْبَرَنَا شُعَيْبٌ، عَنِ الزُّهْرِيِّ، قَالَ أَخْبَرَنِي عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُودٍ، أَنَّ عَبْدَ اللَّهِ بْنَ عَبَّاسٍ، أَخْبَرَهُ أَنَّ أَبَا سُفْيَانَ بْنَ حَرْبٍ أَخْبَرَهُ",
+          "nodes": [
+            {
+              "position": 1,
+              "raw_name": "أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ",
+              "transmission_word": "haddathana",
+              "normalized": "ابو اليمان الحكم بن نافع",
+              "identity_key": "person:abw-alyman-alhkm-bn-nafa",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "abw-alyman-alhkm-bn-nafa",
+              "note": "Would create new unverified narrator abw-alyman-alhkm-bn-nafa (no legacy link)"
+            },
+            {
+              "position": 2,
+              "raw_name": "شُعَيْب",
+              "transmission_word": "akhbarana",
+              "normalized": "شعيب",
+              "identity_key": "person:shayb",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "shayb",
+              "note": "Would create new unverified narrator shayb (no legacy link)"
+            },
+            {
+              "position": 3,
+              "raw_name": "الزُّهْرِيِّ",
+              "transmission_word": "an",
+              "normalized": "الزهري",
+              "identity_key": "ibn-shihab-al-zuhri",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "ibn-shihab-al-zuhri",
+              "note": "Canonical identity ibn-shihab-al-zuhri (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            },
+            {
+              "position": 4,
+              "raw_name": "عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُود",
+              "transmission_word": "akhbarana",
+              "normalized": "عبيد الله بن عبد الله بن عتبه بن مسعود",
+              "identity_key": "person:abyd-allh-bn-abd-allh-bn-atbh-bn-msawd",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "abyd-allh-bn-abd-allh-bn-atbh-bn-msawd",
+              "note": "Would create new unverified narrator abyd-allh-bn-abd-allh-bn-atbh-bn-msawd (no legacy link)"
+            },
+            {
+              "position": 5,
+              "raw_name": "عَبْدَ اللَّهِ بْنَ عَبَّاسٍ",
+              "transmission_word": "anna",
+              "normalized": "عبد الله بن عباس",
+              "identity_key": "abdullah-ibn-abbas",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "abdullah-ibn-abbas",
+              "note": "Canonical identity abdullah-ibn-abbas (aliases merged, e.g. ابن شهاب ↔ الزهري) | new unverified row (no legacy link)"
+            },
+            {
+              "position": 6,
+              "raw_name": "أَبَا سُفْيَانَ بْنَ حَرْبٍ",
+              "transmission_word": "anna",
+              "normalized": "ابا سفيان بن حرب",
+              "identity_key": "person:aba-sfyan-bn-hrb",
+              "match": "create",
+              "narrator_id": null,
+              "narrator_slug": "aba-sfyan-bn-hrb",
+              "note": "Would create new unverified narrator aba-sfyan-bn-hrb (no legacy link)"
+            }
+          ],
+          "notes": null,
+          "parallel_group": null
+        }
+      ],
+      "existing_chain_ids": [
+        190
+      ],
+      "continuation_of_variation_id": null,
+      "continuation_of_hadith_number": null
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "provenance": {
+    "source_name": "curated-reference-list",
+    "license": "public-domain-facts",
+    "notes": "Well-known biographical facts only; each entry cites a public encyclopedia URL. Do not treat as scholarly grading."
+  },
+  "scholars": [
+    {
+      "slug": "abu-hanifa",
+      "name": "Abu Hanifa",
+      "arabic_name": "أبو حنيفة النعمان",
+      "kunya": "Abu Hanifa",
+      "laqab": "al-Imam al-A'zam",
+      "tradition": "Sunni",
+      "madhhab": "Hanafi",
+      "birth_year_ah": 80,
+      "death_year_ah": 150,
+      "region": "Kufa",
+      "source_url": "https://www.wikidata.org/wiki/Q171064",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "malik-ibn-anas",
+      "name": "Malik ibn Anas",
+      "arabic_name": "مالك بن أنس",
+      "kunya": "Abu Abd Allah",
+      "tradition": "Sunni",
+      "madhhab": "Maliki",
+      "birth_year_ah": 93,
+      "death_year_ah": 179,
+      "region": "Medina",
+      "source_url": "https://www.wikidata.org/wiki/Q167410",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "al-shafii",
+      "name": "Muhammad ibn Idris al-Shafi'i",
+      "arabic_name": "محمد بن إدريس الشافعي",
+      "kunya": "Abu Abd Allah",
+      "tradition": "Sunni",
+      "madhhab": "Shafi'i",
+      "birth_year_ah": 150,
+      "death_year_ah": 204,
+      "region": "Gaza / Egypt",
+      "source_url": "https://www.wikidata.org/wiki/Q167490",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "ahmad-ibn-hanbal",
+      "name": "Ahmad ibn Hanbal",
+      "arabic_name": "أحمد بن حنبل",
+      "kunya": "Abu Abd Allah",
+      "tradition": "Sunni",
+      "madhhab": "Hanbali",
+      "birth_year_ah": 164,
+      "death_year_ah": 241,
+      "region": "Baghdad",
+      "source_url": "https://www.wikidata.org/wiki/Q167437",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "al-bukhari-compiler",
+      "name": "Muhammad al-Bukhari",
+      "arabic_name": "محمد بن إسماعيل البخاري",
+      "kunya": "Abu Abd Allah",
+      "tradition": "Sunni",
+      "madhhab": null,
+      "birth_year_ah": 194,
+      "death_year_ah": 256,
+      "region": "Bukhara",
+      "source_url": "https://en.wikipedia.org/wiki/Muhammad_al-Bukhari",
+      "source_name": "Wikipedia"
+    },
+    {
+      "slug": "muslim-ibn-al-hajjaj",
+      "name": "Muslim ibn al-Hajjaj",
+      "arabic_name": "مسلم بن الحجاج",
+      "kunya": "Abu al-Husayn",
+      "tradition": "Sunni",
+      "birth_year_ah": 206,
+      "death_year_ah": 261,
+      "region": "Nishapur",
+      "source_url": "https://www.wikidata.org/wiki/Q167433",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "abu-dawud-al-sijistani",
+      "name": "Abu Dawud al-Sijistani",
+      "arabic_name": "أبو داود السجستاني",
+      "tradition": "Sunni",
+      "birth_year_ah": 202,
+      "death_year_ah": 275,
+      "region": "Sijistan / Basra",
+      "source_url": "https://www.wikidata.org/wiki/Q2744965",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "al-tirmidhi-compiler",
+      "name": "Abu Isa al-Tirmidhi",
+      "arabic_name": "أبو عيسى الترمذي",
+      "tradition": "Sunni",
+      "birth_year_ah": 209,
+      "death_year_ah": 279,
+      "region": "Tirmidh",
+      "source_url": "https://www.wikidata.org/wiki/Q294389",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "al-nasai-compiler",
+      "name": "al-Nasa'i",
+      "arabic_name": "أحمد بن شعيب النسائي",
+      "tradition": "Sunni",
+      "birth_year_ah": 215,
+      "death_year_ah": 303,
+      "region": "Nasa / Egypt",
+      "source_url": "https://www.wikidata.org/wiki/Q294392",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "ibn-majah-compiler",
+      "name": "Ibn Majah",
+      "arabic_name": "ابن ماجه",
+      "tradition": "Sunni",
+      "birth_year_ah": 209,
+      "death_year_ah": 273,
+      "region": "Qazvin",
+      "source_url": "https://www.wikidata.org/wiki/Q294390",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "al-kulayni",
+      "name": "Muhammad ibn Ya'qub al-Kulayni",
+      "arabic_name": "محمد بن يعقوب الكليني",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 329,
+      "region": "Rayy / Baghdad",
+      "source_url": "https://www.wikidata.org/wiki/Q1798898",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "al-saduq",
+      "name": "Ibn Babawayh al-Saduq",
+      "arabic_name": "الشيخ الصدوق",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 381,
+      "region": "Qom / Rayy",
+      "source_url": "https://www.wikidata.org/wiki/Q4115430",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "ali-ibn-abi-talib",
+      "name": "Ali ibn Abi Talib",
+      "arabic_name": "علي بن أبي طالب",
+      "kunya": "Abu al-Hasan",
+      "tradition": "Twelver Shia",
+      "laqab": "Amir al-Mu'minin",
+      "death_year_ah": 40,
+      "region": "Kufa",
+      "source_url": "https://www.wikidata.org/wiki/Q39659",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "al-hasan-ibn-ali",
+      "name": "al-Hasan ibn Ali",
+      "arabic_name": "الحسن بن علي",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 50,
+      "source_url": "https://www.wikidata.org/wiki/Q1779969",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "al-husayn-ibn-ali",
+      "name": "al-Husayn ibn Ali",
+      "arabic_name": "الحسين بن علي",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 61,
+      "source_url": "https://www.wikidata.org/wiki/Q1778912",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "ali-zayn-al-abidin",
+      "name": "Ali Zayn al-Abidin",
+      "arabic_name": "علي زين العابدين",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 95,
+      "source_url": "https://www.wikidata.org/wiki/Q185145",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "muhammad-al-baqir",
+      "name": "Muhammad al-Baqir",
+      "arabic_name": "محمد الباقر",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 114,
+      "source_url": "https://www.wikidata.org/wiki/Q185154",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "jafar-al-sadiq",
+      "name": "Ja'far al-Sadiq",
+      "arabic_name": "جعفر الصادق",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 148,
+      "source_url": "https://www.wikidata.org/wiki/Q185164",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "musa-al-kazim",
+      "name": "Musa al-Kazim",
+      "arabic_name": "موسى الكاظم",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 183,
+      "source_url": "https://www.wikidata.org/wiki/Q185171",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "ali-al-rida",
+      "name": "Ali al-Rida",
+      "arabic_name": "علي الرضا",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 203,
+      "source_url": "https://www.wikidata.org/wiki/Q185183",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "muhammad-al-jawad",
+      "name": "Muhammad al-Jawad",
+      "arabic_name": "محمد الجواد",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 220,
+      "source_url": "https://www.wikidata.org/wiki/Q185193",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "ali-al-hadi",
+      "name": "Ali al-Hadi",
+      "arabic_name": "علي الهادي",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 254,
+      "source_url": "https://www.wikidata.org/wiki/Q185204",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "al-hasan-al-askari",
+      "name": "al-Hasan al-Askari",
+      "arabic_name": "الحسن العسكري",
+      "tradition": "Twelver Shia",
+      "death_year_ah": 260,
+      "source_url": "https://www.wikidata.org/wiki/Q185216",
+      "source_name": "Wikidata"
+    },
+    {
+      "slug": "muhammad-al-mahdi",
+      "name": "Muhammad al-Mahdi",
+      "arabic_name": "محمد المهدي",
+      "tradition": "Twelver Shia",
+      "birth_year_ah": 255,
+      "source_url": "https://www.wikidata.org/wiki/Q185227",
+      "source_name": "Wikidata"
+    }
+  ],
+  "null_tradition_candidates": [
+    {
+      "id": 43,
+      "name": "إسحاق بن إبراهيم الفارسي",
+      "proposed_tradition": null,
+      "reason": "ambiguous identity — leave null"
+    },
+    {
+      "id": 44,
+      "name": "زياد بن سعد",
+      "proposed_tradition": null,
+      "reason": "ambiguous — leave null"
+    },
+    {
+      "id": 85,
+      "name": "أسود بن سالم العابد",
+      "proposed_tradition": null,
+      "reason": "ambiguous — leave null"
+    },
+    {
+      "id": 86,
+      "name": "العباس بن مصعب المروزي",
+      "proposed_tradition": null,
+      "reason": "ambiguous — leave null"
+    },
+    {
+      "id": 88,
+      "name": "محمد بن عمر",
+      "proposed_tradition": null,
+      "reason": "ambiguous — leave null"
+    },
+    {
+      "id": 89,
+      "name": "محمد بن حمدويه",
+      "proposed_tradition": null,
+      "reason": "ambiguous — leave null"
+    },
+    {
+      "id": 112,
+      "name": "محمد بن علي الصوري",
+      "proposed_tradition": null,
+      "reason": "ambiguous — leave null"
+    }
+  ]
+}

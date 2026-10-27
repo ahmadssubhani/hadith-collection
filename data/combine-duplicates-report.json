@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-10-15T13:33:43.918Z",
+  "mode": "apply",
+  "inbox_only": false,
+  "variation_count": 1065,
+  "combinable_groups": 1,
+  "review_pair_edges": 36,
+  "groups": [
+    {
+      "group_id": "G001",
+      "confidence": "HIGH",
+      "similarity": 0.8704061895551257,
+      "reason": "arabic_jaccard_high",
+      "keeper_id": 847,
+      "member_ids": [
+        847,
+        848
+      ],
+      "filled_fields": [
+        "status_notes"
+      ],
+      "preserved_sources": [
+        {
+          "variation_id": 847,
+          "book": "عارضة الأحوذي",
+          "hadith_number": "6/373",
+          "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+          "grade": "sahih",
+          "narrator": "عمر بن الخطاب وعائشة | المحدث : ابن العربي | المصدر : عارضة الأحوذي"
+        },
+        {
+          "variation_id": 848,
+          "book": "صحيح الترمذي",
+          "hadith_number": "3318",
+          "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+          "grade": "sahih",
+          "narrator": "عمر بن الخطاب وعائشة رضي الله عنها | المحدث : الألباني | المصدر : صحيح الترمذي"
+        }
+      ],
+      "patch": {
+        "status_notes": "scrape:22f848bc8ecb027ea6411f1da90c6f01cfeb4577 | grade:صحيح مشهور | combined_from:[847,848] | src#847:عارضة الأحوذي #6/373 <https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A> grade=sahih narrator=عمر بن الخطاب وعائشة | المحدث : ابن العربي | المصدر : عارضة الأحوذي | src#848:صحيح الترمذي #3318 <https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A> grade=sahih narrator=عمر بن الخطاب وعائشة رضي الله عنها | المحدث : الألباني | المصدر : صحيح الترمذي | combined_from:[847,848] | src#847:عارضة الأحوذي #6/373 <https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A> grade=sahih narrator=عمر بن الخطاب وعائشة | المحدث : ابن العربي | المصدر : عارضة الأحوذي | src#848:صحيح الترمذي #3318 <https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A> grade=sahih narrator=عمر بن الخطاب وعائشة رضي الله عنها | المحدث : الألباني | المصدر : صحيح الترمذي"
+      },
+      "cluster_slug": "combined-847"
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "generated_at": "2026-10-19T08:40:35.012Z",
+  "scholars": {
+    "accepted": 23,
+    "rejected": 1,
+    "rows": [
+      {
+        "slug": "abu-hanifa",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Abu Hanifa",
+        "search_death_year_ah": 150,
+        "candidate_qids_tried": [
+          "Q190896",
+          "Q293520",
+          "Q109726983",
+          "Q114285308",
+          "Q123898903",
+          "Q12470623",
+          "Q57286317",
+          "Q334716",
+          "Q96181891",
+          "Q61093692",
+          "Q123952309",
+          "Q123960855"
+        ],
+        "qid": "Q190896"
+      },
+      {
+        "slug": "malik-ibn-anas",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Malik ibn Anas",
+        "search_death_year_ah": 179,
+        "candidate_qids_tried": [
+          "Q312299",
+          "Q137846421",
+          "Q137466666",
+          "Q137846188",
+          "Q137467706",
+          "Q137855390",
+          "Q25550176"
+        ],
+        "qid": "Q312299"
+      },
+      {
+        "slug": "al-shafii",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Al-Shafi'i",
+        "search_death_year_ah": 204,
+        "candidate_qids_tried": [
+          "Q294281",
+          "Q1942791",
+          "Q56528854",
+          "Q109236610",
+          "Q20396272",
+          "Q141126967",
+          "Q141127736",
+          "Q131364768",
+          "Q82245",
+          "Q3607421"
+        ],
+        "qid": "Q294281"
+      },
+      {
+        "slug": "ahmad-ibn-hanbal",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Ahmad ibn Hanbal",
+        "search_death_year_ah": 241,
+        "candidate_qids_tried": [
+          "Q194442",
+          "Q22689898",
+          "Q137807675",
+          "Q138062073",
+          "Q137855387",
+          "Q138057751",
+          "Q138064362",
+          "Q138053460",
+          "Q138070741",
+          "Q137855047",
+          "Q138125035",
+          "Q137876935"
+        ],
+        "qid": "Q194442"
+      },
+      {
+        "slug": "al-bukhari-compiler",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Muhammad al-Bukhari",
+        "search_death_year_ah": 256,
+        "candidate_qids_tried": [
+          "Q241026",
+          "Q12820736",
+          "Q20392835",
+          "Q6084896",
+          "Q138206425",
+          "Q137472332",
+          "Q64564718",
+          "Q16118361",
+          "Q138567840",
+          "Q138567842",
+          "Q97014874"
+        ],
+        "qid": "Q241026"
+      },
+      {
+        "slug": "muslim-ibn-al-hajjaj",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Muslim ibn al-Hajjaj",
+        "search_death_year_ah": 261,
+        "candidate_qids_tried": [
+          "Q140124"
+        ],
+        "qid": "Q140124"
+      },
+      {
+        "slug": "abu-dawud-al-sijistani",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Abu Dawud",
+        "search_death_year_ah": 275,
+        "candidate_qids_tried": [
+          "Q336558",
+          "Q334903",
+          "Q4670117",
+          "Q113645299",
+          "Q11903961",
+          "Q22684077",
+          "Q12177973",
+          "Q12177974",
+          "Q12177975",
+          "Q124746506"
+        ],
+        "qid": "Q336558"
+      },
+      {
+        "slug": "al-tirmidhi-compiler",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Al-Tirmidhi",
+        "search_death_year_ah": 279,
+        "candidate_qids_tried": [
+          "Q293578",
+          "Q138065597",
+          "Q138060674",
+          "Q138078104",
+          "Q4458102",
+          "Q12184924",
+          "Q1088315",
+          "Q65281819"
+        ],
+        "qid": "Q293578"
+      },
+      {
+        "slug": "al-nasai-compiler",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Al-Nasa'i",
+        "search_death_year_ah": 303,
+        "candidate_qids_tried": [
+          "Q293535",
+          "Q20407856",
+          "Q135469156",
+          "Q135467132"
+        ],
+        "qid": "Q293535"
+      },
+      {
+        "slug": "ibn-majah-compiler",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Ibn Majah",
+        "search_death_year_ah": 273,
+        "candidate_qids_tried": [
+          "Q381469",
+          "Q141745040"
+        ],
+        "qid": "Q381469"
+      },
+      {
+        "slug": "al-kulayni",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Al-Kulayni",
+        "search_death_year_ah": 329,
+        "candidate_qids_tried": [
+          "Q2973730"
+        ],
+        "qid": "Q2973730"
+      },
+      {
+        "slug": "al-saduq",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Ibn Babawayh",
+        "search_death_year_ah": 381,
+        "candidate_qids_tried": [
+          "Q2743660",
+          "Q10283163",
+          "Q20110140",
+          "Q12189188"
+        ],
+        "qid": "Q2743660"
+      },
+      {
+        "slug": "ali-ibn-abi-talib",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Ali ibn Abi Talib",
+        "search_death_year_ah": 40,
+        "candidate_qids_tried": [
+          "Q39619",
+          "Q138170512",
+          "Q137286730",
+          "Q138075815",
+          "Q137286952",
+          "Q137807282",
+          "Q138178757",
+          "Q138077306",
+          "Q136797220",
+          "Q138209704",
+          "Q141744514",
+          "Q123963020"
+        ],
+        "qid": "Q39619"
+      },
+      {
+        "slug": "al-hasan-ibn-ali",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Hasan ibn Ali",
+        "search_death_year_ah": 50,
+        "candidate_qids_tried": [
+          "Q182914",
+          "Q113359077",
+          "Q136468280",
+          "Q138006076",
+          "Q122946985",
+          "Q131386118",
+          "Q134705514",
+          "Q137110567",
+          "Q367767",
+          "Q298427",
+          "Q315920",
+          "Q123960812"
+        ],
+        "qid": "Q182914"
+      },
+      {
+        "slug": "al-husayn-ibn-ali",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Husayn ibn Ali",
+        "search_death_year_ah": 61,
+        "candidate_qids_tried": [
+          "Q112128",
+          "Q1639067",
+          "Q22687525",
+          "Q97013578",
+          "Q99849918",
+          "Q128906",
+          "Q137845342",
+          "Q116973752",
+          "Q129076886",
+          "Q130374992",
+          "Q21087469",
+          "Q11903945"
+        ],
+        "qid": "Q112128"
+      },
+      {
+        "slug": "ali-zayn-al-abidin",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Ali ibn Husayn Zayn al-Abidin",
+        "search_death_year_ah": 95,
+        "candidate_qids_tried": [
+          "Q314978",
+          "Q64681569",
+          "Q138168408",
+          "Q4120565",
+          "Q638863",
+          "Q12228097",
+          "Q23049639",
+          "Q19518612"
+        ],
+        "qid": "Q314978"
+      },
+      {
+        "slug": "muhammad-al-baqir",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Muhammad al-Baqir",
+        "search_death_year_ah": 114,
+        "candidate_qids_tried": [
+          "Q311153",
+          "Q125160691",
+          "Q125160472",
+          "Q69416534",
+          "Q119824261",
+          "Q141745212"
+        ],
+        "qid": "Q311153"
+      },
+      {
+        "slug": "jafar-al-sadiq",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Ja'far al-Sadiq",
+        "search_death_year_ah": 148,
+        "candidate_qids_tried": [
+          "Q170046",
+          "Q15429929"
+        ],
+        "qid": "Q170046"
+      },
+      {
+        "slug": "musa-al-kazim",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Musa al-Kadhim",
+        "search_death_year_ah": 183,
+        "candidate_qids_tried": [
+          "Q315031",
+          "Q3326203"
+        ],
+        "qid": "Q315031"
+      },
+      {
+        "slug": "ali-al-rida",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Ali al-Ridha",
+        "search_death_year_ah": 203,
+        "candidate_qids_tried": [
+          "Q25105",
+          "Q136074941",
+          "Q124053290",
+          "Q124329629"
+        ],
+        "qid": "Q25105"
+      },
+      {
+        "slug": "muhammad-al-jawad",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Muhammad al-Jawad",
+        "search_death_year_ah": 220,
+        "candidate_qids_tried": [
+          "Q25088",
+          "Q56677101",
+          "Q12239664",
+          "Q20422543"
+        ],
+        "qid": "Q25088"
+      },
+      {
+        "slug": "ali-al-hadi",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Ali al-Hadi",
+        "search_death_year_ah": 254,
+        "candidate_qids_tried": [
+          "Q315377",
+          "Q25830844",
+          "Q141736175",
+          "Q20470776"
+        ],
+        "qid": "Q315377"
+      },
+      {
+        "slug": "al-hasan-al-askari",
+        "status": "accepted",
+        "reason": "human_exact_or_near_label_and_death_year",
+        "search_name": "Hasan al-Askari",
+        "search_death_year_ah": 260,
+        "candidate_qids_tried": [
+          "Q315920"
+        ],
+        "qid": "Q315920"
+      },
+      {
+        "slug": "muhammad-al-mahdi",
+        "status": "rejected",
+        "reason": "no_death_year_constraint_cannot_verify",
+        "search_name": "Muhammad al-Mahdi",
+        "search_death_year_ah": null,
+        "candidate_qids_tried": [],
+        "qid": null
+      }
+    ]
+  },
+  "books": {
+    "accepted": 10,
+    "partial": 4,
+    "rejected": 0,
+    "rows": [
+      {
+        "search_title": "Sahih al-Bukhari",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q241026",
+        "candidate_qids_tried": [
+          "Q1023470",
+          "Q126113566",
+          "Q16932869",
+          "Q96404793",
+          "Q124370879",
+          "Q124381788",
+          "Q112774862",
+          "Q112771097"
+        ],
+        "qid": "Q1023470",
+        "author_qid": "Q241026"
+      },
+      {
+        "search_title": "Sahih Muslim",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q140124",
+        "candidate_qids_tried": [
+          "Q886659",
+          "Q140124",
+          "Q123415095",
+          "Q116878092"
+        ],
+        "qid": "Q886659",
+        "author_qid": "Q140124"
+      },
+      {
+        "search_title": "Sunan Abu Dawud",
+        "status": "partial",
+        "reason": "author_only:accepted; book_title_not_found",
+        "candidate_qids_tried": [
+          "Q947278"
+        ],
+        "qid": null,
+        "author_qid": "Q336558"
+      },
+      {
+        "search_title": "Sunan Ibn Majah",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q381469",
+        "candidate_qids_tried": [
+          "Q1187931",
+          "Q124957223",
+          "Q116878288"
+        ],
+        "qid": "Q1187931",
+        "author_qid": "Q381469"
+      },
+      {
+        "search_title": "Al-Sunan al-Sughra",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q293535",
+        "candidate_qids_tried": [
+          "Q2175237"
+        ],
+        "qid": "Q2175237",
+        "author_qid": "Q293535"
+      },
+      {
+        "search_title": "Musnad Ahmad ibn Hanbal",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q194442",
+        "candidate_qids_tried": [
+          "Q1087557"
+        ],
+        "qid": "Q1087557",
+        "author_qid": "Q194442"
+      },
+      {
+        "search_title": "Sunan al-Darimi",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q3012690",
+        "candidate_qids_tried": [
+          "Q7638821"
+        ],
+        "qid": "Q7638821",
+        "author_qid": "Q3012690"
+      },
+      {
+        "search_title": "Jami' al-Tirmidhi",
+        "status": "partial",
+        "reason": "author_only:accepted; book_title_not_found",
+        "candidate_qids_tried": [],
+        "qid": null,
+        "author_qid": "Q293578"
+      },
+      {
+        "search_title": "Kitab al-Kafi",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q2973730",
+        "candidate_qids_tried": [
+          "Q2632318",
+          "Q62052814"
+        ],
+        "qid": "Q2632318",
+        "author_qid": "Q2973730"
+      },
+      {
+        "search_title": "Man La Yahduruhu al-Faqih",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q2743660",
+        "candidate_qids_tried": [
+          "Q4116066"
+        ],
+        "qid": "Q4116066",
+        "author_qid": "Q2743660"
+      },
+      {
+        "search_title": "Nahj al-Balagha",
+        "status": "partial",
+        "reason": "book_verified_author_failed:author_not_verified",
+        "candidate_qids_tried": [
+          "Q2119296"
+        ],
+        "qid": "Q2119296",
+        "author_qid": null
+      },
+      {
+        "search_title": "Al-Sunan al-Kubra",
+        "status": "partial",
+        "reason": "author_only:accepted; book_title_not_found",
+        "candidate_qids_tried": [],
+        "qid": null,
+        "author_qid": "Q293535"
+      },
+      {
+        "search_title": "Sahih Ibn Khuzaymah",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q3814358",
+        "candidate_qids_tried": [
+          "Q4120116",
+          "Q116878268"
+        ],
+        "qid": "Q4120116",
+        "author_qid": "Q3814358"
+      },
+      {
+        "search_title": "Sunan al-Daraqutni",
+        "status": "accepted",
+        "reason": "book_and_author_verified; p50=Q3607438",
+        "candidate_qids_tried": [
+          "Q12217063"
+        ],
+        "qid": "Q12217063",
+        "author_qid": "Q3607438"
+      }
+    ]
+  }
+}

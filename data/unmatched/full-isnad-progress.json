@@ -1,0 +1,717 @@
+{
+  "scrapedHadith": {
+    "849:5191": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "228:4234": {
+      "links": 7,
+      "branches": 1,
+      "ok": true
+    },
+    "1351:7135": {
+      "links": 12,
+      "branches": 2,
+      "ok": true
+    },
+    "566:8889": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "1178:7238": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "238:3445": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "557:10994": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "239:58132": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "577:3128": {
+      "links": 4,
+      "branches": 1,
+      "ok": true
+    },
+    "244:58197": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_NETWORK_IO_SUSPENDED at https://sunnah.com/bukhari:58197\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:58197\", waiting until \"domcontentloaded\"\n"
+    },
+    "589:10871": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:10871\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:10871\", waiting until \"domcontentloaded\"\n"
+    },
+    "928:7443": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7443\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7443\", waiting until \"domcontentloaded\"\n"
+    },
+    "929:7444": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7444\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7444\", waiting until \"domcontentloaded\"\n"
+    },
+    "326:6365": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6365\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6365\", waiting until \"domcontentloaded\"\n"
+    },
+    "259:4459": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:4459\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:4459\", waiting until \"domcontentloaded\"\n"
+    },
+    "542:3175": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:3175\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:3175\", waiting until \"domcontentloaded\"\n"
+    },
+    "264:4221": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:4221\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:4221\", waiting until \"domcontentloaded\"\n"
+    },
+    "1473:6937": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6937\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6937\", waiting until \"domcontentloaded\"\n"
+    },
+    "1384:7014": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7014\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7014\", waiting until \"domcontentloaded\"\n"
+    },
+    "1315:7095": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7095\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7095\", waiting until \"domcontentloaded\"\n"
+    },
+    "1437:6977": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6977\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6977\", waiting until \"domcontentloaded\"\n"
+    },
+    "402:10911": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:10911\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:10911\", waiting until \"domcontentloaded\"\n"
+    },
+    "995:7511": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7511\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7511\", waiting until \"domcontentloaded\"\n"
+    },
+    "933:7448": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7448\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7448\", waiting until \"domcontentloaded\"\n"
+    },
+    "1355:6984": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6984\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6984\", waiting until \"domcontentloaded\"\n"
+    },
+    "1055:7275": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7275\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7275\", waiting until \"domcontentloaded\"\n"
+    },
+    "1048:7268": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7268\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7268\", waiting until \"domcontentloaded\"\n"
+    },
+    "1447:6945": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6945\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6945\", waiting until \"domcontentloaded\"\n"
+    },
+    "912:7425": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7425\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7425\", waiting until \"domcontentloaded\"\n"
+    },
+    "1467:6931": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6931\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6931\", waiting until \"domcontentloaded\"\n"
+    },
+    "1065:7287": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7287\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7287\", waiting until \"domcontentloaded\"\n"
+    },
+    "1440:6980": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6980\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6980\", waiting until \"domcontentloaded\"\n"
+    },
+    "1406:7040": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7040\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7040\", waiting until \"domcontentloaded\"\n"
+    },
+    "1420:6960": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6960\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6960\", waiting until \"domcontentloaded\"\n"
+    },
+    "1429:6969": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6969\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6969\", waiting until \"domcontentloaded\"\n"
+    },
+    "1387:7018": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7018\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7018\", waiting until \"domcontentloaded\"\n"
+    },
+    "508:10860": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:10860\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:10860\", waiting until \"domcontentloaded\"\n"
+    },
+    "1375:7005": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7005\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7005\", waiting until \"domcontentloaded\"\n"
+    },
+    "1238:7191": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7191\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7191\", waiting until \"domcontentloaded\"\n"
+    },
+    "241:58078": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:58078\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:58078\", waiting until \"domcontentloaded\"\n"
+    },
+    "544:10100": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:10100\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:10100\", waiting until \"domcontentloaded\"\n"
+    },
+    "1014:7530": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7530\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7530\", waiting until \"domcontentloaded\"\n"
+    },
+    "1007:7523": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7523\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7523\", waiting until \"domcontentloaded\"\n"
+    },
+    "307:3600": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:3600\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:3600\", waiting until \"domcontentloaded\"\n"
+    },
+    "1098:7321": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:7321\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:7321\", waiting until \"domcontentloaded\"\n"
+    },
+    "1474:6938": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "page.goto: net::ERR_INTERNET_DISCONNECTED at https://sunnah.com/bukhari:6938\nCall log:\n  - navigating to \"https://sunnah.com/bukhari:6938\", waiting until \"domcontentloaded\"\n"
+    },
+    "945:7460": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "939:7454": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1438:6978": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1250:7205": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1203:7154": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1167:7227": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1270:7048": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1262:7217": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "869:7380": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "1106:7330": {
+      "links": 4,
+      "branches": 1,
+      "ok": true
+    },
+    "1389:7020": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1176:7236": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1444:6942": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1434:6974": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1125:7351": {
+      "links": 12,
+      "branches": 2,
+      "ok": true
+    },
+    "1220:7171": {
+      "links": 4,
+      "branches": 1,
+      "ok": true
+    },
+    "261:3462": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "434:2943": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1283:7063": {
+      "links": 8,
+      "branches": 2,
+      "ok": true
+    },
+    "231:10975": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "1052:7272": {
+      "links": 4,
+      "branches": 1,
+      "ok": true
+    },
+    "266:3131": {
+      "links": 12,
+      "branches": 2,
+      "ok": true
+    },
+    "278:3089": {
+      "links": 16,
+      "branches": 2,
+      "ok": true
+    },
+    "1195:7146": {
+      "links": 4,
+      "branches": 1,
+      "ok": true
+    },
+    "1278:7057": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1242:7196": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "243:10916": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "263:3393": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "424:6636": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1293:7073": {
+      "links": 4,
+      "branches": 1,
+      "ok": true
+    },
+    "862:7373": {
+      "links": 12,
+      "branches": 2,
+      "ok": true
+    },
+    "335:6973": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "375:8318": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "1258:7213": {
+      "links": 8,
+      "branches": 1,
+      "ok": true
+    },
+    "1305:7085": {
+      "links": 7,
+      "branches": 1,
+      "ok": true
+    },
+    "245:10844": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "328:10843": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "361:6050": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "359:3855": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "265:10570": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "404:3327": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1366:6995": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1374:7004": {
+      "links": 3,
+      "branches": 1,
+      "ok": true
+    },
+    "501:3047": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "413:64653": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "1032:7548": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1129:7355": {
+      "links": 7,
+      "branches": 1,
+      "ok": true
+    },
+    "488:4548": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "1326:7110": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "458:11248": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "529:3002": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1086:7308": {
+      "links": 10,
+      "branches": 2,
+      "ok": true
+    },
+    "287:64607": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "3:10417": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "579:3226": {
+      "links": 9,
+      "branches": 1,
+      "ok": true
+    },
+    "514:6043": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "332:3880": {
+      "links": 14,
+      "branches": 2,
+      "ok": true
+    },
+    "1465:6929": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "449:10995": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "229:10840": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "1030:7546": {
+      "links": 4,
+      "branches": 1,
+      "ok": true
+    },
+    "454:5320": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "445:64673": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "575:2988": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1470:6934": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "505:6113": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "371:5219": {
+      "links": 10,
+      "branches": 1,
+      "ok": true
+    },
+    "283:5215": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "419:5930": {
+      "links": 10,
+      "branches": 2,
+      "ok": true
+    },
+    "1217:7168": {
+      "links": 16,
+      "branches": 2,
+      "ok": true
+    },
+    "357:6760": {
+      "links": 12,
+      "branches": 2,
+      "ok": true
+    },
+    "492:3049": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "309:3295": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "440:6087": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "443:5522": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "381:8304": {
+      "links": 0,
+      "branches": 0,
+      "ok": false,
+      "error": "no narrator links"
+    },
+    "428:3421": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1128:7354": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "581:4524": {
+      "links": 7,
+      "branches": 1,
+      "ok": true
+    },
+    "1248:7203": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1338:7122": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "998:7514": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "1221:7172": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    },
+    "902:7415": {
+      "links": 6,
+      "branches": 1,
+      "ok": true
+    },
+    "472:2956": {
+      "links": 5,
+      "branches": 1,
+      "ok": true
+    }
+  },
+  "appraisalsDone": [],
+  "verifiedChainIds": [],
+  "publishedVariationIds": []
+}

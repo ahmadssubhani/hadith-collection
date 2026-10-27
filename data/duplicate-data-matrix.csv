@@ -1,0 +1,67 @@
+group_id,confidence,variation_id,source,hadith_number,has_arabic,has_english,has_grading,chain_count,chain_nodes,unresolved_nodes,narrators_linked,narrators_with_assessments,narrators_total,chain_verified,narrators_verified,assessments_verified,eligible,fails_rules
+E1,EXACT,122,Al-Kāfi [thaqalayn.net],1071,true,true,1,1,6,0,6,0,6,true,true,false,false,c
+E1,EXACT,145,Al-Kāfi [thaqalayn.net],1075,true,true,1,1,6,0,6,0,6,true,true,false,false,c
+R1,REVIEW,42,Al-Kāfi [thaqalayn.net],1077,true,true,1,1,6,0,6,0,6,true,true,false,false,c
+R1,REVIEW,112,ʿUyūn akhbār al-Riḍā [thaqalayn.net],464,true,true,0,1,5,0,5,0,5,true,true,false,false,c
+R1,REVIEW,251,Narrated by At-Tirmidhi [hadeethenc.com],11161,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R1,REVIEW,369,Agreed upon [hadeethenc.com],8345,false,true,0,0,0,0,0,0,0,false,false,false,false,d|a
+R10,REVIEW,1,Agreed upon [hadeethenc.com],66303,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R10,REVIEW,275,Sahih al-Bukhari [sunnah.com],3,true,true,1,1,6,0,6,6,6,true,true,true,true,
+R11,REVIEW,127,Al-Khiṣāl [thaqalayn.net],796,true,true,0,1,6,0,6,0,6,true,true,false,false,c
+R11,REVIEW,198,Al-Amālī [thaqalayn.net],505,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R12,REVIEW,90,ʿUyūn akhbār al-Riḍā [thaqalayn.net],191,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R12,REVIEW,167,Al-Amālī [thaqalayn.net],325,true,true,0,1,16,0,16,0,16,true,true,false,false,c
+R13,REVIEW,103,ʿUyūn akhbār al-Riḍā [thaqalayn.net],411,true,true,0,1,5,0,5,0,5,true,true,false,false,c
+R13,REVIEW,175,Al-Amālī [thaqalayn.net],348,true,true,0,1,7,0,7,0,7,true,true,false,false,c
+R14,REVIEW,73,Al-Khiṣāl [thaqalayn.net],1196,true,true,0,1,8,0,8,0,8,true,true,false,false,c
+R14,REVIEW,215,Al-Amālī [thaqalayn.net],1050,true,true,0,1,9,0,9,0,9,true,true,false,false,c
+R15,REVIEW,75,Al-Kāfi [thaqalayn.net],2005,true,true,1,1,5,0,5,0,5,true,true,false,false,c
+R15,REVIEW,162,Al-Amālī [thaqalayn.net],558,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R16,REVIEW,279,Sahih al-Bukhari [sunnah.com],5,true,true,1,1,5,0,5,5,5,true,true,true,true,
+R16,REVIEW,328,Narrated by Bukhari & Muslim [hadeethenc.com],10843,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R17,REVIEW,74,Al-Khiṣāl [thaqalayn.net],1198,true,true,0,1,7,0,7,0,7,true,true,false,false,c
+R17,REVIEW,199,Al-Amālī [thaqalayn.net],1075,true,true,0,1,9,0,9,0,9,true,true,false,false,c
+R18,REVIEW,133,Al-Khiṣāl [thaqalayn.net],923,true,true,0,1,7,0,7,0,7,true,true,false,false,c
+R18,REVIEW,209,Al-Amālī [thaqalayn.net],740,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R19,REVIEW,91,ʿUyūn akhbār al-Riḍā [thaqalayn.net],194,true,true,0,1,9,0,8,0,8,true,true,false,false,c
+R19,REVIEW,191,Al-Amālī [thaqalayn.net],411,true,true,0,1,8,0,8,0,8,true,true,false,false,c
+R19,REVIEW,213,Al-Amālī [thaqalayn.net],413,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R2,REVIEW,137,Al-Khiṣāl [thaqalayn.net],869,true,true,0,1,13,0,13,0,13,true,true,false,false,c
+R2,REVIEW,485,Narrated by Muslim [hadeethenc.com],3589,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R20,REVIEW,132,Al-Khiṣāl [thaqalayn.net],922,true,true,0,1,8,0,8,0,8,true,true,false,false,c
+R20,REVIEW,142,Al-Khiṣāl [thaqalayn.net],946,true,true,0,1,8,0,8,0,8,true,true,false,false,c
+R21,REVIEW,94,ʿUyūn akhbār al-Riḍā [thaqalayn.net],208,true,true,0,1,12,0,12,0,12,true,true,false,false,c
+R21,REVIEW,163,Al-Amālī [thaqalayn.net],850,true,true,0,1,12,0,12,0,12,true,true,false,false,c
+R22,REVIEW,81,Al-Khiṣāl [thaqalayn.net],1245,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R22,REVIEW,178,Al-Amālī [thaqalayn.net],939,true,true,0,1,6,0,6,0,6,true,true,false,false,c
+R23,REVIEW,78,ʿUyūn akhbār al-Riḍā [thaqalayn.net],227,true,true,0,1,10,0,9,0,9,true,true,false,false,c
+R23,REVIEW,136,Al-Khiṣāl [thaqalayn.net],858,true,true,0,1,11,0,10,0,10,true,true,false,false,c
+R24,REVIEW,118,Al-Khiṣāl [thaqalayn.net],690,true,true,0,1,6,0,6,0,6,true,true,false,false,c
+R24,REVIEW,179,Al-Amālī [thaqalayn.net],415,true,true,0,1,7,0,7,0,7,true,true,false,false,c
+R25,REVIEW,230,Agreed upon [hadeethenc.com],66304,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R25,REVIEW,276,Sahih al-Bukhari [sunnah.com],4,true,true,1,1,3,0,3,3,3,true,true,true,true,
+R26,REVIEW,229,Narrated by Bukhari & Muslim [hadeethenc.com],10840,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R26,REVIEW,273,Sahih al-Bukhari [sunnah.com],2,true,true,1,1,5,0,5,5,5,true,true,true,true,
+R27,REVIEW,84,Al-Khiṣāl [thaqalayn.net],301,true,true,0,1,7,0,7,0,7,true,true,false,false,c
+R27,REVIEW,216,Al-Amālī [thaqalayn.net],1074,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R28,REVIEW,30,Al-Khiṣāl [thaqalayn.net],21,true,true,0,1,7,0,7,0,7,true,true,false,false,c
+R28,REVIEW,180,Al-Amālī [thaqalayn.net],345,true,true,0,1,8,0,8,0,8,true,true,false,false,c
+R29,REVIEW,280,Sahih al-Bukhari [sunnah.com],6,true,true,1,3,12,0,6,6,6,true,true,true,true,
+R29,REVIEW,390,Agreed upon [hadeethenc.com],6179,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R3,REVIEW,69,ʿUyūn akhbār al-Riḍā [thaqalayn.net],179,true,true,0,1,4,0,4,0,4,true,true,false,false,c
+R3,REVIEW,156,Al-Amālī [thaqalayn.net],836,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R30,REVIEW,479,Narrated by Al-Bukhāri and Muslim [hadeethenc.com],66514,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R30,REVIEW,503,Agreed upon [hadeethenc.com],4792,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R4,REVIEW,131,ʿUyūn akhbār al-Riḍā [thaqalayn.net],594,true,true,0,1,4,0,4,0,4,true,true,false,false,c
+R4,REVIEW,432,Narrated by Muslim [hadeethenc.com],65978,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R5,REVIEW,134,Al-Khiṣāl [thaqalayn.net],847,true,true,0,1,6,0,6,0,6,true,true,false,false,c
+R5,REVIEW,151,Al-Amālī [thaqalayn.net],298,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R6,REVIEW,93,ʿUyūn akhbār al-Riḍā [thaqalayn.net],206,true,true,0,1,6,0,6,0,6,true,true,false,false,c
+R6,REVIEW,128,Al-Khiṣāl [thaqalayn.net],802,true,true,0,1,4,0,4,0,4,true,true,false,false,c
+R6,REVIEW,200,Al-Amālī [thaqalayn.net],720,true,true,0,1,6,0,6,0,6,true,true,false,false,c
+R7,REVIEW,83,Al-Khiṣāl [thaqalayn.net],283,true,true,0,1,4,0,4,0,4,true,true,false,false,c
+R7,REVIEW,207,Al-Amālī [thaqalayn.net],184,true,true,0,1,7,0,7,0,7,true,true,false,false,c
+R8,REVIEW,41,ʿUyūn akhbār al-Riḍā [thaqalayn.net],111,true,true,0,1,4,0,4,0,4,true,true,false,false,c
+R8,REVIEW,160,Al-Amālī [thaqalayn.net],722,true,true,0,1,5,0,5,0,5,true,true,false,false,c
+R9,REVIEW,60,ʿUyūn akhbār al-Riḍā [thaqalayn.net],168,true,true,0,0,0,0,0,0,0,false,false,false,false,a
+R9,REVIEW,65,Al-Khiṣāl [thaqalayn.net],1147,true,true,0,0,0,0,0,0,0,false,false,false,false,a

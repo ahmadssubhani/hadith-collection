@@ -1,0 +1,56 @@
+{
+  "runId": "2026-10-15T09-46-08-020Z",
+  "createdAt": "2026-10-15T09:47:57.982Z",
+  "queries": [
+    "Hira",
+    "Iqra",
+    "beginning of the revelation",
+    "first revelation",
+    "period of pause",
+    "بدء الوحي",
+    "غار حراء"
+  ],
+  "refs": [
+    "bukhari:1",
+    "bukhari:2",
+    "bukhari:3",
+    "bukhari:4",
+    "bukhari:5",
+    "bukhari:6",
+    "bukhari:7",
+    "bukhari:4953",
+    "bukhari:6982",
+    "muslim:160"
+  ],
+  "reports": [
+    {
+      "source": "hadeethenc",
+      "ok": true,
+      "count": 9,
+      "note": "Official API. Terms: no modification of content; credit HadeethEnc.com."
+    },
+    {
+      "source": "thaqalayn",
+      "ok": true,
+      "count": 63,
+      "note": "Public Thaqalayn API v2. Search is exact-substring; diacritized Arabic may be missed. Credit thaqalayn.net."
+    },
+    {
+      "source": "sunnah",
+      "ok": false,
+      "count": 0,
+      "error": "page.evaluate: ReferenceError: __name is not defined\n    at eval (eval at evaluate (:370:30), <anonymous>:1:18)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "note": "Playwright. Official Sunnah.com API request is pending — switch to it when you get a key."
+    },
+    {
+      "source": "al-islam",
+      "ok": true,
+      "count": 0,
+      "note": "Leads only (titles/snippets). Pages carry their own copyright."
+    }
+  ],
+  "totals": {
+    "collected": 72,
+    "relevant": 37
+  }
+}

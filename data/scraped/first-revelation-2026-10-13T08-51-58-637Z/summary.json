@@ -1,0 +1,37 @@
+{
+  "runId": "2026-10-13T08-51-58-637Z",
+  "createdAt": "2026-10-13T08:53:17.793Z",
+  "queries": [
+    "Hira",
+    "Iqra",
+    "beginning of the revelation",
+    "first revelation",
+    "period of pause",
+    "بدء الوحي",
+    "غار حراء"
+  ],
+  "refs": [
+    "bukhari:1",
+    "bukhari:2",
+    "bukhari:3",
+    "bukhari:4",
+    "bukhari:5",
+    "bukhari:6",
+    "bukhari:7",
+    "bukhari:4953",
+    "bukhari:6982",
+    "muslim:160"
+  ],
+  "reports": [
+    {
+      "source": "sunnah",
+      "ok": true,
+      "count": 50,
+      "note": "Playwright. Official Sunnah.com API request is pending — switch to it when you get a key."
+    }
+  ],
+  "totals": {
+    "collected": 50,
+    "relevant": 20
+  }
+}

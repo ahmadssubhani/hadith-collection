@@ -33,6 +33,46 @@ import {
   searchFallback,
 } from "@/lib/content/fallback-corpus";
 
+export {
+  getEligibleFirstWahiVariations,
+  getEligibleFirstWahiStats,
+  getFirstWahiEligibilityDiagnostics,
+  getNarratorPanelEvidence,
+} from "@/lib/first-wahi-queries";
+
+export {
+  getEligibleVariations,
+  getEligibleVariationStats,
+  getEligibleVariationsByTopic,
+  getEligibleCorpusSnapshot,
+  getEligibilityDiagnostics,
+  type EligibleVariation,
+  type EligibleVariationRow,
+  type EligibleByTopic,
+} from "@/lib/eligible-variations";
+
+export async function getPublishedCorpusStats() {
+  const supabase = createServerSupabaseClient();
+  const [hadiths, variations, chains, narrators] = await Promise.all([
+    supabase.from("hadiths").select("id", { count: "exact", head: true }).eq("review_status", "published"),
+    supabase.from("source_variations").select("id", { count: "exact", head: true }).eq("verified", true),
+    supabase.from("chains").select("id", { count: "exact", head: true }).eq("verified", true),
+    supabase
+      .from("narrator_assessments")
+      .select("narrator_id", { count: "exact", head: true })
+      .eq("verified", true)
+      .not("source_url", "is", null),
+  ]);
+
+  return {
+    hadiths: hadiths.count ?? 0,
+    variations: variations.count ?? 0,
+    chains: chains.count ?? 0,
+    narrators: narrators.count ?? 0,
+    error: hadiths.error ?? variations.error ?? chains.error ?? narrators.error,
+  };
+}
+
 export async function getCorpusStats() {
   const supabase = createServerSupabaseClient();
   const [hadiths, variations, chains, narrators] = await Promise.all([
@@ -71,6 +111,7 @@ export async function getFeaturedHadiths(limit = 6) {
   const { data, error } = await supabase
     .from("hadiths")
     .select("id, slug, title, arabic_title, summary, topics, review_status, source_variations(id)")
+    .eq("review_status", "published")
     .order("updated_at", { ascending: false })
     .limit(limit);
 
@@ -313,7 +354,7 @@ export async function getHadithBySlug(slug: string) {
 
   const { data: variations, error: variationError } = await supabase
     .from("source_variations")
-    .select("*, books(*)")
+    .select("*, books!source_variations_book_id_fkey(*)")
     .eq("hadith_id", hadith.id)
     .order("id");
 

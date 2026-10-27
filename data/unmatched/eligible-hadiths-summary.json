@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-10-19T14:49:50.077Z",
+  "scope": "published_only",
+  "topic": null,
+  "stats": {
+    "hadiths": 5,
+    "variations": 11,
+    "chains": 13,
+    "narrators": 43,
+    "error": null
+  },
+  "by_topic": [
+    {
+      "topic": "باب",
+      "variation_count": 7,
+      "hadith_count": 1
+    },
+    {
+      "topic": "Creed / Aqidah",
+      "variation_count": 3,
+      "hadith_count": 3
+    },
+    {
+      "topic": "Oneness, Uniqueness of Allah (Tawheed)",
+      "variation_count": 3,
+      "hadith_count": 3
+    },
+    {
+      "topic": "Judgments (Ahkaam)",
+      "variation_count": 1,
+      "hadith_count": 1
+    }
+  ],
+  "uncategorized": null,
+  "eligible_variation_ids": [
+    271,
+    273,
+    275,
+    276,
+    279,
+    280,
+    282,
+    860,
+    861,
+    863,
+    1213
+  ]
+}

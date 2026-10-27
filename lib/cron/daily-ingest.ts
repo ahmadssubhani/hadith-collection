@@ -8,6 +8,7 @@ import {
 } from "./topics-registry";
 import { FetchAggregator } from "./fetchers/aggregator";
 import { RelevanceRanker } from "./relevance-ranker";
+import { persistCandidate } from "./persist-candidate";
 
 export interface DailyIngestResult {
   success: boolean;
@@ -33,6 +34,8 @@ export interface DailyIngestResult {
     englishPreview: string;
     hadithStatus: string;
     sourceUrl?: string;
+    narrator?: string;
+    tradition?: string;
   }>;
   isDryRun: boolean;
   message: string;
@@ -53,10 +56,12 @@ export function getServiceRoleSupabaseClient(): SupabaseClient | null {
 }
 
 /**
- * Runs the daily shortlist and ingestion pipeline.
- * Selects 5 new hadiths that have NOT been ingested on previous days for the active topic.
+ * Publishes an on-demand batch of 5 candidate hadiths for a topic.
+ * When apply: true, unpublishes/archives the previous live batch (setting verified = false
+ * and review_status = 'draft' on its variations/hadiths) and publishes the new batch
+ * to daily_hadith_batch, hadiths, source_variations, chains, etc.
  */
-export async function runDailyHadithIngest(options?: {
+export async function publishDailyHadithBatch(options?: {
   topicSlug?: string;
   forceNextDay?: boolean;
   apply?: boolean;
@@ -84,7 +89,7 @@ export async function runDailyHadithIngest(options?: {
     };
   }
 
-  // 1. Identify the active topic
+  // 1. Identify target topic
   let targetSlug = options?.topicSlug;
   let topicId: number | null = null;
   let topicTitle = "The Beginning of Revelation (First Wahi at Cave Hira)";
@@ -114,7 +119,7 @@ export async function runDailyHadithIngest(options?: {
         }
       }
     } catch {
-      // Fallback to registry if DB tables are pending migration
+      // Fallback if DB table pending
     }
   }
 
@@ -138,42 +143,77 @@ export async function runDailyHadithIngest(options?: {
 
   topicTitle = topicDef.title;
 
-  // 2. Fetch history of already shortlisted hadith identifiers for this topic
-  const seenIdentifiers = new Set<string>();
-  let previousRunsCount = 0;
+  // 2. Query current live batch from daily_hadith_batch (if any)
+  let currentBatch: {
+    id: number;
+    day_number: number;
+    hadith_identifiers: string[];
+    variation_ids: number[];
+    hadith_ids: number[];
+  } | null = null;
 
   if (supabase && topicId) {
     try {
-      const { data: logs } = await supabase
-        .from("daily_hadith_logs")
-        .select("day_number, hadith_identifiers")
+      const { data: bRow } = await supabase
+        .from("daily_hadith_batch")
+        .select("*")
         .eq("topic_id", topicId)
-        .order("day_number", { ascending: true });
+        .maybeSingle();
 
-      if (logs && logs.length > 0) {
-        previousRunsCount = logs.length;
-        for (const log of logs) {
-          if (Array.isArray(log.hadith_identifiers)) {
-            for (const id of log.hadith_identifiers) {
-              seenIdentifiers.add(id);
-            }
-          }
-        }
+      if (bRow) {
+        currentBatch = {
+          id: bRow.id,
+          day_number: bRow.day_number,
+          hadith_identifiers: bRow.hadith_identifiers ?? [],
+          variation_ids: bRow.variation_ids ?? [],
+          hadith_ids: bRow.hadith_ids ?? [],
+        };
       }
     } catch {
-      // Table may not exist yet in offline mode
+      // Table may not exist yet
     }
   }
 
-  const dayNumber = previousRunsCount + 1;
+  // 3. If APPLY mode and a current batch exists -> Archive / Unpublish old batch records
+  if (!isDryRun && supabase && topicId && currentBatch) {
+    try {
+      // Unpublish old variations by setting verified = false
+      if (currentBatch.variation_ids.length > 0) {
+        await supabase
+          .from("source_variations")
+          .update({ verified: false })
+          .in("id", currentBatch.variation_ids);
+      }
 
-  // 3. Fetch live candidates using Aggregator across DATA_INGESTION.md sources
+      // Check parent clusters: if no active (verified=true) variations remain, archive hadith cluster
+      if (currentBatch.hadith_ids.length > 0) {
+        for (const hid of currentBatch.hadith_ids) {
+          const { data: activeVars } = await supabase
+            .from("source_variations")
+            .select("id")
+            .eq("hadith_id", hid)
+            .eq("verified", true)
+            .limit(1);
+
+          if (!activeVars || activeVars.length === 0) {
+            await supabase
+              .from("hadiths")
+              .update({ review_status: "draft" })
+              .eq("id", hid);
+          }
+        }
+      }
+    } catch (err) {
+      console.warn("Notice during archiving previous batch:", err);
+    }
+  }
+
+  // 4. Fetch candidates across DATA_INGESTION.md sources
   const aggregator = new FetchAggregator();
   const aggregateResult = await aggregator.aggregate(topicDef, 20);
   let rawCandidates = aggregateResult.candidates;
   const sourceHealth = aggregateResult.sourceHealth;
 
-  // Fallback to pre-indexed candidates if live fetchers return 0 items (e.g. offline/scaffolded mode)
   if (rawCandidates.length === 0 && topicDef && topicDef.hadithCandidates && topicDef.hadithCandidates.length > 0) {
     rawCandidates = topicDef.hadithCandidates.map((c: HadithCandidate) => ({
       source: c.identifier.startsWith("bukhari") || c.identifier.startsWith("muslim") ? "sunnah.com" :
@@ -201,46 +241,32 @@ export async function runDailyHadithIngest(options?: {
     }));
   }
 
-  // 4. Rank candidates based on relevance
+  // 5. Rank candidates by relevance
   const ranker = new RelevanceRanker();
   const rankedCandidates = ranker.rank(rawCandidates, topicDef);
 
-  // 5. Filter candidates to strictly UNSEEN ones (ensuring day N != day N-1)
+  // 6. Exclude ONLY the identifiers that were JUST live in the batch being replaced
+  const justRemoved = new Set<string>(currentBatch?.hadith_identifiers ?? []);
   const availableCandidates = rankedCandidates
-    .map(r => r.candidate)
-    .filter((c) => !seenIdentifiers.has(c.sourceIdentifier));
+    .map((r) => r.candidate)
+    .filter((c) => !justRemoved.has(c.sourceIdentifier));
 
-  if (availableCandidates.length === 0) {
-    return {
-      success: true,
-      topicSlug: targetSlug,
-      topicTitle,
-      dayNumber,
-      runDate,
-      count: 0,
-      remainingInTopicPool: 0,
-      sourceHealth,
-      shortlistedHadiths: [],
-      isDryRun,
-      message: `All ${rawCandidates.length} live hadiths for '${topicTitle}' have already been ingested. Ready for next daily batch!`,
-    };
-  }
+  const candidatePool = availableCandidates.length > 0 ? availableCandidates : rankedCandidates.map((r) => r.candidate);
+  let selectedBatch = candidatePool.slice(0, batchSize);
 
-  // 6. Shortlist exactly 5 (or configured batch size) for today
-  let selectedBatch = availableCandidates.slice(0, batchSize);
-
-  // If running in offline/registry preview mode (no DB logs recorded), rotate batch based on calendar day
-  if ((!supabase || previousRunsCount === 0) && availableCandidates.length > batchSize) {
+  // In offline preview mode or rotation fallback, rotate batch if needed
+  if (!supabase && candidatePool.length > batchSize) {
     const dayIndex = Math.floor(new Date().getTime() / (1000 * 60 * 60 * 24));
-    const startIndex = (dayIndex * batchSize) % availableCandidates.length;
+    const startIndex = (dayIndex * batchSize) % candidatePool.length;
     const rotated = [
-      ...availableCandidates.slice(startIndex),
-      ...availableCandidates.slice(0, startIndex),
+      ...candidatePool.slice(startIndex),
+      ...candidatePool.slice(0, startIndex),
     ];
     selectedBatch = rotated.slice(0, batchSize);
   }
 
-  const remainingInPool = availableCandidates.length - selectedBatch.length;
+  const dayNumber = (currentBatch?.day_number ?? 0) + 1;
+  const remainingInPool = Math.max(0, candidatePool.length - selectedBatch.length);
 
   const shortlistedSummary = selectedBatch.map((item) => ({
     identifier: item.sourceIdentifier,
@@ -255,10 +281,9 @@ export async function runDailyHadithIngest(options?: {
     tradition: item.tradition || (item.bookTitle.includes("Kafi") || item.bookTitle.includes("Nahj") ? "Twelver Shia" : "Sunni"),
   }));
 
-  // 5. If APPLY mode, persist into Supabase (hadiths, variations, chains, assessments, and daily log)
+  // 7. If APPLY mode, publish new batch to DB & write daily_hadith_batch
   if (!isDryRun && supabase) {
     try {
-      // Ensure daily_topics row exists
       if (!topicId) {
         const { data: newTopic } = await supabase
           .from("daily_topics")
@@ -279,173 +304,60 @@ export async function runDailyHadithIngest(options?: {
         if (newTopic) topicId = newTopic.id;
       }
 
-      // Ensure parent cluster in hadiths
       const clusterSlug = topicDef.slug === "first-wahi" ? "first-revelation-at-hira" : topicDef.slug;
-      let clusterHadithId: number;
-      const { data: existingCluster } = await supabase
-        .from("hadiths")
-        .select("id")
-        .eq("slug", clusterSlug)
-        .maybeSingle();
-
-      if (existingCluster) {
-        clusterHadithId = existingCluster.id;
-      } else {
-        const { data: insertedCluster, error: clusterErr } = await supabase
-          .from("hadiths")
-          .insert({
-            slug: clusterSlug,
-            title: topicDef.title,
-            arabic_title: topicDef.arabicTitle,
-            summary: topicDef.description,
-            topics: topicDef.keywords,
-            review_status: "published",
-          })
-          .select("id")
-          .single();
-        if (clusterErr) throw clusterErr;
-        clusterHadithId = insertedCluster.id;
-      }
+      const clusterOptions = {
+        clusterSlug,
+        clusterTitle: topicDef.title,
+        clusterArabicTitle: topicDef.arabicTitle,
+        clusterSummary: topicDef.description,
+        clusterKeywords: topicDef.keywords,
+      };
 
       const insertedVariationIds: number[] = [];
+      const insertedHadithIds: number[] = [];
 
       for (const item of selectedBatch) {
-        // Book lookup or insertion
-        let bookId: number;
-        const { data: existingBook } = await supabase
-          .from("books")
-          .select("id")
-          .eq("title", item.bookTitle)
-          .maybeSingle();
-
-        if (existingBook) {
-          bookId = existingBook.id;
-        } else {
-          const { data: newBook, error: bErr } = await supabase
-            .from("books")
-            .insert({
-              title: item.bookTitle,
-              arabic_title: item.bookTitle,
-              author: "Canonical Compiler",
-              tradition: item.bookTitle.includes("Kafi") || item.bookTitle.includes("Nahj") ? "Twelver Shia" : "Sunni",
-              book_type: item.bookTitle.includes("Encyclopedia") ? "commentary" : "hadith_collection",
-            })
-            .select("id")
-            .single();
-          if (bErr) throw bErr;
-          bookId = newBook.id;
-        }
-
-        // Variation upsert
-        const { data: variation, error: vErr } = await supabase
-          .from("source_variations")
-          .upsert(
-            {
-              hadith_id: clusterHadithId,
-              book_id: bookId,
-              hadith_number: item.hadithNumber,
-              chapter: item.chapter,
-              volume: item.volume ?? "1",
-              page: item.page ?? "1",
-              arabic_text: item.arabicText,
-              english_text: item.englishText,
-              translator: item.translator ?? "Authentic translation",
-              source_url: item.sourceUrl ?? null,
-              hadith_status: item.hadithStatus,
-              chain_status: item.chainStatus,
-              narration_status: item.narrationStatus,
-              status_notes: item.statusNotes ?? null,
-              review_status: "published",
-              verified: true,
-            },
-            { onConflict: "hadith_id,book_id,hadith_number" },
-          )
-          .select("id")
-          .single();
-
-        if (vErr) {
-          console.warn(`Variation error for ${item.sourceIdentifier}: ${vErr.message}`);
-          continue;
-        }
-
-        insertedVariationIds.push(variation.id);
-
-        // Chains insertion
-        if (item.nodes && item.nodes.length > 0) {
-          const { data: chain } = await supabase
-            .from("chains")
-            .upsert(
-              {
-                variation_id: variation.id,
-                chain_number: 1,
-                raw_chain_text: item.rawChainText ?? "Sanad",
-                continuity_status: item.chainStatus,
-                quality_status: item.hadithStatus,
-                verified: true,
-              },
-              { onConflict: "variation_id,chain_number" },
-            )
-            .select("id")
-            .single();
-
-          if (chain) {
-            for (const node of item.nodes) {
-              let narratorId: number | null = null;
-              if (node.slug) {
-                const { data: nRec } = await supabase
-                  .from("narrators")
-                  .select("id")
-                  .eq("slug", node.slug)
-                  .maybeSingle();
-                if (nRec) narratorId = nRec.id;
-              }
-
-              await supabase.from("chain_narrators").upsert(
-                {
-                  chain_id: chain.id,
-                  position: node.position,
-                  narrator_id: narratorId,
-                  raw_name: node.rawName,
-                  transmission_word: node.word ?? "an",
-                  match_confidence: narratorId ? 1 : 0.8,
-                },
-                { onConflict: "chain_id,position" },
-              );
-            }
-          }
-        }
-
-        // Assessments insertion
-        if (item.assessments && item.assessments.length > 0) {
-          for (const ass of item.assessments) {
-            const { data: sch } = await supabase
-              .from("scholars")
-              .select("id")
-              .eq("slug", ass.scholarSlug)
-              .maybeSingle();
-
-            if (sch) {
-              await supabase.from("hadith_assessments").upsert(
-                {
-                  variation_id: variation.id,
-                  scholar_id: sch.id,
-                  original_grade: ass.originalGrade,
-                  normalized_grade: ass.normalizedGrade,
-                  explanation: ass.explanation,
-                  reference_book: ass.referenceBook,
-                  volume: ass.volume ?? null,
-                  page: ass.page ?? null,
-                  verified: true,
-                },
-                { onConflict: "variation_id,scholar_id" },
-              );
-            }
-          }
+        const candidate: HadithCandidate = {
+          identifier: item.sourceIdentifier,
+          bookTitle: item.bookTitle,
+          hadithNumber: item.hadithNumber,
+          chapter: item.chapter,
+          volume: item.volume,
+          page: item.page,
+          arabicText: item.arabicText,
+          englishText: item.englishText,
+          translator: item.translator,
+          sourceUrl: item.sourceUrl,
+          hadithStatus: item.hadithStatus,
+          chainStatus: item.chainStatus,
+          narrationStatus: item.narrationStatus,
+          statusNotes: item.statusNotes,
+          rawChainText: item.rawChainText,
+          nodes: item.nodes,
+          assessments: item.assessments,
+        };
+        const res = await persistCandidate(candidate, clusterOptions, supabase);
+        if (res) {
+          insertedVariationIds.push(res.variationId);
+          insertedHadithIds.push(res.hadithId);
         }
       }
 
-      // Record daily log
       if (topicId) {
+        await supabase
+          .from("daily_hadith_batch")
+          .upsert(
+            {
+              topic_id: topicId,
+              day_number: dayNumber,
+              hadith_identifiers: selectedBatch.map((b) => b.sourceIdentifier),
+              variation_ids: insertedVariationIds,
+              hadith_ids: Array.from(new Set(insertedHadithIds)),
+              published_at: new Date().toISOString(),
+            },
+            { onConflict: "topic_id" },
+          );
+
         await supabase.from("daily_hadith_logs").upsert(
           {
             topic_id: topicId,
@@ -455,23 +367,18 @@ export async function runDailyHadithIngest(options?: {
             source_variation_ids: insertedVariationIds,
             hadith_identifiers: selectedBatch.map((b) => b.sourceIdentifier),
             status: "success",
-            notes: `Day ${dayNumber}: Ingested ${selectedBatch.length} hadiths for topic '${topicTitle}'.`,
+            notes: `Day ${dayNumber}: Published ${selectedBatch.length} hadiths on-demand for topic '${topicTitle}'.`,
           },
           { onConflict: "topic_id,run_date" },
         );
-
-        // Update topic counts
-        const totalIngested = seenIdentifiers.size + selectedBatch.length;
-        await supabase
-          .from("daily_topics")
-          .update({
-            total_ingested: totalIngested,
-            updated_at: new Date().toISOString(),
-          })
-          .eq("id", topicId);
       }
     } catch (err: unknown) {
-      const errorMessage = err instanceof Error ? err.message : String(err);
+      const errorMessage =
+        err instanceof Error
+          ? err.message
+          : (err && typeof err === "object")
+            ? JSON.stringify(err, Object.getOwnPropertyNames(err))
+            : String(err);
       return {
         success: false,
         topicSlug: targetSlug,
@@ -482,7 +389,7 @@ export async function runDailyHadithIngest(options?: {
         remainingInTopicPool: remainingInPool,
         shortlistedHadiths: shortlistedSummary,
         isDryRun,
-        message: `Database error during ingestion: ${errorMessage}`,
+        message: `Database error during publishing: ${errorMessage}`,
         error: errorMessage,
       };
     }
@@ -500,10 +407,12 @@ export async function runDailyHadithIngest(options?: {
     shortlistedHadiths: shortlistedSummary,
     isDryRun,
     message: isDryRun
-      ? `[DRY-RUN] Day ${dayNumber}: Successfully shortlisted ${selectedBatch.length} unique hadiths for '${topicTitle}'. (Remaining in pool: ${remainingInPool}). Pass apply: true or --apply to save.`
-      : `[APPLIED] Day ${dayNumber}: Successfully ingested and verified ${selectedBatch.length} hadiths for '${topicTitle}'. (Remaining in pool: ${remainingInPool}).`,
+      ? `[DRY-RUN] Day ${dayNumber}: Preview of next ${selectedBatch.length} candidate hadiths for '${topicTitle}'. (Remaining in pool: ${remainingInPool}). Pass apply: true or --apply to publish.`
+      : `[PUBLISHED] Day ${dayNumber}: Successfully published ${selectedBatch.length} hadiths for '${topicTitle}' and archived previous batch.`,
   };
 }
+
+export const runDailyHadithIngest = publishDailyHadithBatch;
 
 /**
  * Switches the active topic or registers a new topic.
@@ -522,10 +431,8 @@ export async function setActiveTopic(
 
   if (supabase) {
     try {
-      // Deactivate all
       await supabase.from("daily_topics").update({ is_active: false }).neq("id", 0);
 
-      // Upsert and activate target
       const { data: updated, error } = await supabase
         .from("daily_topics")
         .upsert(
@@ -546,11 +453,16 @@ export async function setActiveTopic(
       if (error) throw error;
       return {
         success: true,
-        message: `Active daily topic switched to '${title}' (${topicSlug}). Next cron run will start Day 1 for this topic.`,
+        message: `Active daily topic switched to '${title}' (${topicSlug}).`,
         activeTopic: updated,
       };
     } catch (err: unknown) {
-      const errorMessage = err instanceof Error ? err.message : String(err);
+      const errorMessage =
+        err instanceof Error
+          ? err.message
+          : (err && typeof err === "object")
+            ? JSON.stringify(err, Object.getOwnPropertyNames(err))
+            : String(err);
       return {
         success: false,
         message: `Failed to set active topic in database: ${errorMessage}`,
@@ -567,11 +479,47 @@ export async function setActiveTopic(
 }
 
 /**
- * Gets the current daily status, active topic, and a preview of the next 5 hadiths.
+ * Gets the current daily status, active topic, currently live batch, and a preview of the next 5 hadiths.
  */
 export async function getDailyStatus(topicSlug?: string) {
-  const preview = await runDailyHadithIngest({
-    topicSlug,
+  const targetSlug = topicSlug || "first-wahi";
+  const supabase = getServiceRoleSupabaseClient();
+  const topicDef = getTopicDefinition(targetSlug);
+  const topicTitle = topicDef?.title || "First Wahi";
+
+  let currentBatch: {
+    day_number: number;
+    published_at: string;
+    hadith_identifiers: string[];
+    variation_ids: number[];
+  } | null = null;
+
+  if (supabase) {
+    try {
+      const { data: topic } = await supabase
+        .from("daily_topics")
+        .select("id")
+        .eq("slug", targetSlug)
+        .maybeSingle();
+
+      if (topic) {
+        const { data: bRow } = await supabase
+          .from("daily_hadith_batch")
+          .select("day_number, published_at, hadith_identifiers, variation_ids")
+          .eq("topic_id", topic.id)
+          .maybeSingle();
+
+        if (bRow) {
+          currentBatch = bRow;
+        }
+      }
+    } catch {
+      // Fallback
+    }
+  }
+
+  const preview = await publishDailyHadithBatch({
+    topicSlug: targetSlug,
     apply: false,
   });
 
@@ -583,11 +531,13 @@ export async function getDailyStatus(topicSlug?: string) {
 
   return {
     activeTopic: {
-      slug: preview.topicSlug,
-      title: preview.topicTitle,
-      dayNumber: preview.dayNumber,
-      runDate: preview.runDate,
+      slug: targetSlug,
+      title: topicTitle,
+      dayNumber: currentBatch?.day_number ?? preview.dayNumber,
+      publishedAt: currentBatch?.published_at ?? preview.runDate,
     },
+    liveBatchCount: currentBatch?.hadith_identifiers?.length ?? 0,
+    liveIdentifiers: currentBatch?.hadith_identifiers ?? [],
     upcomingShortlist: preview.shortlistedHadiths,
     remainingCandidatesInPool: preview.remainingInTopicPool,
     availableTopics: allTopics,

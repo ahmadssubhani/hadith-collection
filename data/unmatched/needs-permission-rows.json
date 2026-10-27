@@ -1,0 +1,232 @@
+{
+  "batches": [
+    {
+      "id": 1,
+      "provider": "playwright-scrape:dorar",
+      "source_url": "https://dorar.net/hadith/search?q=%D8%A8%D8%AF%D8%A1%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "permission_status": "unknown",
+      "notes": "Imported 15 records from data/raw/dorar.jsonl (verified=false, review_status=draft inbox)",
+      "retrieved_at": "2026-10-15T12:40:22.033+00:00"
+    },
+    {
+      "id": 2,
+      "provider": "playwright-scrape:hadeethenc",
+      "source_url": "https://hadeethenc.com/en/browse/hadith/4560",
+      "permission_status": "unknown",
+      "notes": "Imported 6 records from data/raw/hadeethenc.jsonl (verified=false, review_status=draft inbox)",
+      "retrieved_at": "2026-10-15T12:40:39.433+00:00"
+    },
+    {
+      "id": 3,
+      "provider": "playwright-scrape:sunnah",
+      "source_url": "https://sunnah.com/bukhari/97",
+      "permission_status": "unknown",
+      "notes": "Imported 616 records from data/raw/sunnah.jsonl (verified=false, review_status=draft inbox)",
+      "retrieved_at": "2026-10-15T12:40:43.708+00:00"
+    },
+    {
+      "id": 4,
+      "provider": "playwright-scrape:dorar",
+      "source_url": "https://dorar.net/hadith/search?q=%D8%A8%D8%AF%D8%A1%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "permission_status": "unknown",
+      "notes": "Imported 15 records from data/raw/dorar.jsonl (verified=false, review_status=draft inbox) [superseded duplicate of batch 1]",
+      "retrieved_at": "2026-10-15T13:34:05.636+00:00"
+    },
+    {
+      "id": 5,
+      "provider": "playwright-scrape:hadeethenc",
+      "source_url": "https://hadeethenc.com/en/browse/hadith/4560",
+      "permission_status": "unknown",
+      "notes": "Imported 6 records from data/raw/hadeethenc.jsonl (verified=false, review_status=draft inbox) [superseded duplicate of batch 2]",
+      "retrieved_at": "2026-10-15T13:34:29.539+00:00"
+    },
+    {
+      "id": 6,
+      "provider": "playwright-scrape:sunnah",
+      "source_url": "https://sunnah.com/bukhari/97",
+      "permission_status": "unknown",
+      "notes": "Imported 616 records from data/raw/sunnah.jsonl (verified=false, review_status=draft inbox) [superseded duplicate of batch 3]",
+      "retrieved_at": "2026-10-15T13:34:34.847+00:00"
+    }
+  ],
+  "counts": {
+    "dorar_variations": 17,
+    "sunnah_variations": 623,
+    "hadeethenc_variations": 212,
+    "thaqalayn_variations": 215,
+    "dorar_hadith_assessments": 0
+  },
+  "dorar_variations": [
+    {
+      "id": 849,
+      "hadith_id": 2,
+      "book_id": 67,
+      "hadith_number": "5191",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 846,
+      "hadith_id": 2,
+      "book_id": 68,
+      "hadith_number": "1479",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 850,
+      "hadith_id": 2,
+      "book_id": 64,
+      "hadith_number": "4268",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 853,
+      "hadith_id": 2,
+      "book_id": 72,
+      "hadith_number": "4/337",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%83%D9%8A%D9%81%20%D9%83%D8%A7%D9%86%20%D9%8A%D8%A3%D8%AA%D9%8A%D9%87%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 847,
+      "hadith_id": 5,
+      "book_id": 69,
+      "hadith_number": "6/373",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "combined"
+    },
+    {
+      "id": 1476,
+      "hadith_id": 2,
+      "book_id": 69,
+      "hadith_number": "6/373",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 1477,
+      "hadith_id": 2,
+      "book_id": 70,
+      "hadith_number": "3318",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 839,
+      "hadith_id": 2,
+      "book_id": 62,
+      "hadith_number": "2/825",
+      "source_url": "https://dorar.net/hadith/search?q=%D8%A8%D8%AF%D8%A1%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 848,
+      "hadith_id": 5,
+      "book_id": 70,
+      "hadith_number": "3318",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": false,
+      "review_status": "draft",
+      "data_origin": "combined"
+    },
+    {
+      "id": 843,
+      "hadith_id": 2,
+      "book_id": 66,
+      "hadith_number": "25171",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 852,
+      "hadith_id": 2,
+      "book_id": 67,
+      "hadith_number": "4141",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 840,
+      "hadith_id": 2,
+      "book_id": 63,
+      "hadith_number": "3/158",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 851,
+      "hadith_id": 2,
+      "book_id": 71,
+      "hadith_number": "183",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 841,
+      "hadith_id": 2,
+      "book_id": 64,
+      "hadith_number": "7008",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 844,
+      "hadith_id": 2,
+      "book_id": 66,
+      "hadith_number": "25210",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 842,
+      "hadith_id": 2,
+      "book_id": 65,
+      "hadith_number": "3/126",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    },
+    {
+      "id": 845,
+      "hadith_id": 2,
+      "book_id": 67,
+      "hadith_number": "89",
+      "source_url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+      "verified": true,
+      "review_status": "draft",
+      "data_origin": "scraped_inbox"
+    }
+  ],
+  "dorar_hadith_assessments": []
+}

@@ -1,0 +1,866 @@
+{
+  "generatedAt": "2026-10-07T10:06:54.689Z",
+  "variations": [
+    {
+      "variationId": 271,
+      "bukhariN": 1,
+      "label": "Sahih al-Bukhari #1"
+    },
+    {
+      "variationId": 273,
+      "bukhariN": 2,
+      "label": "Sahih al-Bukhari #2"
+    },
+    {
+      "variationId": 276,
+      "bukhariN": 4,
+      "label": "Sahih al-Bukhari #4"
+    },
+    {
+      "variationId": 279,
+      "bukhariN": 5,
+      "label": "Sahih al-Bukhari #5"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "label": "Sahih al-Bukhari #6"
+    },
+    {
+      "variationId": 282,
+      "bukhariN": 7,
+      "label": "Sahih al-Bukhari #7"
+    }
+  ],
+  "rows": [
+    {
+      "variationId": 271,
+      "bukhariN": 1,
+      "chainNumber": 1,
+      "position": 1,
+      "chainNarratorId": 1247,
+      "narratorId": 954,
+      "dbArabicName": "الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ",
+      "rawName": "الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ",
+      "sunnahId": "4698",
+      "sunnahPageName": "الحميدي عبد الله بن الزبير",
+      "sunnahLinkText": "الْحُمَيْدِيُّ عَبْدُ اللَّهِ بْنُ الزُّبَيْرِ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 271,
+      "bukhariN": 1,
+      "chainNumber": 1,
+      "position": 2,
+      "chainNarratorId": 1248,
+      "narratorId": 955,
+      "dbArabicName": "سُفْيَانُ",
+      "rawName": "سُفْيَانُ",
+      "sunnahId": "3443",
+      "sunnahPageName": "سفيان بن عيينة الهلالي",
+      "sunnahLinkText": "سُفْيَانُ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 271,
+      "bukhariN": 1,
+      "chainNumber": 1,
+      "position": 3,
+      "chainNarratorId": 1249,
+      "narratorId": 956,
+      "dbArabicName": "يَحْيَى بْنُ سَعِيدٍ الْأَنْصَارِيُّ",
+      "rawName": "يَحْيَى بْنُ سَعِيدٍ الْأَنْصَارِيُّ",
+      "sunnahId": "8272",
+      "sunnahPageName": "يحيى بن سعيد الأنصاري",
+      "sunnahLinkText": "يَحْيَى بْنُ سَعِيدٍ الأَنْصَارِيُّ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 271,
+      "bukhariN": 1,
+      "chainNumber": 1,
+      "position": 4,
+      "chainNarratorId": 1250,
+      "narratorId": 957,
+      "dbArabicName": "مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِي",
+      "rawName": "مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِي",
+      "sunnahId": "6796",
+      "sunnahPageName": "محمد بن إبراهيم القرشي",
+      "sunnahLinkText": "مُحَمَّدُ بْنُ إِبْرَاهِيمَ التَّيْمِيُّ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 271,
+      "bukhariN": 1,
+      "chainNumber": 1,
+      "position": 5,
+      "chainNarratorId": 1251,
+      "narratorId": 958,
+      "dbArabicName": "عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ",
+      "rawName": "عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ",
+      "sunnahId": "5719",
+      "sunnahPageName": "علقمة بن وقاص العتواري",
+      "sunnahLinkText": "عَلْقَمَةَ بْنَ وَقَّاصٍ اللَّيْثِيَّ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 271,
+      "bukhariN": 1,
+      "chainNumber": 1,
+      "position": 6,
+      "chainNarratorId": 1252,
+      "narratorId": 959,
+      "dbArabicName": "عُمَرَ بْنَ الْخَطَّابِ",
+      "rawName": "عُمَرَ بْنَ الْخَطَّابِ",
+      "sunnahId": "5913",
+      "sunnahPageName": "عمر بن الخطاب العدوي",
+      "sunnahLinkText": "عُمَرَ بْنَ الْخَطَّابِ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 273,
+      "bukhariN": 2,
+      "chainNumber": 1,
+      "position": 1,
+      "chainNarratorId": 1253,
+      "narratorId": 960,
+      "dbArabicName": "عَبْدُ اللَّهِ بْنُ يُوسُفَ",
+      "rawName": "عَبْدُ اللَّهِ بْنُ يُوسُفَ",
+      "sunnahId": "5175",
+      "sunnahPageName": "عبد الله بن يوسف الكلاعي",
+      "sunnahLinkText": "عَبْدُ اللَّهِ بْنُ يُوسُفَ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 273,
+      "bukhariN": 2,
+      "chainNumber": 1,
+      "position": 2,
+      "chainNarratorId": 1254,
+      "narratorId": 961,
+      "dbArabicName": "مَالِك",
+      "rawName": "مَالِك",
+      "sunnahId": "6659",
+      "sunnahPageName": "مالك بن أنس الأصبحي",
+      "sunnahLinkText": "مَالِكٌ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 273,
+      "bukhariN": 2,
+      "chainNumber": 1,
+      "position": 3,
+      "chainNarratorId": 1255,
+      "narratorId": 962,
+      "dbArabicName": "هِشَامِ بْنِ عُرْوَة",
+      "rawName": "هِشَامِ بْنِ عُرْوَة",
+      "sunnahId": "8055",
+      "sunnahPageName": "هشام بن عروة الأسدي",
+      "sunnahLinkText": "هِشَامِ بْنِ عُرْوَةَ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 273,
+      "bukhariN": 2,
+      "chainNumber": 1,
+      "position": 4,
+      "chainNarratorId": 1256,
+      "narratorId": null,
+      "dbArabicName": "",
+      "rawName": "أَبِيه",
+      "sunnahId": "5594",
+      "sunnahPageName": "عروة بن الزبير الأسدي",
+      "sunnahLinkText": "أَبِيهِ",
+      "needsAssessment": false,
+      "unresolved": true,
+      "proposeUpdate": "UPDATE chain_narrators SET narrator_id = 968 WHERE id = 1256 AND narrator_id IS NULL; -- sunnah 5594 (عروة بن الزبير الأسدي)",
+      "note": "UNRESOLVED but Sunnah links to /narrator/5594 (عروة بن الزبير الأسدي)"
+    },
+    {
+      "variationId": 273,
+      "bukhariN": 2,
+      "chainNumber": 1,
+      "position": 5,
+      "chainNarratorId": 1257,
+      "narratorId": 963,
+      "dbArabicName": "عَائِشَةَ أُمِّ الْمُؤْمِنِينَ",
+      "rawName": "عَائِشَةَ أُمِّ الْمُؤْمِنِينَ",
+      "sunnahId": "4049",
+      "sunnahPageName": "عائشة بنت أبي بكر الصديق",
+      "sunnahLinkText": "عَائِشَةَ",
+      "needsAssessment": false,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "already had appraisals or outside target set"
+    },
+    {
+      "variationId": 276,
+      "bukhariN": 4,
+      "chainNumber": 1,
+      "position": 1,
+      "chainNarratorId": 1264,
+      "narratorId": 967,
+      "dbArabicName": "ابْنُ شِهَابٍ",
+      "rawName": "ابْنُ شِهَابٍ",
+      "sunnahId": "7272",
+      "sunnahPageName": "محمد بن شهاب الزهري",
+      "sunnahLinkText": "ابْنُ شِهَابٍ",
+      "needsAssessment": false,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "already had appraisals or outside target set"
+    },
+    {
+      "variationId": 276,
+      "bukhariN": 4,
+      "chainNumber": 1,
+      "position": 2,
+      "chainNarratorId": 1265,
+      "narratorId": 969,
+      "dbArabicName": "أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَن",
+      "rawName": "أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَن",
+      "sunnahId": "4903",
+      "sunnahPageName": "أبو سلمة بن عبد الرحمن الزهري",
+      "sunnahLinkText": "أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 276,
+      "bukhariN": 4,
+      "chainNumber": 1,
+      "position": 3,
+      "chainNarratorId": 1266,
+      "narratorId": 970,
+      "dbArabicName": "جَابِرَ بْنَ عَبْدِ اللَّهِ الأَنْصَارِيَّ",
+      "rawName": "جَابِرَ بْنَ عَبْدِ اللَّهِ الأَنْصَارِيَّ",
+      "sunnahId": "2069",
+      "sunnahPageName": "جابر بن عبد الله الأنصاري",
+      "sunnahLinkText": "جَابِرَ بْنَ عَبْدِ اللَّهِ الأَنْصَارِيَّ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 279,
+      "bukhariN": 5,
+      "chainNumber": 1,
+      "position": 1,
+      "chainNarratorId": 1267,
+      "narratorId": 971,
+      "dbArabicName": "مُوسَى بْنُ إِسْمَاعِيلَ",
+      "rawName": "مُوسَى بْنُ إِسْمَاعِيلَ",
+      "sunnahId": "7721",
+      "sunnahPageName": "موسى بن إسماعيل التبوذكي",
+      "sunnahLinkText": "مُوسَى بْنُ إِسْمَاعِيلَ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 279,
+      "bukhariN": 5,
+      "chainNumber": 1,
+      "position": 2,
+      "chainNarratorId": 1268,
+      "narratorId": 972,
+      "dbArabicName": "أَبُو عَوَانَةَ",
+      "rawName": "أَبُو عَوَانَةَ",
+      "sunnahId": "8153",
+      "sunnahPageName": "الوضاح بن عبد الله اليشكري",
+      "sunnahLinkText": "أَبُو عَوَانَةَ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 279,
+      "bukhariN": 5,
+      "chainNumber": 1,
+      "position": 3,
+      "chainNarratorId": 1269,
+      "narratorId": 973,
+      "dbArabicName": "مُوسَى بْنُ أَبِي عَائِشَةَ",
+      "rawName": "مُوسَى بْنُ أَبِي عَائِشَةَ",
+      "sunnahId": "7710",
+      "sunnahPageName": "موسى بن أبي عائشة الهمداني",
+      "sunnahLinkText": "مُوسَى بْنُ أَبِي عَائِشَةَ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 279,
+      "bukhariN": 5,
+      "chainNumber": 1,
+      "position": 4,
+      "chainNarratorId": 1270,
+      "narratorId": 974,
+      "dbArabicName": "سَعِيدُ بْنُ جُبَيْر",
+      "rawName": "سَعِيدُ بْنُ جُبَيْر",
+      "sunnahId": "3307",
+      "sunnahPageName": "سعيد بن جبير الأسدي",
+      "sunnahLinkText": "سَعِيدُ بْنُ جُبَيْرٍ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 279,
+      "bukhariN": 5,
+      "chainNumber": 1,
+      "position": 5,
+      "chainNarratorId": 1271,
+      "narratorId": 975,
+      "dbArabicName": "عَبْدَ اللَّهِ بْنَ عَبَّاسٍ",
+      "rawName": "ابْنِ عَبَّاسٍ",
+      "sunnahId": "4883",
+      "sunnahPageName": "عبد الله بن العباس القرشي",
+      "sunnahLinkText": "ابْنِ عَبَّاسٍ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 1,
+      "position": 1,
+      "chainNarratorId": 1272,
+      "narratorId": 976,
+      "dbArabicName": "عَبْدَانُ",
+      "rawName": "عَبْدَانُ",
+      "sunnahId": "4943",
+      "sunnahPageName": "عبد الله بن عثمان العتكي",
+      "sunnahLinkText": "عَبْدَانُ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 1,
+      "position": 2,
+      "chainNarratorId": 1273,
+      "narratorId": null,
+      "dbArabicName": "",
+      "rawName": "عَبْدُ اللَّهِ",
+      "sunnahId": "4716",
+      "sunnahPageName": "عبد الله بن المبارك الحنظلي",
+      "sunnahLinkText": "عَبْدُ اللَّهِ",
+      "needsAssessment": false,
+      "unresolved": true,
+      "proposeUpdate": "UPDATE chain_narrators SET narrator_id = 100 WHERE id = 1273 AND narrator_id IS NULL; -- sunnah 4716 (عبد الله بن المبارك الحنظلي)",
+      "note": "UNRESOLVED but Sunnah links to /narrator/4716 (عبد الله بن المبارك الحنظلي)"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 1,
+      "position": 3,
+      "chainNarratorId": 1274,
+      "narratorId": 977,
+      "dbArabicName": "يُونُسُ",
+      "rawName": "يُونُس",
+      "sunnahId": "8621",
+      "sunnahPageName": "يونس بن يزيد الأيلي",
+      "sunnahLinkText": "يُونُسُ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 1,
+      "position": 4,
+      "chainNarratorId": 1275,
+      "narratorId": 967,
+      "dbArabicName": "ابْنُ شِهَابٍ",
+      "rawName": "الزُّهْرِيِّ",
+      "sunnahId": "7272",
+      "sunnahPageName": "محمد بن شهاب الزهري",
+      "sunnahLinkText": "الزُّهْرِيِّ",
+      "needsAssessment": false,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "already had appraisals or outside target set"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 2,
+      "position": 1,
+      "chainNarratorId": 1276,
+      "narratorId": 978,
+      "dbArabicName": "بِشْرُ بْنُ مُحَمَّدٍ",
+      "rawName": "بِشْرُ بْنُ مُحَمَّدٍ",
+      "sunnahId": "1888",
+      "sunnahPageName": "بشر بن محمد السختياني",
+      "sunnahLinkText": "بِشْرُ بْنُ مُحَمَّدٍ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 2,
+      "position": 2,
+      "chainNarratorId": 1277,
+      "narratorId": null,
+      "dbArabicName": "",
+      "rawName": "عَبْدُ اللَّهِ",
+      "sunnahId": "4716",
+      "sunnahPageName": "عبد الله بن المبارك الحنظلي",
+      "sunnahLinkText": "عَبْدُ اللَّهِ",
+      "needsAssessment": false,
+      "unresolved": true,
+      "proposeUpdate": "UPDATE chain_narrators SET narrator_id = 100 WHERE id = 1277 AND narrator_id IS NULL; -- sunnah 4716 (عبد الله بن المبارك الحنظلي)",
+      "note": "UNRESOLVED but Sunnah links to /narrator/4716 (عبد الله بن المبارك الحنظلي)"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 2,
+      "position": 3,
+      "chainNarratorId": 1278,
+      "narratorId": 977,
+      "dbArabicName": "يُونُسُ",
+      "rawName": "يُونُسُ",
+      "sunnahId": "8621",
+      "sunnahPageName": "يونس بن يزيد الأيلي",
+      "sunnahLinkText": "يونس",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 2,
+      "position": 4,
+      "chainNarratorId": 1279,
+      "narratorId": 967,
+      "dbArabicName": "ابْنُ شِهَابٍ",
+      "rawName": "الزُّهْرِيِّ",
+      "sunnahId": "7272",
+      "sunnahPageName": "محمد بن شهاب الزهري",
+      "sunnahLinkText": "الزُّهْرِيِّ",
+      "needsAssessment": false,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "already had appraisals or outside target set"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 3,
+      "position": 1,
+      "chainNarratorId": 1280,
+      "narratorId": 978,
+      "dbArabicName": "بِشْرُ بْنُ مُحَمَّدٍ",
+      "rawName": "بِشْرُ بْنُ مُحَمَّدٍ",
+      "sunnahId": "1888",
+      "sunnahPageName": "بشر بن محمد السختياني",
+      "sunnahLinkText": "بِشْرُ بْنُ مُحَمَّدٍ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 3,
+      "position": 2,
+      "chainNarratorId": 1281,
+      "narratorId": null,
+      "dbArabicName": "",
+      "rawName": "عَبْدُ اللَّهِ",
+      "sunnahId": "4716",
+      "sunnahPageName": "عبد الله بن المبارك الحنظلي",
+      "sunnahLinkText": "عَبْدُ اللَّهِ",
+      "needsAssessment": false,
+      "unresolved": true,
+      "proposeUpdate": "UPDATE chain_narrators SET narrator_id = 100 WHERE id = 1281 AND narrator_id IS NULL; -- sunnah 4716 (عبد الله بن المبارك الحنظلي)",
+      "note": "UNRESOLVED but Sunnah links to /narrator/4716 (عبد الله بن المبارك الحنظلي)"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 3,
+      "position": 3,
+      "chainNarratorId": 1282,
+      "narratorId": 979,
+      "dbArabicName": "مَعْمَر",
+      "rawName": "مَعْمَر",
+      "sunnahId": "7633",
+      "sunnahPageName": "معمر بن أبي عمرو الأزدي",
+      "sunnahLinkText": "معمر",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 280,
+      "bukhariN": 6,
+      "chainNumber": 3,
+      "position": 4,
+      "chainNarratorId": 1283,
+      "narratorId": 967,
+      "dbArabicName": "ابْنُ شِهَابٍ",
+      "rawName": "الزُّهْرِيِّ",
+      "sunnahId": "7272",
+      "sunnahPageName": "محمد بن شهاب الزهري",
+      "sunnahLinkText": "الزُّهْرِيِّ",
+      "needsAssessment": false,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "already had appraisals or outside target set"
+    },
+    {
+      "variationId": 282,
+      "bukhariN": 7,
+      "chainNumber": 1,
+      "position": 1,
+      "chainNarratorId": 1284,
+      "narratorId": 980,
+      "dbArabicName": "أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ",
+      "rawName": "أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ",
+      "sunnahId": "1382",
+      "sunnahPageName": "الحكم بن نافع البهراني",
+      "sunnahLinkText": "أَبُو الْيَمَانِ الْحَكَمُ بْنُ نَافِعٍ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 282,
+      "bukhariN": 7,
+      "chainNumber": 1,
+      "position": 2,
+      "chainNarratorId": 1285,
+      "narratorId": 981,
+      "dbArabicName": "شُعَيْب",
+      "rawName": "شُعَيْب",
+      "sunnahId": "3801",
+      "sunnahPageName": "شعيب بن أبي حمزة الأموي",
+      "sunnahLinkText": "شُعَيْبٌ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 282,
+      "bukhariN": 7,
+      "chainNumber": 1,
+      "position": 3,
+      "chainNarratorId": 1286,
+      "narratorId": 967,
+      "dbArabicName": "ابْنُ شِهَابٍ",
+      "rawName": "الزُّهْرِيِّ",
+      "sunnahId": "7272",
+      "sunnahPageName": "محمد بن شهاب الزهري",
+      "sunnahLinkText": "الزُّهْرِيِّ",
+      "needsAssessment": false,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "already had appraisals or outside target set"
+    },
+    {
+      "variationId": 282,
+      "bukhariN": 7,
+      "chainNumber": 1,
+      "position": 4,
+      "chainNarratorId": 1287,
+      "narratorId": 982,
+      "dbArabicName": "عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُود",
+      "rawName": "عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُود",
+      "sunnahId": "5409",
+      "sunnahPageName": "عبيد الله بن عبد الله الهذلي",
+      "sunnahLinkText": "عُبَيْدُ اللَّهِ بْنُ عَبْدِ اللَّهِ بْنِ عُتْبَةَ بْنِ مَسْعُودٍ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 282,
+      "bukhariN": 7,
+      "chainNumber": 1,
+      "position": 5,
+      "chainNarratorId": 1288,
+      "narratorId": 975,
+      "dbArabicName": "عَبْدَ اللَّهِ بْنَ عَبَّاسٍ",
+      "rawName": "عَبْدَ اللَّهِ بْنَ عَبَّاسٍ",
+      "sunnahId": "4883",
+      "sunnahPageName": "عبد الله بن العباس القرشي",
+      "sunnahLinkText": "عَبْدَ اللَّهِ بْنَ عَبَّاسٍ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    },
+    {
+      "variationId": 282,
+      "bukhariN": 7,
+      "chainNumber": 1,
+      "position": 6,
+      "chainNarratorId": 1289,
+      "narratorId": 983,
+      "dbArabicName": "أَبَا سُفْيَانَ بْنَ حَرْبٍ",
+      "rawName": "أَبَا سُفْيَانَ بْنَ حَرْبٍ",
+      "sunnahId": "3913",
+      "sunnahPageName": "أبو سفيان بن حرب القرشي",
+      "sunnahLinkText": "أَبَا سُفْيَانَ بْنَ حَرْبٍ",
+      "needsAssessment": true,
+      "unresolved": false,
+      "proposeUpdate": null,
+      "note": "needs appraisals"
+    }
+  ],
+  "toImport": [
+    {
+      "sunnahId": "4698",
+      "name": "الحميدي عبد الله بن الزبير",
+      "narratorIds": [
+        954
+      ]
+    },
+    {
+      "sunnahId": "3443",
+      "name": "سفيان بن عيينة الهلالي",
+      "narratorIds": [
+        955
+      ]
+    },
+    {
+      "sunnahId": "8272",
+      "name": "يحيى بن سعيد الأنصاري",
+      "narratorIds": [
+        956
+      ]
+    },
+    {
+      "sunnahId": "6796",
+      "name": "محمد بن إبراهيم القرشي",
+      "narratorIds": [
+        957
+      ]
+    },
+    {
+      "sunnahId": "5719",
+      "name": "علقمة بن وقاص العتواري",
+      "narratorIds": [
+        958
+      ]
+    },
+    {
+      "sunnahId": "5913",
+      "name": "عمر بن الخطاب العدوي",
+      "narratorIds": [
+        959
+      ]
+    },
+    {
+      "sunnahId": "5175",
+      "name": "عبد الله بن يوسف الكلاعي",
+      "narratorIds": [
+        960
+      ]
+    },
+    {
+      "sunnahId": "6659",
+      "name": "مالك بن أنس الأصبحي",
+      "narratorIds": [
+        961
+      ]
+    },
+    {
+      "sunnahId": "8055",
+      "name": "هشام بن عروة الأسدي",
+      "narratorIds": [
+        962
+      ]
+    },
+    {
+      "sunnahId": "4903",
+      "name": "أبو سلمة بن عبد الرحمن الزهري",
+      "narratorIds": [
+        969
+      ]
+    },
+    {
+      "sunnahId": "2069",
+      "name": "جابر بن عبد الله الأنصاري",
+      "narratorIds": [
+        970
+      ]
+    },
+    {
+      "sunnahId": "7721",
+      "name": "موسى بن إسماعيل التبوذكي",
+      "narratorIds": [
+        971
+      ]
+    },
+    {
+      "sunnahId": "8153",
+      "name": "الوضاح بن عبد الله اليشكري",
+      "narratorIds": [
+        972
+      ]
+    },
+    {
+      "sunnahId": "7710",
+      "name": "موسى بن أبي عائشة الهمداني",
+      "narratorIds": [
+        973
+      ]
+    },
+    {
+      "sunnahId": "3307",
+      "name": "سعيد بن جبير الأسدي",
+      "narratorIds": [
+        974
+      ]
+    },
+    {
+      "sunnahId": "4883",
+      "name": "عبد الله بن العباس القرشي",
+      "narratorIds": [
+        975
+      ]
+    },
+    {
+      "sunnahId": "4943",
+      "name": "عبد الله بن عثمان العتكي",
+      "narratorIds": [
+        976
+      ]
+    },
+    {
+      "sunnahId": "8621",
+      "name": "يونس بن يزيد الأيلي",
+      "narratorIds": [
+        977
+      ]
+    },
+    {
+      "sunnahId": "1888",
+      "name": "بشر بن محمد السختياني",
+      "narratorIds": [
+        978
+      ]
+    },
+    {
+      "sunnahId": "7633",
+      "name": "معمر بن أبي عمرو الأزدي",
+      "narratorIds": [
+        979
+      ]
+    },
+    {
+      "sunnahId": "1382",
+      "name": "الحكم بن نافع البهراني",
+      "narratorIds": [
+        980
+      ]
+    },
+    {
+      "sunnahId": "3801",
+      "name": "شعيب بن أبي حمزة الأموي",
+      "narratorIds": [
+        981
+      ]
+    },
+    {
+      "sunnahId": "5409",
+      "name": "عبيد الله بن عبد الله الهذلي",
+      "narratorIds": [
+        982
+      ]
+    },
+    {
+      "sunnahId": "3913",
+      "name": "أبو سفيان بن حرب القرشي",
+      "narratorIds": [
+        983
+      ]
+    }
+  ],
+  "proposedUpdates": [
+    {
+      "chainNarratorId": 1256,
+      "rawName": "أَبِيه",
+      "sunnahId": "5594",
+      "proposeUpdate": "UPDATE chain_narrators SET narrator_id = 968 WHERE id = 1256 AND narrator_id IS NULL; -- sunnah 5594 (عروة بن الزبير الأسدي)",
+      "note": "UNRESOLVED but Sunnah links to /narrator/5594 (عروة بن الزبير الأسدي)"
+    },
+    {
+      "chainNarratorId": 1273,
+      "rawName": "عَبْدُ اللَّهِ",
+      "sunnahId": "4716",
+      "proposeUpdate": "UPDATE chain_narrators SET narrator_id = 100 WHERE id = 1273 AND narrator_id IS NULL; -- sunnah 4716 (عبد الله بن المبارك الحنظلي)",
+      "note": "UNRESOLVED but Sunnah links to /narrator/4716 (عبد الله بن المبارك الحنظلي)"
+    },
+    {
+      "chainNarratorId": 1277,
+      "rawName": "عَبْدُ اللَّهِ",
+      "sunnahId": "4716",
+      "proposeUpdate": "UPDATE chain_narrators SET narrator_id = 100 WHERE id = 1277 AND narrator_id IS NULL; -- sunnah 4716 (عبد الله بن المبارك الحنظلي)",
+      "note": "UNRESOLVED but Sunnah links to /narrator/4716 (عبد الله بن المبارك الحنظلي)"
+    },
+    {
+      "chainNarratorId": 1281,
+      "rawName": "عَبْدُ اللَّهِ",
+      "sunnahId": "4716",
+      "proposeUpdate": "UPDATE chain_narrators SET narrator_id = 100 WHERE id = 1281 AND narrator_id IS NULL; -- sunnah 4716 (عبد الله بن المبارك الحنظلي)",
+      "note": "UNRESOLVED but Sunnah links to /narrator/4716 (عبد الله بن المبارك الحنظلي)"
+    }
+  ]
+}

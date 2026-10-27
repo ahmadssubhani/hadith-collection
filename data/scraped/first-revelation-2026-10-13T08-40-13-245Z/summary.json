@@ -1,0 +1,43 @@
+{
+  "runId": "2026-10-13T08-40-13-245Z",
+  "createdAt": "2026-10-13T08:41:39.426Z",
+  "queries": [
+    "Hira",
+    "Iqra",
+    "beginning of the revelation",
+    "first revelation",
+    "period of pause",
+    "بدء الوحي",
+    "غار حراء"
+  ],
+  "refs": [
+    "bukhari:1",
+    "bukhari:2",
+    "bukhari:3",
+    "bukhari:4",
+    "bukhari:5",
+    "bukhari:6",
+    "bukhari:7",
+    "bukhari:4953",
+    "bukhari:6982",
+    "muslim:160"
+  ],
+  "reports": [
+    {
+      "source": "hadeethenc",
+      "ok": true,
+      "count": 9,
+      "note": "Official API. Terms: no modification of content; credit HadeethEnc.com."
+    },
+    {
+      "source": "thaqalayn",
+      "ok": true,
+      "count": 33,
+      "note": "Public Thaqalayn API v2. Search is exact-substring; diacritized Arabic may be missed. Credit thaqalayn.net."
+    }
+  ],
+  "totals": {
+    "collected": 42,
+    "relevant": 11
+  }
+}

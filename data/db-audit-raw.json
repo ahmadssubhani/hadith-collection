@@ -1,0 +1,878 @@
+{
+  "generated_at": "2026-10-16T11:11:05.530Z",
+  "project_ref": "ggmqufghubpgsquldjdx",
+  "counts": {
+    "books": 101,
+    "hadiths": 5,
+    "source_variations": 1067,
+    "narrators": 1128,
+    "chains": 822,
+    "chain_narrators": 1826,
+    "scholars": 112,
+    "hadith_assessments": 39,
+    "chain_assessments": 0,
+    "narrator_assessments": 414,
+    "import_batches": 6,
+    "raw_import_records": 1274,
+    "daily_topics": 1,
+    "daily_hadith_logs": 5,
+    "daily_hadith_batch": 1,
+    "profiles": 0,
+    "hadith_merge_backup": 0
+  },
+  "books": {
+    "traditionBuckets": {
+      "Sunni": 100,
+      "Twelver Shia": 1
+    },
+    "bookTraditionExplicit": {
+      "Sunni": 100,
+      "Twelver Shia": 1,
+      "unclassified": 0,
+      "sunni": 0,
+      "shia": 0
+    },
+    "suspectAttributionTitles": [
+      {
+        "id": 1,
+        "title": "Narrated by Bukhari & Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 2,
+        "title": "Agreed upon",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 3,
+        "title": "Narrated by Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 4,
+        "title": "Narrated by Ibn Hebban",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 5,
+        "title": "Narrated by Bukhari",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 6,
+        "title": "Narrated by Ibn Maajah",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 18,
+        "title": "Narrated by At-Termedhy - Narrated by Abu Daoud",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 19,
+        "title": "Narrated by Ahmad and Al-Bayhaqi",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 20,
+        "title": "Narrated by Abu Dāwūd and Al-Nasā’i",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 21,
+        "title": "Narrated by Al-Bukhāri",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 22,
+        "title": "Narrated by Abu Daoud - Narrated by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 23,
+        "title": "Narrated by At-Tirmidhi",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 25,
+        "title": "Narrated by Abu Dāwūd, At-Tirmidhi, and An-Nasā’i in Al-Kubra and by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 26,
+        "title": "Al-Bukhari as Mu‘allaq/hanging, with a decisive form - Narrated by Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 29,
+        "title": "Narrated by Al-Bukhāri and Abu Dāwūd, and this is the wording of Abu Dāwūd",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 30,
+        "title": "Ibn Wahb in Al-Qadar - Narrated by At-Termedhy - Narrated by Abu Daoud - Narrated by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 31,
+        "title": "Narrated by At-Tirmidhi and Ibn Mājah",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 32,
+        "title": "An-Nasaa’i - Narrated by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 33,
+        "title": "An-Nasaa’i - Narrated by Abu Daoud - Ad-Daarimi",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 34,
+        "title": "Narrated by Abu Dāwūd, An-Nasā’i, and Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 35,
+        "title": "Narrated by At-Tirmidhi, Ibn Mājah, and Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 36,
+        "title": "Narrated by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 37,
+        "title": "Narrated by At-Termedhy - Narrated by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 39,
+        "title": "Narrated by Abu Dāwūd",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 40,
+        "title": "Narrated by Abu Dāwūd, At-Tirmidhi, and An-Nasā’i",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 41,
+        "title": "Ibn Khuzaymah - An-Nasaa’i - Narrated by Ahmad - Narrated by Bukhari & Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 42,
+        "title": "Narrated by Muslim - Narrated by Bukhari & Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 43,
+        "title": "Narrated by Bukhari - Narrated by Bukhari & Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 44,
+        "title": "Al-Bayhaqi - Narrated by Ad-Daraqutny",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 45,
+        "title": "Narrated by Ibn Majah - Narrated by Abu Daoud - Narrated by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 46,
+        "title": "Narrated by Ibn Majah - Al-Bukhari as Mu‘allaq/hanging, with a decisive form - Narrated by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 47,
+        "title": "Narrated by Ibn Majah - Narrated by At-Termedhy - Narrated by Abu Daoud - Narrated by Ahmad - Ad-Daarimi",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 48,
+        "title": "Narrated by Abu Dāwūd, Ibn Mājah, and Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 49,
+        "title": "Narrated by At-Termedhy - Narrated by Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 50,
+        "title": "Narrated by Abu Dāwūd, At-Tirmidhi, and An-Nasā’i in Al-Kubra and by Ibn Mājah and Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 51,
+        "title": "Narrated by Abu Daoud",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 52,
+        "title": "Narrated by Al-Bukhāri and Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 53,
+        "title": "Narrated by Ahmad - Narrated by Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 54,
+        "title": "Narrated by Muslim - Al-Bukhari and Muslim with its two versions",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 55,
+        "title": "Narrated by Ibn Majah - Narrated by At-Termedhy - Narrated by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 56,
+        "title": "Narrated by Ibn Majah - Narrated by At-Termedhy - An-Nasaa’i - Narrated by Abu Daoud",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 57,
+        "title": "Al-Bayhaqi - Narrated by Bukhari & Muslim",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 59,
+        "title": "Narrated by Ibn Majah - An-Nasaa’i - Narrated by Abu Daoud - Narrated by Ahmad",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 60,
+        "title": "Al-Bukhari with a similar wording - Narrated by Muslim",
+        "tradition": "Sunni"
+      }
+    ],
+    "mislabeledLikelyShia": [
+      {
+        "id": 9,
+        "title": "Al-Amālī",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 10,
+        "title": "Al-Kāfi",
+        "tradition": "Sunni"
+      },
+      {
+        "id": 12,
+        "title": "Kitāb al-Ghayba",
+        "tradition": "Sunni"
+      }
+    ],
+    "unclassifiedLookingSunni": [],
+    "missingArabicTitle": 40,
+    "missingAuthor": 40
+  },
+  "hadiths": {
+    "byStatus": {
+      "draft": 0,
+      "in_review": 0,
+      "published": 5,
+      "rejected": 0
+    },
+    "rows": [
+      {
+        "id": 1,
+        "slug": "first-revelation-at-hira",
+        "title": "The Beginning of Revelation (First Wahi at Cave Hira)",
+        "arabic_title": "بدء الوحي ونزول القرآن في غار حراء",
+        "summary": "Cross-traditional narrations on the commencement of revelation in Cave Hira, the first verses of Surah al-Alaq (96:1-5), the pause of revelation (Fatrat al-Wahy), Surah al-Muddaththir, and classical accounts of certainty and tranquility.",
+        "topics": [
+          "first-wahi",
+          "revelation",
+          "hira",
+          "gabriel",
+          "iqra",
+          "alaq",
+          "muddaththir",
+          "khadijah",
+          "waraqa",
+          "sakinah"
+        ],
+        "review_status": "published"
+      },
+      {
+        "id": 2,
+        "slug": "scraped-inbox-dorar",
+        "title": "Scraped collection — dorar",
+        "arabic_title": null,
+        "summary": "Auto-published scrape buffer for local review. Chains/narrator evidence are partial until fully curated.",
+        "topics": [
+          "scraped",
+          "inbox",
+          "dorar"
+        ],
+        "review_status": "published"
+      },
+      {
+        "id": 3,
+        "slug": "scraped-inbox-hadeethenc",
+        "title": "Scraped collection — hadeethenc",
+        "arabic_title": null,
+        "summary": "Auto-published scrape buffer for local review. Chains/narrator evidence are partial until fully curated.",
+        "topics": [
+          "scraped",
+          "inbox",
+          "hadeethenc"
+        ],
+        "review_status": "published"
+      },
+      {
+        "id": 4,
+        "slug": "scraped-inbox-sunnah",
+        "title": "Scraped collection — sunnah",
+        "arabic_title": null,
+        "summary": "Auto-published scrape buffer for local review. Chains/narrator evidence are partial until fully curated.",
+        "topics": [
+          "scraped",
+          "inbox",
+          "sunnah"
+        ],
+        "review_status": "published"
+      },
+      {
+        "id": 5,
+        "slug": "combined-847",
+        "title": "Combined hadith (G001): عارضة الأحوذي #6/373 + صحيح الترمذي #3318",
+        "arabic_title": null,
+        "summary": "Auto-published scrape buffer for local review. Chains/narrator evidence are partial until fully curated.",
+        "topics": [
+          "combined",
+          "dedupe",
+          "high"
+        ],
+        "review_status": "published"
+      }
+    ],
+    "emptyTopicsInSample": []
+  },
+  "source_variations": {
+    "total": 1067,
+    "verified": 1066,
+    "unverified": 1,
+    "nullRates": {
+      "hadith_number": {
+        "empty": 0,
+        "pct": "0.0%"
+      },
+      "chapter": {
+        "empty": 633,
+        "pct": "59.3%"
+      },
+      "volume": {
+        "empty": 639,
+        "pct": "59.9%"
+      },
+      "page": {
+        "empty": 639,
+        "pct": "59.9%"
+      },
+      "arabic_text": {
+        "empty": 1,
+        "pct": "0.1%"
+      },
+      "english_text": {
+        "empty": 17,
+        "pct": "1.6%"
+      },
+      "translator": {
+        "empty": 639,
+        "pct": "59.9%"
+      },
+      "source_url": {
+        "empty": 0,
+        "pct": "0.0%"
+      },
+      "status_notes": {
+        "empty": 222,
+        "pct": "20.8%"
+      }
+    },
+    "hadithStatusCounts": {
+      "not_graded": 623,
+      "sahih": 23,
+      "hasan": 0,
+      "daif": 0,
+      "mawdu": 0,
+      "munkar": 0
+    },
+    "duplicateBookNumberGroups": 2,
+    "duplicateBookNumberExamples": [
+      {
+        "key": "70|3318",
+        "ids": [
+          848,
+          1477
+        ],
+        "n": 2
+      },
+      {
+        "key": "69|6/373",
+        "ids": [
+          847,
+          1476
+        ],
+        "n": 2
+      }
+    ],
+    "duplicateSourceUrlGroups": 14,
+    "duplicateSourceUrlExamples": [
+      {
+        "url": "https://dorar.net/hadith/search?q=%D9%86%D8%B2%D9%88%D9%84%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+        "n": 15
+      },
+      {
+        "url": "https://sunnah.com/bukhari/92",
+        "n": 81
+      },
+      {
+        "url": "https://sunnah.com/bukhari/97",
+        "n": 183
+      },
+      {
+        "url": "https://sunnah.com/bukhari/96",
+        "n": 77
+      },
+      {
+        "url": "https://sunnah.com/bukhari/95",
+        "n": 16
+      },
+      {
+        "url": "https://sunnah.com/bukhari/94",
+        "n": 15
+      },
+      {
+        "url": "https://sunnah.com/bukhari/93",
+        "n": 56
+      },
+      {
+        "url": "https://hadeethenc.com/en/browse/hadith/4792",
+        "n": 2
+      },
+      {
+        "url": "https://sunnah.com/bukhari/91",
+        "n": 61
+      },
+      {
+        "url": "https://hadeethenc.com/en/browse/hadith/4563",
+        "n": 2
+      }
+    ],
+    "variationsWithoutChains": 247
+  },
+  "chains": {
+    "total": 822,
+    "verified": 183,
+    "orphanChains": 67,
+    "chainsWithNoNodes": 141,
+    "chainsWithoutAssessment": 822,
+    "unresolvedNarratorNodes": 0,
+    "danglingNarratorRefs": 234,
+    "orphanChainNarrators": 0
+  },
+  "narrators": {
+    "total": 1128,
+    "verified": 954,
+    "nullRates": {
+      "arabic_name": {
+        "nulls": 144,
+        "pct": "12.8%"
+      },
+      "birth_year_ah": {
+        "nulls": 1128,
+        "pct": "100.0%"
+      },
+      "death_year_ah": {
+        "nulls": 205,
+        "pct": "18.2%"
+      },
+      "region": {
+        "nulls": 205,
+        "pct": "18.2%"
+      },
+      "generation": {
+        "nulls": 205,
+        "pct": "18.2%"
+      },
+      "biography": {
+        "nulls": 205,
+        "pct": "18.2%"
+      }
+    },
+    "withoutAnyAssessment": 1097,
+    "withAssessment": 31
+  },
+  "scholars": {
+    "total": 112,
+    "traditionBuckets": {
+      "Sunni": 8,
+      "Twelver Shia": 3,
+      "(null)": 101
+    },
+    "sample": [
+      {
+        "id": 1,
+        "slug": "ibn-hajar",
+        "name": "Ibn Hajar al-Asqalani",
+        "arabic_name": "Ibn Hajar al-Asqalani",
+        "tradition": "Sunni",
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 2,
+        "slug": "allamah-al-majlisi",
+        "name": "Allamah al-Majlisi",
+        "arabic_name": "Allamah al-Majlisi",
+        "tradition": "Sunni",
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 3,
+        "slug": "muhammad-baqir-al-behbudi",
+        "name": "Muhammad Baqir al-Behbudi",
+        "arabic_name": "Muhammad Baqir al-Behbudi",
+        "tradition": "Sunni",
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 4,
+        "slug": "yahya-ibn-main",
+        "name": "Yahya ibn Ma'in",
+        "arabic_name": "يحيى بن معين",
+        "tradition": "Sunni",
+        "birth_year_ah": 158,
+        "death_year_ah": 233
+      },
+      {
+        "id": 5,
+        "slug": "abu-hatim-al-razi",
+        "name": "Abu Hatim al-Razi",
+        "arabic_name": "أبو حاتم الرازي",
+        "tradition": "Sunni",
+        "birth_year_ah": 195,
+        "death_year_ah": 277
+      },
+      {
+        "id": 6,
+        "slug": "al-nasai",
+        "name": "al-Nasa'i",
+        "arabic_name": "النسائي",
+        "tradition": "Sunni",
+        "birth_year_ah": 215,
+        "death_year_ah": 303
+      },
+      {
+        "id": 7,
+        "slug": "ibn-hajar-al-asqalani",
+        "name": "Ibn Hajar al-'Asqalani",
+        "arabic_name": "ابن حجر العسقلاني",
+        "tradition": "Sunni",
+        "birth_year_ah": 773,
+        "death_year_ah": 852
+      },
+      {
+        "id": 8,
+        "slug": "al-dhahabi",
+        "name": "al-Dhahabi",
+        "arabic_name": "الذهبي",
+        "tradition": "Sunni",
+        "birth_year_ah": 673,
+        "death_year_ah": 748
+      },
+      {
+        "id": 9,
+        "slug": "al-najashi",
+        "name": "al-Najashi",
+        "arabic_name": "النجاشي",
+        "tradition": "Twelver Shia",
+        "birth_year_ah": 372,
+        "death_year_ah": 450
+      },
+      {
+        "id": 10,
+        "slug": "al-tusi",
+        "name": "Shaykh al-Tusi",
+        "arabic_name": "الشيخ الطوسي",
+        "tradition": "Twelver Shia",
+        "birth_year_ah": 385,
+        "death_year_ah": 460
+      },
+      {
+        "id": 11,
+        "slug": "al-khoei",
+        "name": "Sayyid al-Khoei",
+        "arabic_name": "السيد الخوئي",
+        "tradition": "Twelver Shia",
+        "birth_year_ah": 1317,
+        "death_year_ah": 1413
+      },
+      {
+        "id": 12,
+        "slug": "sunnah-8f119207db",
+        "name": "أبو حاتم بن حبان البستي",
+        "arabic_name": "أبو حاتم بن حبان البستي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 13,
+        "slug": "sunnah-d1d40537e7",
+        "name": "البخاري",
+        "arabic_name": "البخاري",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 14,
+        "slug": "sunnah-8dd8a7bff5",
+        "name": "الدارقطني",
+        "arabic_name": "الدارقطني",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 15,
+        "slug": "sunnah-e404d3978b",
+        "name": "أبو أحمد بن عدي الجرجاني",
+        "arabic_name": "أبو أحمد بن عدي الجرجاني",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 16,
+        "slug": "sunnah-71008a424a",
+        "name": "أبو الفرج ابن الجوزي",
+        "arabic_name": "أبو الفرج ابن الجوزي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 17,
+        "slug": "sunnah-7197c825d5",
+        "name": "مسلمة بن القاسم الأندلسي",
+        "arabic_name": "مسلمة بن القاسم الأندلسي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 18,
+        "slug": "sunnah-53df21cfc0",
+        "name": "زكريا بن يحيى الساجي",
+        "arabic_name": "زكريا بن يحيى الساجي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 19,
+        "slug": "sunnah-6817aa8649",
+        "name": "عبد الباقي بن قانع البغدادي",
+        "arabic_name": "عبد الباقي بن قانع البغدادي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 20,
+        "slug": "sunnah-9fe95e29f3",
+        "name": "أبو يعلى الخليلي",
+        "arabic_name": "أبو يعلى الخليلي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 21,
+        "slug": "sunnah-a46e6cb0ca",
+        "name": "مصنفوا تحرير تقريب التهذيب",
+        "arabic_name": "مصنفوا تحرير تقريب التهذيب",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 22,
+        "slug": "sunnah-9475cc7587",
+        "name": "أحمد بن حنبل",
+        "arabic_name": "أحمد بن حنبل",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 23,
+        "slug": "sunnah-67d1d5fbbf",
+        "name": "أبو زرعة الرازي",
+        "arabic_name": "أبو زرعة الرازي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 24,
+        "slug": "sunnah-3c8ab8d458",
+        "name": "أبو داود السجستاني",
+        "arabic_name": "أبو داود السجستاني",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 25,
+        "slug": "sunnah-7bda23a901",
+        "name": "علي بن المديني",
+        "arabic_name": "علي بن المديني",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 26,
+        "slug": "sunnah-9ef59d5f2e",
+        "name": "أحمد بن عبد الله العجلي",
+        "arabic_name": "أحمد بن عبد الله العجلي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 27,
+        "slug": "sunnah-78c979e2f7",
+        "name": "محمد بن سعد كاتب الواقدي",
+        "arabic_name": "محمد بن سعد كاتب الواقدي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 28,
+        "slug": "sunnah-07ba9d9b7c",
+        "name": "أبو عبد الله الحاكم",
+        "arabic_name": "أبو عبد الله الحاكم",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 29,
+        "slug": "sunnah-933fa91e7a",
+        "name": "أبو الفتح الأزدي",
+        "arabic_name": "أبو الفتح الأزدي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      },
+      {
+        "id": 30,
+        "slug": "sunnah-8190260871",
+        "name": "أبو بكر البيهقي",
+        "arabic_name": "أبو بكر البيهقي",
+        "tradition": null,
+        "birth_year_ah": null,
+        "death_year_ah": null
+      }
+    ]
+  },
+  "assessments": {
+    "hadith_assessments": 39,
+    "hadith_assessments_verified": 39,
+    "chain_assessments": 0,
+    "narrator_assessments": 414,
+    "narrator_assessments_verified": 414
+  },
+  "import": {
+    "batches": 6,
+    "raw_records": 1274,
+    "recentBatches": [
+      {
+        "id": 1,
+        "provider": "playwright-scrape:dorar",
+        "source_url": "https://dorar.net/hadith/search?q=%D8%A8%D8%AF%D8%A1%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+        "permission_status": "unknown",
+        "retrieved_at": "2026-10-15T12:40:22.033+00:00",
+        "notes": "Imported 15 records from data/raw/dorar.jsonl (verified=false, review_status=draft inbox)"
+      },
+      {
+        "id": 2,
+        "provider": "playwright-scrape:hadeethenc",
+        "source_url": "https://hadeethenc.com/en/browse/hadith/4560",
+        "permission_status": "unknown",
+        "retrieved_at": "2026-10-15T12:40:39.433+00:00",
+        "notes": "Imported 6 records from data/raw/hadeethenc.jsonl (verified=false, review_status=draft inbox)"
+      },
+      {
+        "id": 3,
+        "provider": "playwright-scrape:sunnah",
+        "source_url": "https://sunnah.com/bukhari/97",
+        "permission_status": "unknown",
+        "retrieved_at": "2026-10-15T12:40:43.708+00:00",
+        "notes": "Imported 616 records from data/raw/sunnah.jsonl (verified=false, review_status=draft inbox)"
+      },
+      {
+        "id": 4,
+        "provider": "playwright-scrape:dorar",
+        "source_url": "https://dorar.net/hadith/search?q=%D8%A8%D8%AF%D8%A1%20%D8%A7%D9%84%D9%88%D8%AD%D9%8A",
+        "permission_status": "unknown",
+        "retrieved_at": "2026-10-15T13:34:05.636+00:00",
+        "notes": "Imported 15 records from data/raw/dorar.jsonl (verified=false, review_status=draft inbox)"
+      },
+      {
+        "id": 5,
+        "provider": "playwright-scrape:hadeethenc",
+        "source_url": "https://hadeethenc.com/en/browse/hadith/4560",
+        "permission_status": "unknown",
+        "retrieved_at": "2026-10-15T13:34:29.539+00:00",
+        "notes": "Imported 6 records from data/raw/hadeethenc.jsonl (verified=false, review_status=draft inbox)"
+      },
+      {
+        "id": 6,
+        "provider": "playwright-scrape:sunnah",
+        "source_url": "https://sunnah.com/bukhari/97",
+        "permission_status": "unknown",
+        "retrieved_at": "2026-10-15T13:34:34.847+00:00",
+        "notes": "Imported 616 records from data/raw/sunnah.jsonl (verified=false, review_status=draft inbox)"
+      }
+    ]
+  },
+  "daily": {
+    "daily_topics": 1,
+    "daily_hadith_logs": 5,
+    "daily_hadith_batch": 1
+  },
+  "schemaProbes": {
+    "lookupTables": {
+      "categories": "EXISTS",
+      "hadith_categories": "EXISTS",
+      "topics": "EXISTS",
+      "hadith_topics": "EXISTS",
+      "name_aliases": "EXISTS",
+      "narrator_teachers": "EXISTS",
+      "narrator_students": "EXISTS",
+      "grade_lookup": "EXISTS"
+    },
+    "source_variations_arabic_search_text": false,
+    "profiles": 0,
+    "hadith_merge_backup": 0
+  }
+}

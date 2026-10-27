@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SourceVariation } from "@/components/SourceVariation";
-import { ErrorState } from "@/components/States";
 import { getHadithBySlug } from "@/lib/queries";
 
 export const revalidate = 60;
@@ -13,7 +12,7 @@ export default async function HadithPage({ params }: { params: Promise<{ slug: s
   if (error) {
     return (
       <div className="shell">
-        <ErrorState message={error.message} />
+        <p className="notice">{error.message}</p>
       </div>
     );
   }

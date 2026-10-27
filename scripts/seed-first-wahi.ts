@@ -456,6 +456,12 @@ export async function seedFirstWahi(apply = true): Promise<SeedResult> {
 
 async function main() {
   const apply = process.argv.includes("--apply");
+  if (apply && process.env.ALLOW_DAILY_PUBLISH !== "1") {
+    console.error(
+      "Blocked: seed-first-wahi --apply requires ALLOW_DAILY_PUBLISH=1 (writes seeded demo records). Dry-run keeps working without it.",
+    );
+    process.exit(1);
+  }
   const result = await seedFirstWahi(apply);
   console.log("Summary:", result);
 }

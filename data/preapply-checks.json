@@ -1,0 +1,1181 @@
+{
+  "scholars": {
+    "total": 101,
+    "set_sunni": 94,
+    "leave_null": 7,
+    "leave_null_rows": [
+      {
+        "id": 43,
+        "slug": "sunnah-1185c43611",
+        "name": "إسحاق بن إبراهيم الفارسي",
+        "arabic_name": "إسحاق بن إبراهيم الفارسي",
+        "current_tradition": null,
+        "action": "leave_null",
+        "reason": "ambiguous / insufficiently identified"
+      },
+      {
+        "id": 44,
+        "slug": "sunnah-00711fa4e4",
+        "name": "زياد بن سعد",
+        "arabic_name": "زياد بن سعد",
+        "current_tradition": null,
+        "action": "leave_null",
+        "reason": "ambiguous / insufficiently identified"
+      },
+      {
+        "id": 85,
+        "slug": "sunnah-3a57783f07",
+        "name": "أسود بن سالم العابد",
+        "arabic_name": "أسود بن سالم العابد",
+        "current_tradition": null,
+        "action": "leave_null",
+        "reason": "ambiguous / insufficiently identified"
+      },
+      {
+        "id": 86,
+        "slug": "sunnah-a2ab43adf4",
+        "name": "العباس بن مصعب المروزي",
+        "arabic_name": "العباس بن مصعب المروزي",
+        "current_tradition": null,
+        "action": "leave_null",
+        "reason": "ambiguous / insufficiently identified"
+      },
+      {
+        "id": 88,
+        "slug": "sunnah-6b9b8d2fe0",
+        "name": "محمد بن عمر",
+        "arabic_name": "محمد بن عمر",
+        "current_tradition": null,
+        "action": "leave_null",
+        "reason": "ambiguous / insufficiently identified"
+      },
+      {
+        "id": 89,
+        "slug": "sunnah-f70b71f3b1",
+        "name": "محمد بن حمدويه",
+        "arabic_name": "محمد بن حمدويه",
+        "current_tradition": null,
+        "action": "leave_null",
+        "reason": "ambiguous / insufficiently identified"
+      },
+      {
+        "id": 112,
+        "slug": "sunnah-75b1cf3155",
+        "name": "محمد بن علي الصوري",
+        "arabic_name": "محمد بن علي الصوري",
+        "current_tradition": null,
+        "action": "leave_null",
+        "reason": "ambiguous / insufficiently identified"
+      }
+    ],
+    "set_sunni_rows": [
+      {
+        "id": 12,
+        "slug": "sunnah-8f119207db",
+        "name": "أبو حاتم بن حبان البستي",
+        "arabic_name": "أبو حاتم بن حبان البستي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 13,
+        "slug": "sunnah-d1d40537e7",
+        "name": "البخاري",
+        "arabic_name": "البخاري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 14,
+        "slug": "sunnah-8dd8a7bff5",
+        "name": "الدارقطني",
+        "arabic_name": "الدارقطني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 15,
+        "slug": "sunnah-e404d3978b",
+        "name": "أبو أحمد بن عدي الجرجاني",
+        "arabic_name": "أبو أحمد بن عدي الجرجاني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 16,
+        "slug": "sunnah-71008a424a",
+        "name": "أبو الفرج ابن الجوزي",
+        "arabic_name": "أبو الفرج ابن الجوزي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 17,
+        "slug": "sunnah-7197c825d5",
+        "name": "مسلمة بن القاسم الأندلسي",
+        "arabic_name": "مسلمة بن القاسم الأندلسي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 18,
+        "slug": "sunnah-53df21cfc0",
+        "name": "زكريا بن يحيى الساجي",
+        "arabic_name": "زكريا بن يحيى الساجي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 19,
+        "slug": "sunnah-6817aa8649",
+        "name": "عبد الباقي بن قانع البغدادي",
+        "arabic_name": "عبد الباقي بن قانع البغدادي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 20,
+        "slug": "sunnah-9fe95e29f3",
+        "name": "أبو يعلى الخليلي",
+        "arabic_name": "أبو يعلى الخليلي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 21,
+        "slug": "sunnah-a46e6cb0ca",
+        "name": "مصنفوا تحرير تقريب التهذيب",
+        "arabic_name": "مصنفوا تحرير تقريب التهذيب",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 22,
+        "slug": "sunnah-9475cc7587",
+        "name": "أحمد بن حنبل",
+        "arabic_name": "أحمد بن حنبل",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 23,
+        "slug": "sunnah-67d1d5fbbf",
+        "name": "أبو زرعة الرازي",
+        "arabic_name": "أبو زرعة الرازي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 24,
+        "slug": "sunnah-3c8ab8d458",
+        "name": "أبو داود السجستاني",
+        "arabic_name": "أبو داود السجستاني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 25,
+        "slug": "sunnah-7bda23a901",
+        "name": "علي بن المديني",
+        "arabic_name": "علي بن المديني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 26,
+        "slug": "sunnah-9ef59d5f2e",
+        "name": "أحمد بن عبد الله العجلي",
+        "arabic_name": "أحمد بن عبد الله العجلي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 27,
+        "slug": "sunnah-78c979e2f7",
+        "name": "محمد بن سعد كاتب الواقدي",
+        "arabic_name": "محمد بن سعد كاتب الواقدي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 28,
+        "slug": "sunnah-07ba9d9b7c",
+        "name": "أبو عبد الله الحاكم",
+        "arabic_name": "أبو عبد الله الحاكم",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 29,
+        "slug": "sunnah-933fa91e7a",
+        "name": "أبو الفتح الأزدي",
+        "arabic_name": "أبو الفتح الأزدي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 30,
+        "slug": "sunnah-8190260871",
+        "name": "أبو بكر البيهقي",
+        "arabic_name": "أبو بكر البيهقي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 31,
+        "slug": "sunnah-ca24d40480",
+        "name": "يعقوب بن شيبة السدوسي",
+        "arabic_name": "يعقوب بن شيبة السدوسي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 32,
+        "slug": "sunnah-0f2e9468f9",
+        "name": "عمرو بن علي الفلاس",
+        "arabic_name": "عمرو بن علي الفلاس",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 33,
+        "slug": "sunnah-95d1545cc5",
+        "name": "أبو سعيد بن يونس المصري",
+        "arabic_name": "أبو سعيد بن يونس المصري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 34,
+        "slug": "sunnah-c03f8fe500",
+        "name": "عبد الرحمن بن يوسف بن خراش",
+        "arabic_name": "عبد الرحمن بن يوسف بن خراش",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 35,
+        "slug": "sunnah-ab37c4f54e",
+        "name": "محمد بن إدريس الشافعي",
+        "arabic_name": "محمد بن إدريس الشافعي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 36,
+        "slug": "sunnah-d4ca70343a",
+        "name": "أحمد بن صالح المصري",
+        "arabic_name": "أحمد بن صالح المصري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 37,
+        "slug": "sunnah-baecba1fc4",
+        "name": "يحيى بن بكير",
+        "arabic_name": "يحيى بن بكير",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 38,
+        "slug": "sunnah-7105340cf1",
+        "name": "عبد الله بن وهب المصري",
+        "arabic_name": "عبد الله بن وهب المصري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 39,
+        "slug": "sunnah-6b6b2893f9",
+        "name": "أبو جعفر العقيلي",
+        "arabic_name": "أبو جعفر العقيلي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 40,
+        "slug": "sunnah-3564e751e4",
+        "name": "عبد الغني بن سعيد الأزدي",
+        "arabic_name": "عبد الغني بن سعيد الأزدي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 41,
+        "slug": "sunnah-35587c911e",
+        "name": "إسحاق بن راهويه",
+        "arabic_name": "إسحاق بن راهويه",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 42,
+        "slug": "sunnah-a7f6e19f1f",
+        "name": "يحيى بن سعيد الأنصاري",
+        "arabic_name": "يحيى بن سعيد الأنصاري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 45,
+        "slug": "sunnah-3fe909fb3c",
+        "name": "يحيى بن سعيد القطان",
+        "arabic_name": "يحيى بن سعيد القطان",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 46,
+        "slug": "sunnah-f2e3889fbb",
+        "name": "سفيان بن عيينة",
+        "arabic_name": "سفيان بن عيينة",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 47,
+        "slug": "sunnah-c39af92009",
+        "name": "السيوطي",
+        "arabic_name": "السيوطي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 48,
+        "slug": "sunnah-9e636698cc",
+        "name": "مالك بن أنس",
+        "arabic_name": "مالك بن أنس",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 49,
+        "slug": "sunnah-c97e852ab2",
+        "name": "أيوب بن أبي تميمة السختياني",
+        "arabic_name": "أيوب بن أبي تميمة السختياني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 50,
+        "slug": "sunnah-c13af57eaf",
+        "name": "قتادة بن دعامة السدوسي",
+        "arabic_name": "قتادة بن دعامة السدوسي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 51,
+        "slug": "sunnah-d860cedbd4",
+        "name": "مكحول الشامي",
+        "arabic_name": "مكحول الشامي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 52,
+        "slug": "sunnah-48a0a48758",
+        "name": "عمرو بن دينار الأثرم",
+        "arabic_name": "عمرو بن دينار الأثرم",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 53,
+        "slug": "sunnah-b19aab49f1",
+        "name": "الليث بن سعد المصري",
+        "arabic_name": "الليث بن سعد المصري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 54,
+        "slug": "sunnah-bf16052174",
+        "name": "معمر بن راشد",
+        "arabic_name": "معمر بن راشد",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 55,
+        "slug": "sunnah-6868c8c830",
+        "name": "أحمد بن الفرات الرازي",
+        "arabic_name": "أحمد بن الفرات الرازي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 56,
+        "slug": "sunnah-7615101bbb",
+        "name": "ابن منجويه الأصبهاني",
+        "arabic_name": "ابن منجويه الأصبهاني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 57,
+        "slug": "sunnah-c51d20ef77",
+        "name": "شعيب الأرناؤوط",
+        "arabic_name": "شعيب الأرناؤوط",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 58,
+        "slug": "sunnah-af55e5bfa6",
+        "name": "سبط ابن الجوزي",
+        "arabic_name": "سبط ابن الجوزي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 59,
+        "slug": "sunnah-ef347a40c3",
+        "name": "ابن شهاب الزهري",
+        "arabic_name": "ابن شهاب الزهري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 60,
+        "slug": "sunnah-4f7ef54495",
+        "name": "محمد بن عبد الله بن عمار الموصلي",
+        "arabic_name": "محمد بن عبد الله بن عمار الموصلي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 61,
+        "slug": "sunnah-f901ea17d5",
+        "name": "ابن أبي حاتم الرازي",
+        "arabic_name": "ابن أبي حاتم الرازي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 62,
+        "slug": "sunnah-412bdd1f54",
+        "name": "المزي",
+        "arabic_name": "المزي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 63,
+        "slug": "sunnah-6b2d4138da",
+        "name": "سفيان الثوري",
+        "arabic_name": "سفيان الثوري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 64,
+        "slug": "sunnah-d4ed1f4538",
+        "name": "أبو القاسم اللالكائي",
+        "arabic_name": "أبو القاسم اللالكائي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 65,
+        "slug": "sunnah-9c853c71e5",
+        "name": "عبد الله بن عباس",
+        "arabic_name": "عبد الله بن عباس",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 66,
+        "slug": "sunnah-444a903f03",
+        "name": "ربيعة بن أبي عبد الرحمن الرأي",
+        "arabic_name": "ربيعة بن أبي عبد الرحمن الرأي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 67,
+        "slug": "sunnah-9f5d7060ee",
+        "name": "ميمون بن مهران الجزري",
+        "arabic_name": "ميمون بن مهران الجزري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 68,
+        "slug": "sunnah-a574bfbec1",
+        "name": "ابن عبد البر الأندلسي",
+        "arabic_name": "ابن عبد البر الأندلسي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 69,
+        "slug": "sunnah-28330aa37b",
+        "name": "عبد الرحمن بن مهدي",
+        "arabic_name": "عبد الرحمن بن مهدي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 70,
+        "slug": "sunnah-897e01e1b4",
+        "name": "أبو بكر البزار",
+        "arabic_name": "أبو بكر البزار",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 71,
+        "slug": "sunnah-f5a36f1e84",
+        "name": "محمد بن عبد الله المخرمي",
+        "arabic_name": "محمد بن عبد الله المخرمي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 72,
+        "slug": "sunnah-05c3d15162",
+        "name": "البرهان الحلبي",
+        "arabic_name": "البرهان الحلبي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 73,
+        "slug": "sunnah-bd6a9b7807",
+        "name": "ابن الكيال الشافعي",
+        "arabic_name": "ابن الكيال الشافعي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 74,
+        "slug": "sunnah-1074bd522b",
+        "name": "بشر بن المفضل",
+        "arabic_name": "بشر بن المفضل",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 75,
+        "slug": "sunnah-d36bd42920",
+        "name": "الخطيب البغدادي",
+        "arabic_name": "الخطيب البغدادي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 76,
+        "slug": "sunnah-db9ebe11e1",
+        "name": "يعقوب بن سفيان الفسوي",
+        "arabic_name": "يعقوب بن سفيان الفسوي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 77,
+        "slug": "sunnah-37b36a6d85",
+        "name": "شعبة بن الحجاج بن الورد",
+        "arabic_name": "شعبة بن الحجاج بن الورد",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 78,
+        "slug": "sunnah-c5bbfe104a",
+        "name": "الأوزاعي",
+        "arabic_name": "الأوزاعي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 79,
+        "slug": "sunnah-2b513c9a4f",
+        "name": "أبو إسحاق الفزاري",
+        "arabic_name": "أبو إسحاق الفزاري",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 80,
+        "slug": "sunnah-d842c02580",
+        "name": "معتمر بن سليمان الرقي",
+        "arabic_name": "معتمر بن سليمان الرقي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 81,
+        "slug": "sunnah-f760d56073",
+        "name": "إسماعيل بن عياش العنسي",
+        "arabic_name": "إسماعيل بن عياش العنسي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 82,
+        "slug": "sunnah-e537bb5015",
+        "name": "الفضيل بن عياض",
+        "arabic_name": "الفضيل بن عياض",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 83,
+        "slug": "sunnah-b548c3d2de",
+        "name": "شعيب بن حرب البغدادي",
+        "arabic_name": "شعيب بن حرب البغدادي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 84,
+        "slug": "sunnah-b38f31b58b",
+        "name": "سلام بن أبي مطيع الخزاعي",
+        "arabic_name": "سلام بن أبي مطيع الخزاعي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 87,
+        "slug": "sunnah-dee9c5d65c",
+        "name": "أبو القاسم بن عساكر",
+        "arabic_name": "أبو القاسم بن عساكر",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 90,
+        "slug": "sunnah-c29ae34f95",
+        "name": "إبراهيم بن يعقوب الجوزجاني",
+        "arabic_name": "إبراهيم بن يعقوب الجوزجاني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 91,
+        "slug": "sunnah-906db4f673",
+        "name": "أبو مسهر الغساني",
+        "arabic_name": "أبو مسهر الغساني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 92,
+        "slug": "sunnah-a472bb3ad9",
+        "name": "أبو جعفر الطحاوي",
+        "arabic_name": "أبو جعفر الطحاوي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 93,
+        "slug": "sunnah-3b6c3f8d58",
+        "name": "ابن الأثير",
+        "arabic_name": "ابن الأثير",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 94,
+        "slug": "sunnah-af728c6062",
+        "name": "وكيع بن الجراح",
+        "arabic_name": "وكيع بن الجراح",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 95,
+        "slug": "sunnah-ecb4d467e1",
+        "name": "محمد بن عبد الله بن نمير",
+        "arabic_name": "محمد بن عبد الله بن نمير",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 96,
+        "slug": "sunnah-4419ec2694",
+        "name": "وهيب بن خالد",
+        "arabic_name": "وهيب بن خالد",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 97,
+        "slug": "sunnah-377ef65837",
+        "name": "ابن دحية الكلبي",
+        "arabic_name": "ابن دحية الكلبي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 98,
+        "slug": "sunnah-4c414d2f00",
+        "name": "أبو عيسى الترمذي",
+        "arabic_name": "أبو عيسى الترمذي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 99,
+        "slug": "sunnah-46d2380a66",
+        "name": "ابن حزم الأندلسي",
+        "arabic_name": "ابن حزم الأندلسي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 100,
+        "slug": "sunnah-57b71e9055",
+        "name": "عبد الملك بن عبد العزيز بن جريج",
+        "arabic_name": "عبد الملك بن عبد العزيز بن جريج",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 101,
+        "slug": "sunnah-aa6027082c",
+        "name": "أبو علي الغساني",
+        "arabic_name": "أبو علي الغساني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 102,
+        "slug": "sunnah-3b43246135",
+        "name": "هشام بن عبد الملك الطيالسي",
+        "arabic_name": "هشام بن عبد الملك الطيالسي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 103,
+        "slug": "sunnah-56e5f58c43",
+        "name": "على بن المديني",
+        "arabic_name": "على بن المديني",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 104,
+        "slug": "sunnah-ff765929e7",
+        "name": "النضر بن عبد الجبار",
+        "arabic_name": "النضر بن عبد الجبار",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 105,
+        "slug": "sunnah-6bd58de1cf",
+        "name": "عفان بن مسلم الصفار",
+        "arabic_name": "عفان بن مسلم الصفار",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 106,
+        "slug": "sunnah-f12cab32fd",
+        "name": "حماد بن زيد الجهضمي",
+        "arabic_name": "حماد بن زيد الجهضمي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 107,
+        "slug": "sunnah-dc00c63596",
+        "name": "جرير بن عبد الحميد الضبي",
+        "arabic_name": "جرير بن عبد الحميد الضبي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 108,
+        "slug": "sunnah-3941a66dc9",
+        "name": "أبو محمد عبد المؤمن الدمياطي",
+        "arabic_name": "أبو محمد عبد المؤمن الدمياطي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 109,
+        "slug": "sunnah-6f4e91588a",
+        "name": "هشام بن عروة القرشي",
+        "arabic_name": "هشام بن عروة القرشي",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 110,
+        "slug": "sunnah-f0c0358a22",
+        "name": "عبد الله بن المبارك",
+        "arabic_name": "عبد الله بن المبارك",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      },
+      {
+        "id": 111,
+        "slug": "sunnah-2f41a15d7b",
+        "name": "أبو القاسم بن بشكوال",
+        "arabic_name": "أبو القاسم بن بشكوال",
+        "current_tradition": null,
+        "action": "set_sunni",
+        "reason": "clearly classical Sunni muhaddith/rijal/imam"
+      }
+    ]
+  },
+  "bukhari_repoint": {
+    "canonical_book_id": 27,
+    "stub_count": 28,
+    "variations_to_move": 28,
+    "abort_recommended": false,
+    "collisions": [],
+    "all_proposed": [
+      {
+        "stub_book_id": 74,
+        "title": "Sahih al-Bukhari 7387,",
+        "variation_id": 876,
+        "current_number": "7388",
+        "proposed_number": "7388",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 75,
+        "title": "Sahih al-Bukhari 7412,",
+        "variation_id": 900,
+        "current_number": "7413",
+        "proposed_number": "7413",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 76,
+        "title": "Sahih al-Bukhari 7427,",
+        "variation_id": 914,
+        "current_number": "7428",
+        "proposed_number": "7428",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 77,
+        "title": "Sahih al-Bukhari 7437,",
+        "variation_id": 923,
+        "current_number": "7438",
+        "proposed_number": "7438",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 78,
+        "title": "Sahih al-Bukhari 7495,",
+        "variation_id": 980,
+        "current_number": "7496",
+        "proposed_number": "7496",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 79,
+        "title": "Sahih al-Bukhari 7278,",
+        "variation_id": 1058,
+        "current_number": "7279",
+        "proposed_number": "7279",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 80,
+        "title": "Sahih al-Bukhari 7284,",
+        "variation_id": 1063,
+        "current_number": "7285",
+        "proposed_number": "7285",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 81,
+        "title": "Sahih al-Bukhari 7317,",
+        "variation_id": 1095,
+        "current_number": "7318",
+        "proposed_number": "7318",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 82,
+        "title": "Sahih al-Bukhari 7327,",
+        "variation_id": 1104,
+        "current_number": "7328",
+        "proposed_number": "7328",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 83,
+        "title": "Sahih al-Bukhari 7340,",
+        "variation_id": 1116,
+        "current_number": "7341",
+        "proposed_number": "7341",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 84,
+        "title": "Sahih al-Bukhari 7350,",
+        "variation_id": 1125,
+        "current_number": "7351",
+        "proposed_number": "7351",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 85,
+        "title": "Sahih al-Bukhari 7258,",
+        "variation_id": 1157,
+        "current_number": "7259",
+        "proposed_number": "7259",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 86,
+        "title": "Sahih al-Bukhari 7176,",
+        "variation_id": 1225,
+        "current_number": "7177",
+        "proposed_number": "7177",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 87,
+        "title": "Sahih al-Bukhari 7183,",
+        "variation_id": 1231,
+        "current_number": "7184",
+        "proposed_number": "7184",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 88,
+        "title": "Sahih al-Bukhari 7193,",
+        "variation_id": 1240,
+        "current_number": "7194",
+        "proposed_number": "7194",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 89,
+        "title": "Sahih al-Bukhari 7199,",
+        "variation_id": 1245,
+        "current_number": "7200",
+        "proposed_number": "7200",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 90,
+        "title": "Sahih al-Bukhari 7222,",
+        "variation_id": 1267,
+        "current_number": "7223",
+        "proposed_number": "7223",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 91,
+        "title": "Sahih al-Bukhari 7055,",
+        "variation_id": 1277,
+        "current_number": "7056",
+        "proposed_number": "7056",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 92,
+        "title": "Sahih al-Bukhari 7062,",
+        "variation_id": 1283,
+        "current_number": "7063",
+        "proposed_number": "7063",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 93,
+        "title": "Sahih al-Bukhari 7102, 7103,",
+        "variation_id": 1322,
+        "current_number": "7104",
+        "proposed_number": "7104",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 94,
+        "title": "Sahih al-Bukhari 7105, 7106,",
+        "variation_id": 1323,
+        "current_number": "7107",
+        "proposed_number": "7107",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 95,
+        "title": "Sahih al-Bukhari 7001,",
+        "variation_id": 1372,
+        "current_number": "7002",
+        "proposed_number": "7002",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 96,
+        "title": "Sahih al-Bukhari 7015,",
+        "variation_id": 1385,
+        "current_number": "7016",
+        "proposed_number": "7016",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 97,
+        "title": "Sahih al-Bukhari 7028,",
+        "variation_id": 1397,
+        "current_number": "7029",
+        "proposed_number": "7029",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 98,
+        "title": "Sahih al-Bukhari 7030,",
+        "variation_id": 1398,
+        "current_number": "7031",
+        "proposed_number": "7031",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 99,
+        "title": "Sahih al-Bukhari 7036,",
+        "variation_id": 1403,
+        "current_number": "7037",
+        "proposed_number": "7037",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 100,
+        "title": "Sahih al-Bukhari 6957,",
+        "variation_id": 1418,
+        "current_number": "6958",
+        "proposed_number": "6958",
+        "collision": false,
+        "colliding_variation_ids": []
+      },
+      {
+        "stub_book_id": 101,
+        "title": "Sahih al-Bukhari 6924,",
+        "variation_id": 1461,
+        "current_number": "6925",
+        "proposed_number": "6925",
+        "collision": false,
+        "colliding_variation_ids": []
+      }
+    ]
+  }
+}

@@ -4,24 +4,44 @@ import { HadithCard } from "@/components/HadithCard";
 import { HadithCollectionCard } from "@/components/HadithCollectionCard";
 import { HeroSection } from "@/components/HeroSection";
 import { EmptyState, ErrorState } from "@/components/States";
-import { DailyHadithTable } from "@/components/DailyHadithTable";
+import { FirstWahiClusterCard } from "@/components/FirstWahiClusterCard";
 import { DEMO_HADITHS, HOME_COLLECTIONS, HOME_REASONS, HOME_TOPICS } from "@/lib/content/home";
-import { getBooks, getCorpusStats, getFeaturedHadiths } from "@/lib/queries";
-import { runDailyHadithIngest } from "@/lib/cron/daily-ingest";
+import { getBooks, getEligibleCorpusSnapshot, getFeaturedHadiths } from "@/lib/queries";
+import { getEligibleFirstWahiVariations } from "@/lib/first-wahi-queries";
+import { FIRST_WAHI_HADITH_SLUG } from "@/lib/first-wahi-eligibility";
 
-export const revalidate = 60;
+export const revalidate = 30;
 
 export default async function HomePage() {
-  const [stats, featured, books, dailyIngest] = await Promise.all([
-    getCorpusStats(),
-    getFeaturedHadiths(),
+  const [corpus, featured, books, firstWahi] = await Promise.all([
+    // Live bar = First Wahi quality: a–d AND multi-node isnad (not "Narrated X" stubs)
+    getEligibleCorpusSnapshot({ publishedOnly: true, minChainNodes: 2 }),
+    getFeaturedHadiths(8),
     getBooks(),
-    runDailyHadithIngest({ topicSlug: "first-wahi", apply: false }),
+    getEligibleFirstWahiVariations(),
   ]);
 
+  const eligibleStats = corpus.stats;
   const collections = books.length
     ? books.slice(0, 6).map((book) => ({ title: book.title, query: book.title, note: book.tradition }))
     : HOME_COLLECTIONS;
+
+  const liveFeatured = featured.hadiths.filter(
+    (h) => h.slug !== FIRST_WAHI_HADITH_SLUG && h.slug !== "first-wahi"
+  );
+  const firstWahiCount = firstWahi.variations.length;
+  const liveTopics =
+    corpus.byTopic.length > 0
+      ? corpus.byTopic
+          .filter((t) => !t.topic.startsWith("Chapter:") && t.topic !== "باب")
+          .slice(0, 16)
+      : HOME_TOPICS.map((t) => ({
+          topic: t.label,
+          variationCount: 0,
+          hadithCount: 0,
+          hadithIds: [] as number[],
+          variationIds: [] as number[],
+        }));
 
   return (
     <>
@@ -29,20 +49,20 @@ export default async function HomePage() {
       <section className="shell home-sections">
         <div className="stats">
           <div className="stat">
-            <b>{stats.hadiths}</b>
-            <span>Hadith clusters</span>
+            <b>{eligibleStats.hadiths}</b>
+            <span>Full-isnad clusters (2+ rawis)</span>
           </div>
           <div className="stat">
-            <b>{stats.variations}</b>
-            <span>Source variations</span>
+            <b>{eligibleStats.variations}</b>
+            <span>Full-isnad variations</span>
           </div>
           <div className="stat">
-            <b>{stats.chains}</b>
-            <span>Recorded isnad chains</span>
+            <b>{eligibleStats.chains}</b>
+            <span>Complete verified chains</span>
           </div>
           <div className="stat">
-            <b>{stats.narrators}</b>
-            <span>Narrator profiles</span>
+            <b>{firstWahiCount}</b>
+            <span>Eligible First Wahi variations</span>
           </div>
         </div>
 
@@ -51,7 +71,7 @@ export default async function HomePage() {
             <div className="eyebrow">Featured hadith</div>
             <h2 className="title">A few reports to begin with</h2>
           </div>
-          <p>Demo cards until published records are available</p>
+          <p>Layout samples — open Published clusters for verified source text</p>
         </div>
         <FeaturedHadith hadith={DEMO_HADITHS[0]} featured />
         <div className="cards" style={{ marginTop: 16 }}>
@@ -81,13 +101,19 @@ export default async function HomePage() {
         <div className="section-head">
           <div>
             <div className="eyebrow">Topics</div>
-            <h2 className="title">Browse by topic</h2>
+            <h2 className="title">Browse eligible by topic</h2>
           </div>
+          <p className="meta">Only clusters that pass the live bar (AR+EN, verified chain, cited narrator evidence)</p>
         </div>
         <div className="pills topic-row">
-          {HOME_TOPICS.map((topic) => (
-            <Link className="pill topic-pill" key={topic.query} href={`/search?q=${encodeURIComponent(topic.query)}`}>
-              {topic.label}
+          {liveTopics.map((topic) => (
+            <Link
+              className="pill topic-pill"
+              key={topic.topic}
+              href={`/search?q=${encodeURIComponent(topic.topic)}`}
+            >
+              {topic.topic}
+              {"variationCount" in topic && topic.variationCount > 0 ? ` (${topic.variationCount})` : ""}
             </Link>
           ))}
         </div>
@@ -107,39 +133,30 @@ export default async function HomePage() {
           ))}
         </div>
 
-        {stats.error ? <ErrorState message={stats.error.message} /> : null}
-        <div className="section-head">
-          <div>
-            <div className="eyebrow">Published clusters</div>
-            <h2 className="title">Continue researching</h2>
+        <div id="published-clusters" className="published-clusters-section">
+          <div className="section-head">
+            <div>
+              <div className="eyebrow">Published clusters</div>
+              <h2 className="title">Continue researching</h2>
+            </div>
+          </div>
+          {corpus.error ? <ErrorState message={corpus.error.message} /> : null}
+          {firstWahi.error ? <ErrorState message={firstWahi.error.message} /> : null}
+          <div className="cards" style={{ marginBottom: 24 }}>
+            <FirstWahiClusterCard count={firstWahiCount} />
           </div>
         </div>
+
         {featured.error ? <ErrorState message={featured.error} /> : null}
-        {!featured.hadiths.length ? (
-          <EmptyState message="No published hadith clusters are visible yet. After review, publish a pilot of 25 clusters." />
-        ) : (
-          <div className="cards" style={{ marginBottom: 40 }}>
-            {featured.hadiths.map((hadith) => (
+        {liveFeatured.length ? (
+          <div className="cards" style={{ marginTop: 24, marginBottom: 40 }}>
+            {liveFeatured.map((hadith) => (
               <HadithCard key={hadith.id} hadith={hadith} variationCount={hadith.variation_count} />
             ))}
           </div>
-        )}
-
-        {/* Daily Hadith Section (Under Published Clusters) */}
-        <div className="section-head" style={{ marginTop: 50 }}>
-          <div>
-            <div className="eyebrow">Daily Hadith</div>
-            <h2 className="title">Daily 5 Hadith • First Wahi</h2>
-          </div>
-          <p>Auto-rotates daily from live collection candidates</p>
-        </div>
-        <DailyHadithTable
-          topicTitle={dailyIngest?.topicTitle}
-          dayNumber={dailyIngest?.dayNumber}
-          runDate={dailyIngest?.runDate}
-          remainingInPool={dailyIngest?.remainingInTopicPool}
-          hadiths={dailyIngest?.shortlistedHadiths}
-        />
+        ) : !firstWahiCount && !featured.error ? (
+          <EmptyState message="No published hadith clusters are visible yet. After review, publish a pilot of 25 clusters." />
+        ) : null}
       </section>
     </>
   );
